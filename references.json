@@ -1,0 +1,210 @@
+{
+  "candidates": [
+    {
+      "number": 1,
+      "label": "安山脚手架",
+      "block": "create:andesite_scaffolding",
+      "model_refs": [
+        "create:block/andesite_scaffolding"
+      ]
+    },
+    {
+      "number": 2,
+      "label": "金属梁交叉节点",
+      "block": "create:metal_girder",
+      "model_refs": [
+        "create:block/metal_girder/block_cross",
+        "create:block/metal_girder/block_x",
+        "create:block/metal_girder/block_z"
+      ]
+    },
+    {
+      "number": 3,
+      "label": "动力轴承",
+      "block": "create:mechanical_bearing",
+      "model_refs": [
+        "create:block/mechanical_bearing"
+      ]
+    },
+    {
+      "number": 4,
+      "label": "动力构架滑车",
+      "block": "create:gantry_carriage",
+      "model_refs": [
+        "create:block/gantry_carriage/item"
+      ]
+    },
+    {
+      "number": 5,
+      "label": "动力活塞",
+      "block": "create:mechanical_piston",
+      "model_refs": [
+        "create:block/mechanical_piston/normal/item"
+      ]
+    },
+    {
+      "number": 6,
+      "label": "软管滑轮",
+      "block": "create:hose_pulley",
+      "model_refs": [
+        "create:block/hose_pulley/item"
+      ]
+    },
+    {
+      "number": 7,
+      "label": "流体储罐",
+      "block": "create:fluid_tank",
+      "model_refs": [
+        "create:item/fluid_tank"
+      ]
+    },
+    {
+      "number": 8,
+      "label": "动力泵",
+      "block": "create:mechanical_pump",
+      "model_refs": [
+        "create:block/mechanical_pump/item"
+      ]
+    },
+    {
+      "number": 10,
+      "label": "链式传动箱",
+      "block": "create:encased_chain_drive",
+      "model_refs": [
+        "create:block/encased_chain_drive/item"
+      ]
+    },
+    {
+      "number": 11,
+      "label": "航空学对接连接器",
+      "block": "simulated:docking_connector",
+      "model_refs": [
+        "simulated:block/docking_connector/item",
+        "simulated:block/docking_connector/side_piston_1",
+        "simulated:block/docking_connector/side_piston_2"
+      ]
+    },
+    {
+      "number": 12,
+      "label": "航空学回转轴承",
+      "block": "simulated:swivel_bearing",
+      "model_refs": [
+        "simulated:block/swivel_bearing/item",
+        "simulated:block/swivel_bearing/ironcog"
+      ]
+    },
+    {
+      "number": 13,
+      "label": "航空学红石磁铁",
+      "block": "simulated:redstone_magnet",
+      "model_refs": [
+        "simulated:block/redstone_magnet/item"
+      ]
+    },
+    {
+      "number": 14,
+      "label": "航空学激光指示器",
+      "block": "simulated:laser_pointer",
+      "model_refs": [
+        "simulated:block/laser_pointer/item"
+      ]
+    },
+    {
+      "number": 15,
+      "label": "航空学陀螺螺旋桨轴承",
+      "block": "aeronautics:gyroscopic_propeller_bearing",
+      "model_refs": [
+        "aeronautics:block/gyroscopic_propeller_bearing/item"
+      ]
+    },
+    {
+      "number": 16,
+      "label": "工艺与装配电动机",
+      "block": "createaddition:electric_motor",
+      "model_refs": [
+        "createaddition:block/electric_motor/item"
+      ]
+    },
+    {
+      "number": 17,
+      "label": "工艺与装配模块化蓄电池",
+      "block": "createaddition:modular_accumulator",
+      "model_refs": [
+        "createaddition:block/modular_accumulator/item"
+      ]
+    },
+    {
+      "number": 18,
+      "label": "工艺与装配交流发电机",
+      "block": "createaddition:alternator",
+      "model_refs": [
+        "createaddition:block/alternator/item"
+      ]
+    },
+    {
+      "number": 19,
+      "label": "工艺与装配大型接线器",
+      "block": "createaddition:large_connector",
+      "model_refs": [
+        "createaddition:block/connector/large/none"
+      ]
+    },
+    {
+      "number": 20,
+      "label": "柴油动力抽油机轴承",
+      "block": "createdieselgenerators:pumpjack_bearing",
+      "model_refs": [
+        "createdieselgenerators:block/pumpjack_bearing"
+      ]
+    },
+    {
+      "number": 21,
+      "label": "柴油动力抽油机曲柄",
+      "block": "createdieselgenerators:pumpjack_crank",
+      "model_refs": [
+        "createdieselgenerators:block/pumpjack_crank/item",
+        "createdieselgenerators:block/pumpjack_crank/large_rod"
+      ]
+    },
+    {
+      "number": 22,
+      "label": "柴油动力模块化柴油引擎",
+      "block": "createdieselgenerators:large_diesel_engine",
+      "model_refs": [
+        "createdieselgenerators:block/modular_diesel_engine/item"
+      ]
+    },
+    {
+      "number": 23,
+      "label": "火炮炮架",
+      "block": "createbigcannons:cannon_mount",
+      "model_refs": [
+        "createbigcannons:item/cannon_mount"
+      ]
+    },
+    {
+      "number": 24,
+      "label": "火炮钢制滑动炮闩",
+      "block": "createbigcannons:steel_sliding_breech",
+      "model_refs": [
+        "createbigcannons:item/steel_sliding_breech"
+      ]
+    },
+    {
+      "number": 25,
+      "label": "火炮装填器",
+      "block": "createbigcannons:cannon_loader",
+      "model_refs": [
+        "createbigcannons:item/cannon_loader"
+      ]
+    },
+    {
+      "number": 26,
+      "label": "火炮钢制机炮复进簧",
+      "block": "createbigcannons:steel_autocannon_recoil_spring",
+      "model_refs": [
+        "createbigcannons:item/steel_autocannon_recoil_spring"
+      ]
+    }
+  ]
+}

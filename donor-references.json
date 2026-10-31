@@ -1,0 +1,708 @@
+{
+  "families": {
+    "create": {
+      "asset_license": "ARR in actual6.0.10 donor",
+      "confirmation": "No publication permission confirmed",
+      "license_entry": "LICENSE.md_create-1.21.1",
+      "jar_sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+      "official": "https://github.com/Creators-of-Create/Create/blob/mc1.21.1/dev/LICENSE.md"
+    },
+    "simulated": {
+      "asset_license": "ARR",
+      "confirmation": "No publication permission confirmed",
+      "license_entry": "LICENSE.md",
+      "outer_sha256": "5a8c6d168ec1b47ecee7f2e83a93accbca71544d2b14ca1ca1b1271855f26248",
+      "nested_entry": "META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.2.1.jar",
+      "nested_sha256": "e6f51f06203ff9811155e27d342ae4663251435cb8a895377966b3db59c2cd99"
+    },
+    "aeronautics": {
+      "asset_license": "ARR",
+      "confirmation": "No publication permission confirmed",
+      "license_entry": "LICENSE.md",
+      "outer_sha256": "5a8c6d168ec1b47ecee7f2e83a93accbca71544d2b14ca1ca1b1271855f26248",
+      "nested_entry": "META-INF/jarjar/dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.2.1.jar",
+      "nested_sha256": "994cc26782275383c32d4e28e94ec6aeef670b1704c5cb169676f73cb439caf6"
+    },
+    "createaddition": {
+      "asset_license": "MIT declared",
+      "confirmation": "Conditional candidate; MIT notice required; no artwork included here",
+      "jar_sha256": "69035faca181f645f23cff493fcfeebc5b3fb0f910460cf6547be13b6219062e",
+      "official": "https://github.com/mrh0/createaddition/blob/main/LICENSE"
+    },
+    "createbigcannons": {
+      "asset_license": "CC-BY-NC-SA4.0 for handmade models/textures; code MIT",
+      "confirmation": "Conditional license; specific conditions/derivative chain not certified for current distribution; excluded",
+      "jar_sha256": "16cb451c1673198131148cec8196bb6325b3eb85168172bd629c0b93261381df",
+      "official": "https://github.com/Cannoneers-of-Create/CreateBigCannons/blob/create-v6-1.21.1/LICENSE.md"
+    },
+    "dysoncubeproject": {
+      "asset_license": "ARR on official Forge artifact page",
+      "confirmation": "No artwork publication permission confirmed",
+      "jar_sha256": "21d1c16010e408a36814af294bf5d4853fce3350fc5e1398a6ac8a5d033a45a6",
+      "official": "https://www.curseforge.com/minecraft/mc-mods/dyson-cube-project-forge/files/9025750"
+    },
+    "derived": {
+      "asset_license": "Upstream chain not fully confirmed",
+      "confirmation": "Custom namespace/recolor/crop/padding is not proof of independent publication rights; excluded"
+    }
+  },
+  "texture_references": [
+    {
+      "machine": "rail",
+      "resource_id": "create:block/girder",
+      "source_sha256": "d9a68d8490ebddab4f5fc3b63e713f61385de110320c42bf069615f35696c01f",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/girder.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/native_alloy_side",
+      "source_sha256": "cb387a704d5f8924c932550893d57850f6a025486dfbe9b1f39aed23dc8c8d8c",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/native_alloy_top",
+      "source_sha256": "04b09b002277eef877b8b1e0415dc6bc940cfb105e7bedd38a7ee8dd697caf84",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/native_alloy_bottom",
+      "source_sha256": "8628bfea9341cdcd79b8d6ef676b76cd8225181fb059df7f51f92f75c4208258",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "create:block/andesite_block",
+      "source_sha256": "60f5eb557327f0070f24d09d6f773c5c5d5371138a443abfe37662819e852002",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/andesite_block.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/native_dark_case",
+      "source_sha256": "4161f3e9fa5ff04b910a8e8c5001f553af9770003fa6c06b6b1d3fa789fd1f25",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "create:block/railway_casing_connected",
+      "source_sha256": "6c55ebc98bd3843d0246da8ae09639b29f88904f8caf31e1a7e94e2209e97119",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/railway_casing_connected.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/native_dark_inside",
+      "source_sha256": "e624eb13092b24556e37017ab5b39cede20b18ccf1b8413fb6e0e4e1e41d7514",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "createaddition:block/modular_accumulator/block",
+      "source_sha256": "c28c94d3dea54eec486da7e4f3ac7a3d8f80aabe06ae71b34afba151fda6c700",
+      "used_in_machine": true,
+      "license_family": "createaddition",
+      "dependency_entry": "assets/createaddition/textures/block/modular_accumulator/block.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "createaddition:block/modular_accumulator/block_top",
+      "source_sha256": "7683185b52ac53e8cb34824a0bca064970cb36d73742a64c316252aa2f521893",
+      "used_in_machine": true,
+      "license_family": "createaddition",
+      "dependency_entry": "assets/createaddition/textures/block/modular_accumulator/block_top.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/native_steel_side",
+      "source_sha256": "3ab06b01cbfc035354e6dc301f57ceba1546dc516caf10bc31708052afda5242",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "createbigcannons:block/sliding_breech/steel_sliding_breech_breechblock_top",
+      "source_sha256": "ac0fd88fab4a720c15da2cd673cba3bafd328854045c009637a3447132898b47",
+      "used_in_machine": true,
+      "license_family": "createbigcannons",
+      "dependency_entry": "assets/createbigcannons/textures/block/sliding_breech/steel_sliding_breech_breechblock_top.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/native_steel_top",
+      "source_sha256": "2a963fbb2f1235470b196b24990fddecf075295a6ab4998461f0ddbb94aa2d2e",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/native_steel_bottom",
+      "source_sha256": "20afc8d5befbc9d8965dc636fe89638fcb199a10c5205662749a5d05e01cc4bd",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "create:block/brass_block",
+      "source_sha256": "30d391f476ad250bfb15158eb6d566eefc603f54648886fc148ea04094b6c0e2",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/brass_block.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_continuity_v13:block/continuous_native_steel_side_w3",
+      "source_sha256": "1359eba88b059a4529b39cb7106a016d71e7939e25e6494b2ac6622b34232099",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "simulated:block/dock_2",
+      "source_sha256": "6614c978e5c6072f344ce4ee4b6ec202df47cc7dc7fa7a3486ce434de1a2097a",
+      "used_in_machine": true,
+      "license_family": "simulated",
+      "dependency_entry": "assets/simulated/textures/block/dock_2.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v12:block/mount_alloy_plate",
+      "source_sha256": "89d56d497ac6fb935b73ae70e8894b94fb1aeccf65ea0368f0c8ab277eff24eb",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/mount_scaffold_recess",
+      "source_sha256": "17d3e9747b22261f8f3770b2c36802f91657f4e79a347c172d61ade9a7f4f98a",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/mount_scaffold_grain",
+      "source_sha256": "4c8018752a1a81291ba7d9d2c262d26b824d474de8e84abec319b97c821de2b7",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v12:block/native_alloy_end",
+      "source_sha256": "b20d69538ccffe63558bbe62f41c85829700e754d7c392dd6ef91b8083ee9ff8",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/native_shaft",
+      "source_sha256": "150008cb43bdf353cdee0eb5625faa0a506d89bccd5d307095b143c21cd7f715",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "create:block/axis_top",
+      "source_sha256": "d96400565f72e7270eeb9daaab2b1cf2a450e9491bbd488d217ed5f7e49c4bc3",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/axis_top.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/native_rod",
+      "source_sha256": "6478540493ff30828015f9f2b7d38faf2955aeb8567cf11ea85e279155ad0ae3",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v12:block/native_alloy_side",
+      "source_sha256": "1c93717fe4f30d1738e4fcbe7b76ba7aa3f8fab78eb0c45f71eff738ad9511c6",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/native_ram_pressure",
+      "source_sha256": "4b2830c6bde9cfe0decc54857b01dd12c2d10a323f23cd86392bb48ec2407e8e",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_continuity_v13:block/uncuffed_native_rod_w2",
+      "source_sha256": "3e14ddeb45799586e94d90734436cce89381d221331f11c462d9883cdb2f6c85",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "simulated:block/laser_pointer/laser_pointer",
+      "source_sha256": "022b36203bdacc77de4b93ae1232150059c47bbbb4f27bc04eec38f54ac8fdbd",
+      "used_in_machine": true,
+      "license_family": "simulated",
+      "dependency_entry": "assets/simulated/textures/block/laser_pointer/laser_pointer.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+      "source_sha256": "e1ba9108b54c8cb3c034ee8807ed9e5512c8640882ccc0d0d21c2e4233c71610",
+      "used_in_machine": true,
+      "license_family": "createbigcannons",
+      "dependency_entry": "assets/createbigcannons/textures/block/cannon_mount/rotating_mount_plate.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "create:block/dark_metal_block",
+      "source_sha256": "8525f816ddf047c4afe68aff8b41275b4dce4006134b681d16d5bf95740cd7fd",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/dark_metal_block.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v13:block/shared_cover_conductors",
+      "source_sha256": "951367788790f7e26a7bc6daa05f441ac88d50627b49da7be96fd73a0b7d4bf8",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v12:block/native_alloy_top",
+      "source_sha256": "967bc6a0d19610e3bb203215d1012767f11cafad88849c27194e194f89795f3a",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v13:block/cradle_longitudinal_guide",
+      "source_sha256": "da66d342ef0fd658f87b27209199b7d8e8ba8ad75080836127c2cd89cc9052bd",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_continuity_v13:block/uncut_native_alloy_v12tone_w2",
+      "source_sha256": "09d95275dc15a491464521e2d3be1f89e879f707674786f773c50971fc9eac85",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_continuity_v13:block/uncut_native_alloy_v12tone_w8",
+      "source_sha256": "1a127380a01161dec5119234acc3b9ac75e5741bacfa3d812f09168b20121d5a",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_continuity_v13:block/uncuffed_native_rod_w3",
+      "source_sha256": "10475f4cd4bc40a22b612bf5aa0939b3bad0eba5ecfc7f077a6fba0196bd4ca7",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_continuity_v13:block/uncuffed_native_rod_w1",
+      "source_sha256": "6fdae5852975f739f94ad9af14c4a4914736a6b30e837cb73d18ae5f55c32d54",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_finish_v17:block/dark_chain_case_creeper",
+      "source_sha256": "dae51e0c1e306a42e9b087f92e6633c24e3f2d125f18473904ed8f3a8bd8c461",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "createbigcannons:block/pole_contraption_side1",
+      "source_sha256": "1ffc1ac051070c63f7730d24e733b7181e5af8ff7c3cfba138cceb0139ffde55",
+      "used_in_machine": true,
+      "license_family": "createbigcannons",
+      "dependency_entry": "assets/createbigcannons/textures/block/pole_contraption_side1.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "createaddition:block/electric_motor/brass_electric_motor",
+      "source_sha256": "fa34f30abd33051a1b33dfab28c0ec620ca6d5e1fec9507fbe33ca0f86aa882c",
+      "used_in_machine": true,
+      "license_family": "createaddition",
+      "dependency_entry": "assets/createaddition/textures/block/electric_motor/brass_electric_motor.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "create:block/vault/vault_front_small",
+      "source_sha256": "0c3ad6410b9b447cd52d8ac394998cea0d18b670ccea7307b5a32e3640785c0f",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/vault/vault_front_small.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "create:block/vault/vault_side_small",
+      "source_sha256": "f13521e651b11fd46c881528409e4bccec1ec0c6107e66c56b6dc34f268f3ee7",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/vault/vault_side_small.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "create:block/vault/vault_top_small",
+      "source_sha256": "7647f6488a11eb073b31c6a3af5e28102adc942033e6942a0d315cdd168de936",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/vault/vault_top_small.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "create:block/vault/vault_bottom_small",
+      "source_sha256": "6c01990608c201eeb35fe9b00e28b408d6ceb1469f541083fb5113fc9d330eb1",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/vault/vault_bottom_small.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v14:block/copycat_support_profile_w2",
+      "source_sha256": "1c424f84720495db1c1eab0d1b4029a7941128553dd4431022bf757d201fcd29",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "create:block/copycat_base",
+      "source_sha256": "43e8eb417fd683615d9b3c605e64d6751e4d0732d89e2e3616be78cca124cbd8",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/copycat_base.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v14:block/copycat_support_profile_w1",
+      "source_sha256": "fbf65dbac558bb138957185cbfe2552e9013f4b4d4cf2f809b08873065b4a6a7",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v14:block/copycat_support_profile_w3",
+      "source_sha256": "ce6bfcdfa6755219b178e23194b15b4400393c9fbd42b345036872b6384dd13c",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "create:block/hose",
+      "source_sha256": "6aecf354dce6689c93540019b7e11ee73b417b1bf06257788a1dbdfe0008f80c",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/hose.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_material_study_v11:block/native_copper",
+      "source_sha256": "24b7d244ca691e384a289fa7539adfaa50b68e249735edf7aa4b9a9d21f6b198",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "simulated:block/redstone_magnet/redstone_magnet",
+      "source_sha256": "ee4bd995d0bd99eded5ac44e053897cbef116ff6f190bc94bfb9783e01754a10",
+      "used_in_machine": true,
+      "license_family": "simulated",
+      "dependency_entry": "assets/simulated/textures/block/redstone_magnet/redstone_magnet.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "create:block/industrial_iron_block",
+      "source_sha256": "962b044ebd8849c99d2b8e6a008e194654254d8ed587c182fcb0601d706014bf",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/industrial_iron_block.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "create:block/industrial_iron_block_top",
+      "source_sha256": "5a0a6dffc165e5d78e795126f521791ba8efdaa308597df483295e97a83bcf78",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/industrial_iron_block_top.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_receiver_reuse_v15:block/bartender_recoloured_receiver_winding",
+      "source_sha256": "00ff60984d66f4c162ea01b81f3f811bfd360a94b54784b6bfa1d204393a28b8",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_rear_hood_v14:block/hood_steel_rim",
+      "source_sha256": "568e8ed9f40c57c377fee2c059d185c3a204f35273b358734fb50cc0c6f3e004",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_rear_hood_v14:block/hood_dark_sheet",
+      "source_sha256": "9eb52c57a3e396c0c9bca8c6ce4f9bb6319169a2a83b8eda5c7687a7fa67aff8",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_rear_hood_v14:block/radiator_copper",
+      "source_sha256": "bc129d935b522284a386d028dbb22839ee474bd43f9491093eb1187edc62a47a",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dcp_rear_hood_v14:block/radiator_fins",
+      "source_sha256": "3c52cb9bfad3fef994c6c7fcca4f7b9ab3733d9844225bae7f2af41162420168",
+      "used_in_machine": true,
+      "license_family": "derived",
+      "local_source": "Private canonical payload; no embedded pixels in this reference."
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dysoncubeproject:block/em_railejector_controller",
+      "source_sha256": "9d343a77ec3c77418190852cce80e8b394f4cc518d28414a8f490321b83d9dcd",
+      "used_in_machine": false,
+      "license_family": "dysoncubeproject",
+      "dependency_entry": "assets/dysoncubeproject/textures/block/em_railejector_controller.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dysoncubeproject:block/em_railejector_gun",
+      "source_sha256": "6cfb97e9c6c5cb7dbd4fa2f93c3507ccdd76d493d7a695c1d59e840ac2f29eef",
+      "used_in_machine": false,
+      "license_family": "dysoncubeproject",
+      "dependency_entry": "assets/dysoncubeproject/textures/block/em_railejector_gun.png"
+    },
+    {
+      "machine": "rail",
+      "resource_id": "dysoncubeproject:block/particle",
+      "source_sha256": "56845419cfaed2ee52fb9117c21388d0d68fb4564d7807d1a43a187be94174aa",
+      "used_in_machine": true,
+      "license_family": "dysoncubeproject",
+      "dependency_entry": "assets/dysoncubeproject/textures/block/particle.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+      "source_sha256": "e1ba9108b54c8cb3c034ee8807ed9e5512c8640882ccc0d0d21c2e4233c71610",
+      "used_in_machine": true,
+      "license_family": "createbigcannons",
+      "dependency_entry": "assets/createbigcannons/textures/block/cannon_mount/rotating_mount_plate.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "create:block/girder_pole_side_connected",
+      "source_sha256": "b2f99e3f803dbbeeb9bdd6e65e9474cca0def662f17d37326c569d6e81171c21",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/girder_pole_side_connected.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "create:block/girder",
+      "source_sha256": "d9a68d8490ebddab4f5fc3b63e713f61385de110320c42bf069615f35696c01f",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/girder.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "create:block/railway_casing_side_connected",
+      "source_sha256": "eaabdf68cc20aab88955dc0fd4a0a49eb356b960ce66f6cafc597606e8b34ad2",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/railway_casing_side_connected.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "create:block/railway_casing_connected",
+      "source_sha256": "6c55ebc98bd3843d0246da8ae09639b29f88904f8caf31e1a7e94e2209e97119",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/railway_casing_connected.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "create:block/industrial_iron_block",
+      "source_sha256": "962b044ebd8849c99d2b8e6a008e194654254d8ed587c182fcb0601d706014bf",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/industrial_iron_block.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "create:block/brass_block",
+      "source_sha256": "30d391f476ad250bfb15158eb6d566eefc603f54648886fc148ea04094b6c0e2",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/brass_block.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "simulated:block/swivel_bearing",
+      "source_sha256": "c39ec39c2475f2ac858d4aea3cb8218d387739026d5434e0d3be9cf30e8dd0d0",
+      "used_in_machine": true,
+      "license_family": "simulated",
+      "dependency_entry": "assets/simulated/textures/block/swivel_bearing.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "createbigcannons:block/cannon_mount/rotating_mount_side",
+      "source_sha256": "de132d246f1f792b9299c8d1cae9ad424885a446cb672a4a57de1bdc0cc1998f",
+      "used_in_machine": true,
+      "license_family": "createbigcannons",
+      "dependency_entry": "assets/createbigcannons/textures/block/cannon_mount/rotating_mount_side.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "createbigcannons:block/cannon_mount/rotating_mount_side_top",
+      "source_sha256": "30a0ea517e9eb67e196b54f0af9ac8f6d4eafdc471058b0c89bbafe93810738f",
+      "used_in_machine": true,
+      "license_family": "createbigcannons",
+      "dependency_entry": "assets/createbigcannons/textures/block/cannon_mount/rotating_mount_side_top.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "createbigcannons:block/cannon_mount/rotating_mount_side1",
+      "source_sha256": "22eacb70c06b9f3c9b95103d5bcd22f796b9fda78db292fa7e8059c0f9182020",
+      "used_in_machine": true,
+      "license_family": "createbigcannons",
+      "dependency_entry": "assets/createbigcannons/textures/block/cannon_mount/rotating_mount_side1.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "simulated:block/laser_pointer/laser_pointer",
+      "source_sha256": "022b36203bdacc77de4b93ae1232150059c47bbbb4f27bc04eec38f54ac8fdbd",
+      "used_in_machine": true,
+      "license_family": "simulated",
+      "dependency_entry": "assets/simulated/textures/block/laser_pointer/laser_pointer.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "create:block/hose",
+      "source_sha256": "6aecf354dce6689c93540019b7e11ee73b417b1bf06257788a1dbdfe0008f80c",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/hose.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "simulated:block/dock_2",
+      "source_sha256": "6614c978e5c6072f344ce4ee4b6ec202df47cc7dc7fa7a3486ce434de1a2097a",
+      "used_in_machine": true,
+      "license_family": "simulated",
+      "dependency_entry": "assets/simulated/textures/block/dock_2.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "createaddition:block/connector/copper_push",
+      "source_sha256": "d60075c049f4e4ba98f0576eae5af07bf27a8033ebca403b615e0818165b3ea1",
+      "used_in_machine": true,
+      "license_family": "createaddition",
+      "dependency_entry": "assets/createaddition/textures/block/connector/copper_push.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "create:block/industrial_iron_block_top",
+      "source_sha256": "5a0a6dffc165e5d78e795126f521791ba8efdaa308597df483295e97a83bcf78",
+      "used_in_machine": true,
+      "license_family": "create",
+      "dependency_entry": "assets/create/textures/block/industrial_iron_block_top.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "aeronautics:block/gyroscopic_propeller_bearing",
+      "source_sha256": "17a90c5aac1be8dbedc6b602aa04fbffe23fe9934ad6a2dddb9764ffa2eda406",
+      "used_in_machine": true,
+      "license_family": "aeronautics",
+      "dependency_entry": "assets/aeronautics/textures/block/gyroscopic_propeller_bearing.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "createaddition:block/connector/copper_passive",
+      "source_sha256": "a4c98fe54921fc323d482b657b954d526a713793c61321b6c3f3224d8de7850d",
+      "used_in_machine": true,
+      "license_family": "createaddition",
+      "dependency_entry": "assets/createaddition/textures/block/connector/copper_passive.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "dysoncubeproject:block/ray_receiver_base",
+      "source_sha256": "50310241f376b59e046be01ef13dd1abd4e9dc80e975db7caba72b530aa9c6dc",
+      "used_in_machine": false,
+      "license_family": "dysoncubeproject",
+      "dependency_entry": "assets/dysoncubeproject/textures/block/ray_receiver_base.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "dysoncubeproject:block/ray_receiver_plate",
+      "source_sha256": "f08a3036b49ca92926d84cb81a0f19307cbf9f8a8cb9923acb974cb4a91bf8f1",
+      "used_in_machine": false,
+      "license_family": "dysoncubeproject",
+      "dependency_entry": "assets/dysoncubeproject/textures/block/ray_receiver_plate.png"
+    },
+    {
+      "machine": "receiver",
+      "resource_id": "dysoncubeproject:block/ray_receiver_lens",
+      "source_sha256": "10d023d31d494b20438a2140c8f24f3a6c2840d7a252902bd5a27dd6558671eb",
+      "used_in_machine": false,
+      "license_family": "dysoncubeproject",
+      "dependency_entry": "assets/dysoncubeproject/textures/block/ray_receiver_lens.png"
+    }
+  ],
+  "artwork_in_repository": false
+}

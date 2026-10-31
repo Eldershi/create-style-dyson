@@ -1,0 +1,1193 @@
+{
+  "artifact": {
+    "zip_sha256": "3189f7622f0f01d0d7ef5730b109487d66814278756f2941030cd56024091b74",
+    "zip_bytes": 904973,
+    "files": 246,
+    "script_sha256": "75f09196f161e4331e6b470c0d759a8b653340c9b74e229e62cb3be71aba3939",
+    "script_bytes": 32509
+  },
+  "static_validation": {
+    "source_export": "PASS",
+    "canonical_pose_comparison": "PASS",
+    "resource_pixels_and_UV": "PASS",
+    "clean_directory_rebuild": "PASS"
+  },
+  "game_validation": {
+    "status": "PASS_IN_RECORDED_SCOPE",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "Java": 17,
+    "mod_count": 395,
+    "shaders_enabled": false,
+    "pose_images": 21,
+    "native_work_conditions": 6,
+    "native_rail_cycles": 2,
+    "postcheck_images": 5,
+    "actual_model_instances": {
+      "rail": 30,
+      "receiver": 47
+    },
+    "render_errors": 0,
+    "capture_errors": 0,
+    "diagnostic_errors": 0,
+    "receiver_FE": {
+      "day_after40ticks": 800000,
+      "stable_night": 0,
+      "stable_rain": 0,
+      "occluded": 0
+    },
+    "inventory": "Both complete controller icons visible in actual creative inventory",
+    "visibility": "Rail native AABB outside/full model visible, fallback increment113; normal return complete. Receiver near-head and normal view complete.",
+    "original_DCP_logic_and_hologram": "Unchanged",
+    "installation": {
+      "target": "active CMI expedition client",
+      "pack_and_script_SHA_match": true,
+      "single_Paxi_pack": true,
+      "original_options_unchanged": true,
+      "original395_JARs_unchanged": true,
+      "client_restart_required": true
+    }
+  },
+  "native_PNG_evidence": [
+    {
+      "file": "APPROVED_pose_01.png",
+      "sha256": "79206a7a6c5793b224b700e1950990b9491f01b4d22fc5a89493cfd24f1afc7c",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 1,
+        "label": "RAIL_EAST_ELEVATION_0",
+        "elapsedClientTicks": 52,
+        "elapsedWallMs": 2006,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_02.png",
+      "sha256": "93836b82932528d06c1b6e0c620047cfb72098262880478b784092e065ee7007",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 2,
+        "label": "RAIL_EAST_ELEVATION_45",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2002,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_03.png",
+      "sha256": "eb6f9a35a0f133b4b8a9195633f9d3243f8dc850801c26d652b36ee6f99b7a5a",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 3,
+        "label": "RAIL_EAST_ELEVATION_80",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2008,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_04.png",
+      "sha256": "54431dd7d0b45fad70a41d49a34dc14cc94443010649202b690eef361147d5e0",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 4,
+        "label": "RAIL_NORTH_ELEVATION_0",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2001,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_05.png",
+      "sha256": "c5c0f2c5603c3c4284040e6f72153da27bd723a43fc602cd201bcb887ac23385",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 5,
+        "label": "RAIL_NORTH_ELEVATION_45",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2000,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_06.png",
+      "sha256": "64b82d7c7bb5ab526ee642555fb482088fbc2f984635d37478e7d1b0f007b42c",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 6,
+        "label": "RAIL_NORTH_ELEVATION_80",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2002,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_07.png",
+      "sha256": "993b9adbf0375741e381149ff28a9af9b351b29a491745b6eb3d8cc74da2ed48",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 7,
+        "label": "RAIL_SOUTH_ELEVATION_0",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2014,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_08.png",
+      "sha256": "571cff2925ed5550c81244c69e998fcfcd8e3141622de33795caa62e557dc421",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 8,
+        "label": "RAIL_SOUTH_ELEVATION_45",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2015,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_09.png",
+      "sha256": "bccb1b77d7174939a7eb0697d95c660a3464afa56045249af6a9ebd6ea0f8b85",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 9,
+        "label": "RAIL_SOUTH_ELEVATION_80",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2000,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_10.png",
+      "sha256": "278e124d5e95dce220dd92ea0531196af74df6055cb316524a978c7746b919e5",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 10,
+        "label": "RAIL_WEST_ELEVATION_0",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2004,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_11.png",
+      "sha256": "cd71c54e674724aac8f68dcd378b3bac6176628bf06cb17e61bf0e10c93d8664",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 11,
+        "label": "RAIL_WEST_ELEVATION_45",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2000,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_12.png",
+      "sha256": "97b79ce686aa0226b85f1357b3d40e43f78ecfba4e0e9c295b7b999c1cb17d8d",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 12,
+        "label": "RAIL_WEST_ELEVATION_80",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2017,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_13.png",
+      "sha256": "36b53fd20014e24492fee55216cce86fa79d1170bd628c424f9b22395e1c82b8",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 13,
+        "label": "RECEIVER_NATIVE_270",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2010,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_14.png",
+      "sha256": "fa1543a7be315c5f3a67f0fd0e1d69e7aa4b8c4939a68648433719bd0c1e313f",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 14,
+        "label": "RECEIVER_NATIVE_0",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2015,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_15.png",
+      "sha256": "f24a68a5cd62ab5a51656df73e218f9a46d69ed321346e2cb4df38c01ed2907b",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 15,
+        "label": "RECEIVER_NATIVE_90",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2001,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_16.png",
+      "sha256": "55c097a0f44dc43b942b1734615af7d99073ecd7964f1ce455983700c287e747",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 16,
+        "label": "RECEIVER_NATIVE_315",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2010,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_17.png",
+      "sha256": "f7e5faca4efdee1152c843fda3a186239e9db246f3c5d8f938093ccfa8940418",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 17,
+        "label": "RECEIVER_NATIVE_350",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2010,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_18.png",
+      "sha256": "c637373c8aa1aa472e9a40b867b7aa110632e52cca2a5c5addce4820edc80901",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 18,
+        "label": "RECEIVER_NATIVE_45",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2014,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_19.png",
+      "sha256": "9af3bd903d4b8e4f60a6115c007f6e45aa6c200f24b9ff2d000ccfc9403ae365",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 19,
+        "label": "RECEIVER_NATIVE_80",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2004,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_20.png",
+      "sha256": "e38ace8ff476ce64138af36416e6d62f224f46949fa069ebb601f24e161c4a9b",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 20,
+        "label": "RECEIVER_270_WEST_CORNER",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2016,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_pose_21.png",
+      "sha256": "234a09ea5ebd28fe1ff09b87f248d69fed674675673777030d44e471d3a497db",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "pose",
+        "index": 21,
+        "label": "RECEIVER_270_WEST_CLOSE_CORNER",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2007,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_charge_035.png",
+      "sha256": "afc77af1512857d5feafad736ce598d45cb40a49083701eca83b41f5ba626898",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 35,
+        "elapsedWallMs": 1754,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_case_t040.png",
+      "sha256": "2d505a44513e7bcb85144bf093385f109c397a63ebf0e23b87065d420eca464c",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 45,
+        "elapsedWallMs": 2085,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_charge_060.png",
+      "sha256": "94b517e24f9fdd5f17e134e24d1f4e76d42cfcf3607dfbe4431ea1ac7e07927e",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 60,
+        "elapsedWallMs": 3003,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_charge_085.png",
+      "sha256": "a5aee73f862f225863d04f4aa905f2e9ba6b91bc99fdf14e8888d0890b99fb44",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 85,
+        "elapsedWallMs": 4260,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_case_t100.png",
+      "sha256": "d594d0d46c28fe0120dcf9c77eea0c187c2e349f7caafa9370245e61ee615b82",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 100,
+        "elapsedWallMs": 4984,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_charge_100.png",
+      "sha256": "f32150ce40009a0d1c343cfc23ff4e0023ff9005704afc530d38817106f98543",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 101,
+        "elapsedWallMs": 5045,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_charge_110.png",
+      "sha256": "f993cddbd1c3fb5cde1b4b9e53a9118e296660f3e2d22af48c2f901625f77b15",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 110,
+        "elapsedWallMs": 5509,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_charge_118.png",
+      "sha256": "aae064b25e664e573f329834e9b04cd0f8a20a3292aabf9e183b4a8b60dd49e8",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 118,
+        "elapsedWallMs": 5900,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_charge_119.png",
+      "sha256": "556cff710600b1332e4a032ca01e8cf7171fa05ce038f39448220a5d5d961007",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 119,
+        "elapsedWallMs": 5955,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_fire_age01.png",
+      "sha256": "f1c127542e689b6d5fa1ce7cc975806c8150c37cff9f26f4e3f575c2b1ba2fdf",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 121,
+        "elapsedWallMs": 6058,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_fire_age04.png",
+      "sha256": "a3f53ded0add3ce6a361e8f348ccdc19ee509ce5dca71ab66d56c8a4bf4ed9a7",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 124,
+        "elapsedWallMs": 6181,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_fire_age09.png",
+      "sha256": "cde9767cdd3ff6d6bc8ec8ccc78f6e4343a85052665c37320042ecd908f3f188",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 129,
+        "elapsedWallMs": 6428,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_fire_age14.png",
+      "sha256": "bd7963720cff98cb4651bedeef2ee461a4b3fc939d4428452d9df47028e8f7b5",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 134,
+        "elapsedWallMs": 6679,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_case_t140.png",
+      "sha256": "9aa2af91804c97141df2c3e085152b67184dea4c874d34ca34fadf948b5c0dab",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 140,
+        "elapsedWallMs": 6984,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_fire_age20.png",
+      "sha256": "460c252c6a530ac899aeec95d8f0a1e24e93cb128c1710b96f1187ef77b81786",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 140,
+        "elapsedWallMs": 7002,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_01_fire_age27.png",
+      "sha256": "74da69915b9d068e6b8ef8a0ee8645b42605a6641c61e355791e5a6ba62b0c2e",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 1,
+        "label": "RAIL_NATIVE_CYCLE_1",
+        "elapsedClientTicks": 147,
+        "elapsedWallMs": 7328,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_charge_035.png",
+      "sha256": "41f2970a97c1646cb3a2214a633895873fee93568fc6cbd4f33844b040e637cc",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 35,
+        "elapsedWallMs": 1766,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_case_t040.png",
+      "sha256": "205191b04b9a4575c6bf4ea95da5fba58e40bd582ebb3b670e565b05983b857d",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2003,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_charge_060.png",
+      "sha256": "f4bc636f0346fd2299633ab4eb02a4c196e1f3812b7f061a57b5796bfa204671",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 60,
+        "elapsedWallMs": 3008,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_charge_085.png",
+      "sha256": "9ca6b240fc255e539307510118c2d8f769f5221ad8e59996021b97738d9d5fd2",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 85,
+        "elapsedWallMs": 4270,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_case_t100.png",
+      "sha256": "6880978eb783b407ab4c523feb8d501876269d39a824a87480c486ce91268f8b",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 100,
+        "elapsedWallMs": 5006,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_charge_100.png",
+      "sha256": "a2bf80d53fc41a6c7bb382704b165a4a5da7cef1bafe6211e570243603b46f00",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 101,
+        "elapsedWallMs": 5041,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_charge_110.png",
+      "sha256": "7c773bd51c539e7fdd79704336a48311680a9ffc69c999ed8aca43ed612d97d6",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 110,
+        "elapsedWallMs": 5520,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_charge_118.png",
+      "sha256": "f65b562c021083129658f7d5b6bc649c40c284a37df347a95feb559416d8d931",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 118,
+        "elapsedWallMs": 5907,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_charge_119.png",
+      "sha256": "c2eff82caf2dedc0afcefff97af20f45270d7c623b038008926e2514851e3895",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 119,
+        "elapsedWallMs": 5973,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_fire_age01.png",
+      "sha256": "eebad257bae0247fb339ae6325951c07fac3db290b95b4afa6cb1855db71309f",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 121,
+        "elapsedWallMs": 6009,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_fire_age04.png",
+      "sha256": "c09814241e53dd8dfc1ae1a525f9d37ec3b195e716d1d691e28c20d328c7847c",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 124,
+        "elapsedWallMs": 6142,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_fire_age09.png",
+      "sha256": "ded44bab5d5e8e901b8634c2876badbe00bcbc5dba689cf3a9fb7f25039bd89e",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 129,
+        "elapsedWallMs": 6408,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_fire_age14.png",
+      "sha256": "23de9c48f5403294b1274dc0be647594357413bb9c88a847d267572089c40add",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 134,
+        "elapsedWallMs": 6640,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_case_t140.png",
+      "sha256": "b01567f985767302e55344a0ee48174a111654c27263866186fa0fabe61c0c88",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 140,
+        "elapsedWallMs": 6944,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_fire_age20.png",
+      "sha256": "a877e031d273d5407d41c90d00250e248265bd51be876392996e961e753d6f4d",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 140,
+        "elapsedWallMs": 6958,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_02_fire_age27.png",
+      "sha256": "30222481e284102c76d68a28323f92c4be7ffa5fd5b5ced0a0d0f0e51c03d306",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 2,
+        "label": "RAIL_NATIVE_CYCLE_2",
+        "elapsedClientTicks": 147,
+        "elapsedWallMs": 7339,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_03_case_t040.png",
+      "sha256": "b26fc5283dc8dfb8c14d7f3d7b1cc4572b8deb8d578cc324e52ee9209efa8aea",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 3,
+        "label": "RECEIVER_DAY",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 1986,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_03_case_t100.png",
+      "sha256": "7585ed1da092b80a8b37eb6922323d228a2a8e862dee4bcc2f52b90dfb8efb59",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 3,
+        "label": "RECEIVER_DAY",
+        "elapsedClientTicks": 100,
+        "elapsedWallMs": 4984,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_03_case_t140.png",
+      "sha256": "ceb4bad72912aa8de82d6a6fc4494999ce7afeeaf5703629fe7d38d0dd865c40",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 3,
+        "label": "RECEIVER_DAY",
+        "elapsedClientTicks": 140,
+        "elapsedWallMs": 6998,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_04_case_t040.png",
+      "sha256": "f418cac7c351de10a486c6aad4e30e51a44811db55bc1036f1fdbfb7e6c15d17",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 4,
+        "label": "RECEIVER_NIGHT",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 1980,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_04_case_t100.png",
+      "sha256": "984f331323532dfb87f5db962dbb0c2c4c97662b7c75eebb5130e2b98fd6dbce",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 4,
+        "label": "RECEIVER_NIGHT",
+        "elapsedClientTicks": 100,
+        "elapsedWallMs": 4980,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_04_case_t140.png",
+      "sha256": "bd57f2fa15d0d28698510c2af8f08e058839707dea80e6bbed090ce27a8554a5",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 4,
+        "label": "RECEIVER_NIGHT",
+        "elapsedClientTicks": 140,
+        "elapsedWallMs": 6972,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_05_case_t040.png",
+      "sha256": "0daf9b55f39c781a93ec8db90469fc7e9053afe4ae11839743b992f585ac2cb3",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 5,
+        "label": "RECEIVER_RAIN_STABLE",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 1948,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_05_case_t100.png",
+      "sha256": "31e5df7bdf55991bb176c1548a042e271b342f84797f56c55407dc87b08a0901",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 5,
+        "label": "RECEIVER_RAIN_STABLE",
+        "elapsedClientTicks": 100,
+        "elapsedWallMs": 5001,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_05_case_t140.png",
+      "sha256": "e9fc94b0b4f3ad124489d1466fdba247fe69f9dadac1b6427526b35046546d56",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 5,
+        "label": "RECEIVER_RAIN_STABLE",
+        "elapsedClientTicks": 140,
+        "elapsedWallMs": 6985,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_06_case_t040.png",
+      "sha256": "a9ff999b435087cfd75ec6ce1731523716c470aa1902dc2f708ee8f2593938e1",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 6,
+        "label": "RECEIVER_OCCLUDED",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 1989,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_06_case_t100.png",
+      "sha256": "07a20fac33709902ffb10df614285a4650b63cc0f12aa114365814d7bdd8419c",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 6,
+        "label": "RECEIVER_OCCLUDED",
+        "elapsedClientTicks": 100,
+        "elapsedWallMs": 4973,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_work_06_case_t140.png",
+      "sha256": "d815f31f06df64aafa94534998c12c6e991d93109228b1097f8c7d4106668ec6",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "work",
+        "index": 6,
+        "label": "RECEIVER_OCCLUDED",
+        "elapsedClientTicks": 140,
+        "elapsedWallMs": 6988,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_cull_01.png",
+      "sha256": "aabec41e9a6f9b4ce8c631b55e38ac23473232bd22de9294ba89422c67be5529",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "cull",
+        "index": 1,
+        "label": "RAIL_UPPER_ONLY_CULL",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2010,
+        "fallbackDrawDelta": 113
+      }
+    },
+    {
+      "file": "APPROVED_cull_02.png",
+      "sha256": "2fa7b8d858dec7c5ed125f48f7b8404719bd081a205c3fb375e5791d5b4f2dee",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "cull",
+        "index": 2,
+        "label": "RAIL_NORMAL_RETURN",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2004,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_cull_03.png",
+      "sha256": "b73a99c4e48d81cde47ae0033ba4c62ec9a81e2a0952d43a06ff39aa26c61371",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "cull",
+        "index": 3,
+        "label": "RECEIVER_UPPER_ONLY_CONTROL",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2011,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_cull_04.png",
+      "sha256": "e924dd91a4a46fa7ba2aa6d61cbe8cb2ab345c74cfe79d9577a4aa498f8d90e2",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "cull",
+        "index": 4,
+        "label": "RECEIVER_NORMAL_RETURN",
+        "elapsedClientTicks": 40,
+        "elapsedWallMs": 2008,
+        "fallbackDrawDelta": 0
+      }
+    },
+    {
+      "file": "APPROVED_inventory_controllers.png",
+      "sha256": "425828be6ad7170f0ac1f732cba64c6f6474e90ad06a60039b75e20bac9ddf0d",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "phase": {
+        "kind": "inventory",
+        "index": 1,
+        "label": "CONTROLLER_ITEM_MODELS",
+        "elapsedClientTicks": 41,
+        "elapsedWallMs": 2001,
+        "fallbackDrawDelta": 0
+      }
+    }
+  ],
+  "scope": "Native GPU evidence, source hashes and actual game observations for the recorded395-mod client configuration. Raw PNGs and third-party art remain local.",
+  "publication": {
+    "artwork": "Not uploaded; input files remain private",
+    "self_generated_client_script": "Included by explicit publication authorization; no texture/UV/mesh arrays embedded",
+    "original_DCP_defects": "Record only; original work logic and blue hologram remain unchanged",
+    "native_PNG_files": "Local evidence only; repository stores hashes and scope"
+  },
+  "limits": [
+    "Arbitrary shader packs or every camera position",
+    "User aesthetic approval of all in-game lighting",
+    "First-person, third-person and dropped-item display modes",
+    "An additional resource reload/world-switch stress test",
+    "A full180degree receiver optical sweep; the approved mechanical travel remains0..70degrees"
+  ],
+  "local_evidence_hashes": {
+    "actual-game-verification.json": "2290ae1c91c090d123901e6f27474fde49b2003fd509040aab0850e594be44fd",
+    "visual-review.json": "d610c82ba963aa2f8ae36627d79eefe3777421aef840735c2e257dee08ed0e81",
+    "full-run-independent-review.json": "52f162deea56b860737150f7e1b94345151e5ad5f66941efeccc3bb50b7349db",
+    "postchecks-independent-visual-review.json": "3712e1e63b361ba7e4fd2d3298e6e2da5486bd8f0f408199a08946fef26d80c1"
+  }
+}
