@@ -1,4 +1,4 @@
-"""Extract a SHA-verified dependency entry to a user-selected local private directory."""
+"""Extract a SHA-verified dependency entry to a user-selected directory."""
 from pathlib import Path,PurePosixPath
 import argparse,hashlib,io,zipfile
 

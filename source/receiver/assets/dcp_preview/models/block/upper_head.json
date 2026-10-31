@@ -1,0 +1,2518 @@
+{
+  "credit": "V6: native Aero optics, 1px-deep service seam backed by one solid opaque dark cartridge; the fixed energy lead is occluded after entry; optical front retained, source pixels1:1, no PNG edit or scaling",
+  "texture_size": [
+    64,
+    64
+  ],
+  "textures": {
+    "2": "simulated:block/laser_pointer/laser_pointer",
+    "particle": "create:block/andesite_casing"
+  },
+  "elements": [
+    {
+      "name": "native_aero_optic_0_outer_amethyst_case",
+      "from": [
+        3.99,
+        3.99,
+        10
+      ],
+      "to": [
+        12.01,
+        12.01,
+        17
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            4,
+            0,
+            6,
+            1.75
+          ],
+          "rotation": 90,
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            6,
+            1.75
+          ],
+          "rotation": 270,
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            4,
+            0,
+            6,
+            1.75
+          ],
+          "texture": "#2",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            4,
+            0,
+            6,
+            1.75
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "native_aero_optic_1_inner_amethyst_case",
+      "from": [
+        11.99,
+        11.99,
+        17
+      ],
+      "to": [
+        4.01,
+        4.01,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            4,
+            1.75,
+            6,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            4,
+            1.75,
+            6,
+            0
+          ],
+          "rotation": 270,
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            4,
+            1.75,
+            6,
+            0
+          ],
+          "texture": "#2",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            4,
+            1.75,
+            6,
+            0
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "native_aero_optic_2_crystal",
+      "from": [
+        3.999,
+        4.001,
+        10.001
+      ],
+      "to": [
+        11.999,
+        12.001,
+        15.001
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            4,
+            1.75,
+            6,
+            3.75
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            4,
+            5,
+            6,
+            3.75
+          ],
+          "rotation": 270,
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            4,
+            5,
+            6,
+            3.75
+          ],
+          "rotation": 90,
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            4,
+            5,
+            6,
+            3.75
+          ],
+          "texture": "#2"
+        },
+        "down": {
+          "uv": [
+            4,
+            5,
+            6,
+            3.75
+          ],
+          "texture": "#2",
+          "rotation": 180
+        }
+      }
+    },
+    {
+      "name": "native_aero_optic_3_base",
+      "from": [
+        0,
+        0,
+        10
+      ],
+      "to": [
+        16,
+        16,
+        10
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            4,
+            4,
+            0,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "native_aero_optic_4_base",
+      "from": [
+        5,
+        14,
+        10
+      ],
+      "to": [
+        11,
+        16,
+        15
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6,
+            5,
+            4.5,
+            5.5
+          ],
+          "rotation": 180,
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            6,
+            5.5,
+            6.5,
+            6.75
+          ],
+          "rotation": 90,
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            4,
+            5.5,
+            4.5,
+            6.75
+          ],
+          "rotation": 270,
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            5.5,
+            6,
+            6.75
+          ],
+          "texture": "#2",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            6.5,
+            5.5,
+            8,
+            6.75
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "native_aero_optic_5_base",
+      "from": [
+        14,
+        5,
+        10
+      ],
+      "to": [
+        16,
+        11,
+        15
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6,
+            5,
+            4.5,
+            5.5
+          ],
+          "rotation": 270,
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            6.5,
+            5.5,
+            8,
+            6.75
+          ],
+          "rotation": 90,
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            5.5,
+            6,
+            6.75
+          ],
+          "rotation": 270,
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            6,
+            5.5,
+            6.5,
+            6.75
+          ],
+          "texture": "#2",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            4,
+            5.5,
+            4.5,
+            6.75
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "native_aero_optic_6_base",
+      "from": [
+        5,
+        0,
+        10
+      ],
+      "to": [
+        11,
+        2,
+        15
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6,
+            5,
+            4.5,
+            5.5
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            4,
+            5.5,
+            4.5,
+            6.75
+          ],
+          "rotation": 90,
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            6,
+            5.5,
+            6.5,
+            6.75
+          ],
+          "rotation": 270,
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            6.5,
+            5.5,
+            8,
+            6.75
+          ],
+          "texture": "#2",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            4.5,
+            5.5,
+            6,
+            6.75
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "native_aero_optic_7_base",
+      "from": [
+        0,
+        5,
+        10
+      ],
+      "to": [
+        2,
+        11,
+        15
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6,
+            5,
+            4.5,
+            5.5
+          ],
+          "rotation": 90,
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            5.5,
+            6,
+            6.75
+          ],
+          "rotation": 90,
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            5.5,
+            8,
+            6.75
+          ],
+          "rotation": 270,
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            4,
+            5.5,
+            4.5,
+            6.75
+          ],
+          "texture": "#2",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            6,
+            5.5,
+            6.5,
+            6.75
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "native_aero_optic_8_inner_overlay",
+      "from": [
+        15,
+        15,
+        15
+      ],
+      "to": [
+        1,
+        1,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            4.5,
+            11,
+            8,
+            9.75
+          ],
+          "rotation": 90,
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            11,
+            8,
+            9.75
+          ],
+          "rotation": 270,
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            11,
+            8,
+            9.75
+          ],
+          "texture": "#2",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            4.5,
+            11,
+            8,
+            9.75
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "native_aero_optic_9_outer_overlay",
+      "from": [
+        1,
+        1,
+        10
+      ],
+      "to": [
+        15,
+        15,
+        15
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            4.5,
+            9.75,
+            8,
+            11
+          ],
+          "rotation": 90,
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            9.75,
+            8,
+            11
+          ],
+          "rotation": 270,
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            9.75,
+            8,
+            11
+          ],
+          "texture": "#2",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            4.5,
+            9.75,
+            8,
+            11
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "native_aero_optic_10_frame",
+      "from": [
+        3,
+        1,
+        10
+      ],
+      "to": [
+        13,
+        3,
+        12
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            7.5,
+            7.75,
+            5,
+            7.25
+          ],
+          "rotation": 180,
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            5,
+            7.25,
+            7.5,
+            6.75
+          ],
+          "texture": "#2",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            5,
+            7.75,
+            7.5,
+            8.25
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "native_aero_optic_11_frame",
+      "from": [
+        3,
+        13,
+        10
+      ],
+      "to": [
+        13,
+        15,
+        12
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            7.5,
+            7.75,
+            5,
+            7.25
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            5,
+            7.75,
+            7.5,
+            8.25
+          ],
+          "texture": "#2",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            5,
+            7.25,
+            7.5,
+            6.75
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "native_aero_optic_12_frame",
+      "from": [
+        1,
+        1,
+        10
+      ],
+      "to": [
+        3,
+        15,
+        12
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8,
+            8.75,
+            4.5,
+            9.25
+          ],
+          "rotation": 90,
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            9.25,
+            8,
+            9.75
+          ],
+          "rotation": 90,
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            8.75,
+            8,
+            8.25
+          ],
+          "rotation": 270,
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            4,
+            8.75,
+            4.5,
+            9.25
+          ],
+          "texture": "#2",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            8,
+            8.75,
+            8.5,
+            9.25
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "native_aero_optic_13_frame",
+      "from": [
+        13,
+        1,
+        10
+      ],
+      "to": [
+        15,
+        15,
+        12
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8,
+            8.75,
+            4.5,
+            9.25
+          ],
+          "rotation": 270,
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            8.75,
+            8,
+            8.25
+          ],
+          "rotation": 90,
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            9.25,
+            8,
+            9.75
+          ],
+          "rotation": 270,
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            8,
+            8.75,
+            8.5,
+            9.25
+          ],
+          "texture": "#2",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            4,
+            8.75,
+            4.5,
+            9.25
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_north_0_0_service_slot_crop_2",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        6,
+        4,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#2",
+          "uv": [
+            6.0,
+            7.0,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_north_0_1_service_slot_crop_1",
+      "from": [
+        0,
+        7.25,
+        0
+      ],
+      "to": [
+        10,
+        8,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#2",
+          "uv": [
+            5.0,
+            7.0,
+            7.5,
+            7.1875
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_north_0_1_service_slot_crop_2",
+      "from": [
+        0,
+        4,
+        0
+      ],
+      "to": [
+        6,
+        7.25,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#2",
+          "uv": [
+            6.0,
+            7.1875,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_north_0_2",
+      "from": [
+        0,
+        8,
+        0
+      ],
+      "to": [
+        10,
+        12,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_north_0_3",
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        10,
+        16,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_north_1_0",
+      "from": [
+        10,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            6.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_north_1_1",
+      "from": [
+        10,
+        4,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            6.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_north_1_2",
+      "from": [
+        10,
+        8,
+        0
+      ],
+      "to": [
+        16,
+        12,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            6.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_north_1_3",
+      "from": [
+        10,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            6.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_east_0_0",
+      "from": [
+        16,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        10
+      ],
+      "faces": {
+        "east": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_east_0_1",
+      "from": [
+        16,
+        4,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        10
+      ],
+      "faces": {
+        "east": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_east_0_2",
+      "from": [
+        16,
+        8,
+        0
+      ],
+      "to": [
+        16,
+        12,
+        10
+      ],
+      "faces": {
+        "east": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_east_0_3",
+      "from": [
+        16,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        10
+      ],
+      "faces": {
+        "east": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_west_0_0",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        0,
+        4,
+        10
+      ],
+      "faces": {
+        "west": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_west_0_1",
+      "from": [
+        0,
+        4,
+        0
+      ],
+      "to": [
+        0,
+        8,
+        10
+      ],
+      "faces": {
+        "west": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_west_0_2",
+      "from": [
+        0,
+        8,
+        0
+      ],
+      "to": [
+        0,
+        12,
+        10
+      ],
+      "faces": {
+        "west": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_west_0_3",
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        0,
+        16,
+        10
+      ],
+      "faces": {
+        "west": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_up_0_0",
+      "from": [
+        0,
+        16,
+        0
+      ],
+      "to": [
+        10,
+        16,
+        4
+      ],
+      "faces": {
+        "up": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_up_0_1",
+      "from": [
+        0,
+        16,
+        4
+      ],
+      "to": [
+        10,
+        16,
+        8
+      ],
+      "faces": {
+        "up": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_up_0_2",
+      "from": [
+        0,
+        16,
+        8
+      ],
+      "to": [
+        10,
+        16,
+        10
+      ],
+      "faces": {
+        "up": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.5,
+            7.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_up_1_0",
+      "from": [
+        10,
+        16,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        4
+      ],
+      "faces": {
+        "up": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            6.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_up_1_1",
+      "from": [
+        10,
+        16,
+        4
+      ],
+      "to": [
+        16,
+        16,
+        8
+      ],
+      "faces": {
+        "up": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            6.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_up_1_2",
+      "from": [
+        10,
+        16,
+        8
+      ],
+      "to": [
+        16,
+        16,
+        10
+      ],
+      "faces": {
+        "up": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            6.5,
+            7.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_down_0_0_service_slot_crop_2",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        6,
+        0,
+        4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#2",
+          "uv": [
+            5.0,
+            7.0,
+            6.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_down_0_1_service_slot_crop_2",
+      "from": [
+        0,
+        0,
+        4
+      ],
+      "to": [
+        6,
+        0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "texture": "#2",
+          "uv": [
+            5.0,
+            7.0,
+            6.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_down_0_2_service_slot_crop_2",
+      "from": [
+        0,
+        0,
+        8
+      ],
+      "to": [
+        6,
+        0,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#2",
+          "uv": [
+            5.0,
+            7.0,
+            6.5,
+            7.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_down_1_0",
+      "from": [
+        10,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        0,
+        4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            6.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_down_1_1",
+      "from": [
+        10,
+        0,
+        4
+      ],
+      "to": [
+        16,
+        0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            6.5,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_base_verified_gray_frame_down_1_2",
+      "from": [
+        10,
+        0,
+        8
+      ],
+      "to": [
+        16,
+        0,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            6.5,
+            7.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "gray_service_channel_left_bottom_0_0",
+      "from": [
+        6,
+        0,
+        1
+      ],
+      "to": [
+        6,
+        1,
+        10
+      ],
+      "faces": {
+        "east": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.25,
+            7.25
+          ]
+        }
+      }
+    },
+    {
+      "name": "gray_service_channel_left_rear_0_0",
+      "from": [
+        6,
+        0,
+        0
+      ],
+      "to": [
+        6,
+        4,
+        1
+      ],
+      "faces": {
+        "east": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            5.25,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "gray_service_channel_left_rear_0_1",
+      "from": [
+        6,
+        4,
+        0
+      ],
+      "to": [
+        6,
+        7.25,
+        1
+      ],
+      "faces": {
+        "east": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            5.25,
+            7.8125
+          ]
+        }
+      }
+    },
+    {
+      "name": "gray_service_channel_right_bottom_0_0",
+      "from": [
+        10,
+        0,
+        1
+      ],
+      "to": [
+        10,
+        1,
+        10
+      ],
+      "faces": {
+        "west": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            7.25,
+            7.25
+          ]
+        }
+      }
+    },
+    {
+      "name": "gray_service_channel_right_rear_0_0",
+      "from": [
+        10,
+        0,
+        0
+      ],
+      "to": [
+        10,
+        4,
+        1
+      ],
+      "faces": {
+        "west": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            5.25,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "gray_service_channel_right_rear_0_1",
+      "from": [
+        10,
+        4,
+        0
+      ],
+      "to": [
+        10,
+        7.25,
+        1
+      ],
+      "faces": {
+        "west": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            5.25,
+            7.8125
+          ]
+        }
+      }
+    },
+    {
+      "name": "gray_service_channel_rear_top_edge_0_0",
+      "from": [
+        6,
+        7.25,
+        0
+      ],
+      "to": [
+        10,
+        7.25,
+        1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#2",
+          "uv": [
+            5,
+            7,
+            6.0,
+            7.25
+          ]
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        4,
+        8,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.0,
+            1.0,
+            16.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        8,
+        1
+      ],
+      "to": [
+        4,
+        15,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.0,
+            0.0,
+            16.0,
+            7.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        4,
+        1,
+        1
+      ],
+      "to": [
+        8,
+        8,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            1.0,
+            16.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        4,
+        8,
+        1
+      ],
+      "to": [
+        8,
+        15,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            7.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        8,
+        1,
+        1
+      ],
+      "to": [
+        12,
+        8,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            1.0,
+            16.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        8,
+        8,
+        1
+      ],
+      "to": [
+        12,
+        15,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            7.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        12,
+        1,
+        1
+      ],
+      "to": [
+        15,
+        8,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            1.0,
+            15.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        12,
+        8,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            7.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        15,
+        8,
+        4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            13.0,
+            1.0,
+            16.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        8,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            13.0,
+            0.0,
+            16.0,
+            7.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        1,
+        4
+      ],
+      "to": [
+        15,
+        8,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            1.0,
+            16.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        8,
+        4
+      ],
+      "to": [
+        15,
+        15,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            7.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        1,
+        8
+      ],
+      "to": [
+        15,
+        8,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            1.0,
+            14.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        8,
+        8
+      ],
+      "to": [
+        15,
+        15,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            14.0,
+            7.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        15,
+        8,
+        4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            13.0,
+            1.0,
+            16.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        8,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            13.0,
+            0.0,
+            16.0,
+            7.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        1,
+        4
+      ],
+      "to": [
+        15,
+        8,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            1.0,
+            16.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        8,
+        4
+      ],
+      "to": [
+        15,
+        15,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            7.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        1,
+        8
+      ],
+      "to": [
+        15,
+        8,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            1.0,
+            14.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        8,
+        8
+      ],
+      "to": [
+        15,
+        15,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            14.0,
+            7.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        4,
+        15,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            13.0,
+            1.0,
+            16.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        1,
+        8
+      ],
+      "to": [
+        4,
+        15,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            13.0,
+            0.0,
+            16.0,
+            2.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        4,
+        1,
+        1
+      ],
+      "to": [
+        8,
+        15,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            1.0,
+            16.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        4,
+        1,
+        8
+      ],
+      "to": [
+        8,
+        15,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            2.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        8,
+        1,
+        1
+      ],
+      "to": [
+        12,
+        15,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            1.0,
+            16.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        8,
+        1,
+        8
+      ],
+      "to": [
+        12,
+        15,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            2.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        12,
+        1,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            1.0,
+            15.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        12,
+        1,
+        8
+      ],
+      "to": [
+        15,
+        15,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            2.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        4,
+        15,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            13.0,
+            1.0,
+            16.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        1,
+        1,
+        8
+      ],
+      "to": [
+        4,
+        15,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            13.0,
+            0.0,
+            16.0,
+            2.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        4,
+        1,
+        1
+      ],
+      "to": [
+        8,
+        15,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            1.0,
+            16.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        4,
+        1,
+        8
+      ],
+      "to": [
+        8,
+        15,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            2.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        8,
+        1,
+        1
+      ],
+      "to": [
+        12,
+        15,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            1.0,
+            16.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        8,
+        1,
+        8
+      ],
+      "to": [
+        12,
+        15,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            2.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        12,
+        1,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            1.0,
+            15.0,
+            8.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    },
+    {
+      "name": "dark_internal_cartridge_solid",
+      "from": [
+        12,
+        1,
+        8
+      ],
+      "to": [
+        15,
+        15,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            2.0
+          ],
+          "texture": "create:block/hose"
+        }
+      }
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true
+}

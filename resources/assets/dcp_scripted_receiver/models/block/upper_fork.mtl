@@ -1,0 +1,31 @@
+newmtl tex_8
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_receiver:block/tex_de132d246f1f792b9299c8d1
+
+newmtl tex_0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_receiver:block/tex_e1ba9108b54c8cb3c034ee88
+
+newmtl tex_9
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_receiver:block/tex_30a0ea517e9eb67e196b54f0
+
+newmtl tex_10
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_receiver:block/tex_22eacb70c06b9f3c9b95103d

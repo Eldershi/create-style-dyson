@@ -1,0 +1,13 @@
+{
+  "loader": "forge:obj",
+  "model": "dcp_scripted_receiver:models/block/transformer_coil2.obj",
+  "automatic_culling": false,
+  "shade_quads": true,
+  "flip_v": false,
+  "emissive_ambient": false,
+  "textures": {
+    "particle": "dcp_scripted_receiver:block/tex_30d391f476ad250bfb15158e"
+  },
+  "ambientocclusion": true,
+  "render_type": "minecraft:cutout"
+}

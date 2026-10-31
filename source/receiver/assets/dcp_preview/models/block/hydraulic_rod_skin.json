@@ -1,0 +1,67 @@
+{
+  "credit": "Native Aeronautics actuator skin; end-fitting-covered strip removed with exact UV crop, no scaling",
+  "textures": {
+    "1": "simulated:block/dock_2",
+    "particle": "create:block/brass_casing"
+  },
+  "elements": [
+    {
+      "name": "hydraulic_rod_skin",
+      "from": [
+        -1,
+        -13,
+        -1
+      ],
+      "to": [
+        1,
+        -1,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.5,
+            12.5,
+            6.5,
+            13.5
+          ],
+          "rotation": 90,
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            0.5,
+            12.5,
+            6.5,
+            13.5
+          ],
+          "rotation": 90,
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            12.5,
+            6.5,
+            13.5
+          ],
+          "rotation": 90,
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            12.5,
+            6.5,
+            13.5
+          ],
+          "rotation": 90,
+          "texture": "#1"
+        }
+      }
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true
+}

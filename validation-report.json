@@ -1172,11 +1172,15 @@
   ],
   "scope": "Native GPU evidence, source hashes and actual game observations for the recorded395-mod client configuration. Raw PNGs and third-party art remain local.",
   "publication": {
-    "artwork": "Not uploaded; input files remain private",
+    "artwork": "Complete49 source inputs and246 compiled resources included in this repository",
     "self_generated_client_script": "Included by explicit publication authorization; no texture/UV/mesh arrays embedded",
     "original_DCP_defects": "Record only; original work logic and blue hologram remain unchanged",
-    "native_PNG_files": "Local evidence only; repository stores hashes and scope",
-    "permission_assessment": "ARR alone is not a blanket publication ban. Create community-addon reuse and resource-reference examples are documented in THIRD_PARTY_INPUTS.md; other sources retain their own applicable terms."
+    "native_PNG_files": "Two screenshot contact previews published;70 raw native GPU evidence frames retained locally with recorded hashes",
+    "permission_assessment": "ARR alone is not a blanket publication ban. Create community-addon reuse and resource-reference examples are documented in THIRD_PARTY_INPUTS.md; other sources retain their own applicable terms.",
+    "input_lock": "source-input-lock.json",
+    "resource_snapshot": "resources/ with resource-hashes.json",
+    "client_download": "Paired verified resource ZIP and renderer script distributed in release bundle with installation, credits and license notices",
+    "packaged_game_pair_changed": false
   },
   "limits": [
     "Arbitrary shader packs or every camera position",
@@ -1190,12 +1194,5 @@
     "visual-review.json": "d610c82ba963aa2f8ae36627d79eefe3777421aef840735c2e257dee08ed0e81",
     "full-run-independent-review.json": "52f162deea56b860737150f7e1b94345151e5ad5f66941efeccc3bb50b7349db",
     "postchecks-independent-visual-review.json": "3712e1e63b361ba7e4fd2d3298e6e2da5486bd8f0f408199a08946fef26d80c1"
-  },
-  "synchronization": {
-    "code_revision": "e364faa7b2f18f51dbc5622105207633d7a93e7a",
-    "integration_repository": "https://github.com/Eldershi/mechanical-expedition",
-    "integration_revision": "bbd109502aa0550c638e60aea288a6c630508a3d",
-    "remote_revisions_verified": true,
-    "artwork_uploaded": false
   }
 }

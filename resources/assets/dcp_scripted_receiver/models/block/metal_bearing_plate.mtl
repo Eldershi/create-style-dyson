@@ -1,0 +1,7 @@
+newmtl tex_16
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_receiver:block/tex_17a90c5aac1be8dbedc6b602

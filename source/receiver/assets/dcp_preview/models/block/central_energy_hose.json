@@ -1,0 +1,923 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "create:block/hose"
+  },
+  "elements": [
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_north_0_0",
+      "from": [
+        6.5,
+        6,
+        6.5
+      ],
+      "to": [
+        9.5,
+        14,
+        6.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_north_0_1",
+      "from": [
+        6.5,
+        14,
+        6.5
+      ],
+      "to": [
+        9.5,
+        22,
+        6.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_north_0_2",
+      "from": [
+        6.5,
+        22,
+        6.5
+      ],
+      "to": [
+        9.5,
+        24,
+        6.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            2.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_east_0_0",
+      "from": [
+        9.5,
+        6,
+        6.5
+      ],
+      "to": [
+        9.5,
+        14,
+        9.5
+      ],
+      "faces": {
+        "east": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_east_0_1",
+      "from": [
+        9.5,
+        14,
+        6.5
+      ],
+      "to": [
+        9.5,
+        22,
+        9.5
+      ],
+      "faces": {
+        "east": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_east_0_2",
+      "from": [
+        9.5,
+        22,
+        6.5
+      ],
+      "to": [
+        9.5,
+        24,
+        9.5
+      ],
+      "faces": {
+        "east": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            2.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_south_0_0",
+      "from": [
+        6.5,
+        6,
+        9.5
+      ],
+      "to": [
+        9.5,
+        14,
+        9.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_south_0_1",
+      "from": [
+        6.5,
+        14,
+        9.5
+      ],
+      "to": [
+        9.5,
+        22,
+        9.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_south_0_2",
+      "from": [
+        6.5,
+        22,
+        9.5
+      ],
+      "to": [
+        9.5,
+        24,
+        9.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            2.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_west_0_0",
+      "from": [
+        6.5,
+        6,
+        6.5
+      ],
+      "to": [
+        6.5,
+        14,
+        9.5
+      ],
+      "faces": {
+        "west": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_west_0_1",
+      "from": [
+        6.5,
+        14,
+        6.5
+      ],
+      "to": [
+        6.5,
+        22,
+        9.5
+      ],
+      "faces": {
+        "west": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_west_0_2",
+      "from": [
+        6.5,
+        22,
+        6.5
+      ],
+      "to": [
+        6.5,
+        24,
+        9.5
+      ],
+      "faces": {
+        "west": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            2.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_up_0_0",
+      "from": [
+        6.5,
+        24,
+        6.5
+      ],
+      "to": [
+        9.5,
+        24,
+        9.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            3.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "STATIC_yaw_only_energy_hose_3px_down_0_0",
+      "from": [
+        6.5,
+        6,
+        6.5
+      ],
+      "to": [
+        9.5,
+        6,
+        9.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/hose",
+          "uv": [
+            12.0,
+            0.0,
+            15.0,
+            3.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_front_north_0_0",
+      "from": [
+        5.5,
+        3,
+        5.5
+      ],
+      "to": [
+        10.5,
+        6,
+        5.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            6.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_front_east_0_0",
+      "from": [
+        10.5,
+        3,
+        5.5
+      ],
+      "to": [
+        10.5,
+        6,
+        6.5
+      ],
+      "faces": {
+        "east": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_front_south_0_0",
+      "from": [
+        5.5,
+        3,
+        6.5
+      ],
+      "to": [
+        10.5,
+        6,
+        6.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            6.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_front_west_0_0",
+      "from": [
+        5.5,
+        3,
+        5.5
+      ],
+      "to": [
+        5.5,
+        6,
+        6.5
+      ],
+      "faces": {
+        "west": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_front_up_0_0",
+      "from": [
+        5.5,
+        6,
+        5.5
+      ],
+      "to": [
+        10.5,
+        6,
+        6.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            6.25,
+            7.25
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_front_down_0_0",
+      "from": [
+        5.5,
+        3,
+        5.5
+      ],
+      "to": [
+        10.5,
+        3,
+        6.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            6.25,
+            7.25
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_rear_north_0_0",
+      "from": [
+        5.5,
+        3,
+        9.5
+      ],
+      "to": [
+        10.5,
+        6,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            6.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_rear_east_0_0",
+      "from": [
+        10.5,
+        3,
+        9.5
+      ],
+      "to": [
+        10.5,
+        6,
+        10.5
+      ],
+      "faces": {
+        "east": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_rear_south_0_0",
+      "from": [
+        5.5,
+        3,
+        10.5
+      ],
+      "to": [
+        10.5,
+        6,
+        10.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            6.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_rear_west_0_0",
+      "from": [
+        5.5,
+        3,
+        9.5
+      ],
+      "to": [
+        5.5,
+        6,
+        10.5
+      ],
+      "faces": {
+        "west": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_rear_up_0_0",
+      "from": [
+        5.5,
+        6,
+        9.5
+      ],
+      "to": [
+        10.5,
+        6,
+        10.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            6.25,
+            7.25
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_rear_down_0_0",
+      "from": [
+        5.5,
+        3,
+        9.5
+      ],
+      "to": [
+        10.5,
+        3,
+        10.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            6.25,
+            7.25
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_left_north_0_0",
+      "from": [
+        5.5,
+        3,
+        6.5
+      ],
+      "to": [
+        6.5,
+        6,
+        6.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_left_east_0_0",
+      "from": [
+        6.5,
+        3,
+        6.5
+      ],
+      "to": [
+        6.5,
+        6,
+        9.5
+      ],
+      "faces": {
+        "east": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.75,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_left_south_0_0",
+      "from": [
+        5.5,
+        3,
+        9.5
+      ],
+      "to": [
+        6.5,
+        6,
+        9.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_left_west_0_0",
+      "from": [
+        5.5,
+        3,
+        6.5
+      ],
+      "to": [
+        5.5,
+        6,
+        9.5
+      ],
+      "faces": {
+        "west": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.75,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_left_up_0_0",
+      "from": [
+        5.5,
+        6,
+        6.5
+      ],
+      "to": [
+        6.5,
+        6,
+        9.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_left_down_0_0",
+      "from": [
+        5.5,
+        3,
+        6.5
+      ],
+      "to": [
+        6.5,
+        3,
+        9.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_right_north_0_0",
+      "from": [
+        9.5,
+        3,
+        6.5
+      ],
+      "to": [
+        10.5,
+        6,
+        6.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_right_east_0_0",
+      "from": [
+        10.5,
+        3,
+        6.5
+      ],
+      "to": [
+        10.5,
+        6,
+        9.5
+      ],
+      "faces": {
+        "east": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.75,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_right_south_0_0",
+      "from": [
+        9.5,
+        3,
+        9.5
+      ],
+      "to": [
+        10.5,
+        6,
+        9.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_right_west_0_0",
+      "from": [
+        9.5,
+        3,
+        6.5
+      ],
+      "to": [
+        9.5,
+        6,
+        9.5
+      ],
+      "faces": {
+        "west": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.75,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_right_up_0_0",
+      "from": [
+        9.5,
+        6,
+        6.5
+      ],
+      "to": [
+        10.5,
+        6,
+        9.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.25,
+            7.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "fork_sole_energy_gland_right_down_0_0",
+      "from": [
+        9.5,
+        3,
+        6.5
+      ],
+      "to": [
+        10.5,
+        3,
+        9.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "simulated:block/laser_pointer/laser_pointer",
+          "uv": [
+            5.0,
+            7.0,
+            5.25,
+            7.75
+          ]
+        }
+      }
+    }
+  ],
+  "credit": "V6 static square3x3 Create hose and5x3x5 pierced gray gland, fork-local yaw only, source texels1:1; no pitch-following cord or lower shaft penetration"
+}

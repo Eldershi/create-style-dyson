@@ -1,0 +1,463 @@
+newmtl tex_0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_d9a68d8490ebddab4f5fc3b6
+
+newmtl tex_1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_cb387a704d5f8924c9325508
+
+newmtl tex_4
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_60f5eb557327f0070f24d09d
+
+newmtl tex_5
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_4161f3e9fa5ff04b910a8e8c
+
+newmtl tex_6
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_6c55ebc98bd3843d0246da8a
+
+newmtl tex_7
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_e624eb13092b24556e37017a
+
+newmtl tex_8
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_c28c94d3dea54eec486da7e4
+
+newmtl tex_9
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_7683185b52ac53e8cb34824a
+
+newmtl tex_10
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_3ab06b01cbfc035354e6dc30
+
+newmtl tex_11
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_ac0fd88fab4a720c15da2cd6
+
+newmtl tex_13
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_20afc8d5befbc9d8965dc636
+
+newmtl tex_14
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_30d391f476ad250bfb15158e
+
+newmtl tex_12
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_2a963fbb2f1235470b196b24
+
+newmtl tex_51
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_962b044ebd8849c99d2b8e6a
+
+newmtl tex_52
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_5a0a6dffc165e5d78e795126
+
+newmtl tex_53
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_00ff60984d66f4c162ea01b8
+
+newmtl tex_28
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_e1ba9108b54c8cb3c034ee88
+
+newmtl tex_2
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_04b09b002277eef877b8b1e0
+
+newmtl tex_15
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_1359eba88b059a4529b39cb7
+
+newmtl tex_16
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_6614c978e5c6072f344ce4ee
+
+newmtl tex_17
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_89d56d497ac6fb935b73ae70
+
+newmtl tex_18
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_17d3e9747b22261f8f3770b2
+
+newmtl tex_19
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_4c8018752a1a81291ba7d9d2
+
+newmtl tex_20
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_b20d69538ccffe63558bbe62
+
+newmtl tex_21
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_150008cb43bdf353cdee0eb5
+
+newmtl tex_22
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_d96400565f72e7270eeb9daa
+
+newmtl tex_23
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_6478540493ff30828015f9f2
+
+newmtl tex_31
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_967bc6a0d19610e3bb203215
+
+newmtl tex_32
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_da66d342ef0fd658f87b2720
+
+newmtl tex_24
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_1c93717fe4f30d1738e4fcbe
+
+newmtl tex_33
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_09d95275dc15a491464521e2
+
+newmtl tex_34
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_1a127380a01161dec5119234
+
+newmtl tex_35
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_10475f4cd4bc40a22b612bf5
+
+newmtl tex_36
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_6fdae5852975f739f94ad9af
+
+newmtl tex_54
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_568e8ed9f40c57c377fee2c0
+
+newmtl tex_55
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_9eb52c57a3e396c0c9bca8c6
+
+newmtl tex_56
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_bc129d935b522284a386d028
+
+newmtl tex_57
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_3c52cb9bfad3fef994c6c7fc
+
+newmtl tex_27
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_022b36203bdacc77de4b93ae
+
+newmtl tex_29
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_8525f816ddf047c4afe68aff
+
+newmtl tex_30
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_951367788790f7e26a7bc6da
+
+newmtl tex_50
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_ee4bd995d0bd99eded5ac44e
+
+newmtl tex_48
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_6aecf354dce6689c93540019
+
+newmtl tex_37
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_dae51e0c1e306a42e9b087f9
+
+newmtl tex_38
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_1ffc1ac051070c63f7730d24
+
+newmtl tex_39
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_fa34f30abd33051a1b33dfab
+
+newmtl tex_40
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_0c3ad6410b9b447cd52d8ac3
+
+newmtl tex_41
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_f13521e651b11fd46c881528
+
+newmtl tex_42
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_7647f6488a11eb073b31c6a3
+
+newmtl tex_43
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_6c01990608c201eeb35fe9b0
+
+newmtl tex_26
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_3e14ddeb45799586e94d9073
+
+newmtl tex_44
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_1c424f84720495db1c1eab0d
+
+newmtl tex_45
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_43e8eb417fd683615d9b3c60
+
+newmtl tex_46
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_fbf65dbac558bb138957185c
+
+newmtl tex_47
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_ce6bfcdfa6755219b178e231
+
+newmtl tex_3
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_8628bfea9341cdcd79b8d6ef
+
+newmtl tex_49
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_24b7d244ca691e384a289fa7
+
+newmtl tex_25
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_4b2830c6bde9cfe0decc5485

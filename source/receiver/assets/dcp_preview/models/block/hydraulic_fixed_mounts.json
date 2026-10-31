@@ -1,0 +1,5773 @@
+{
+  "credit": "V6 functional hydraulic support/cranks; cuboids only; genuineCBC/Aeronautics UVcrops at nativepixel density",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+    "m0": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+    "m1": "simulated:block/dock_2"
+  },
+  "elements": [
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -16,
+        3,
+        5
+      ],
+      "to": [
+        -10,
+        5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -10,
+        3,
+        5
+      ],
+      "to": [
+        -4,
+        5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            6.0,
+            9.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -16,
+        3,
+        5
+      ],
+      "to": [
+        -10,
+        5,
+        11
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            7.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -10,
+        3,
+        5
+      ],
+      "to": [
+        -4,
+        5,
+        11
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            6.0,
+            9.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -16,
+        3,
+        5
+      ],
+      "to": [
+        -4,
+        5,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            8.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -16,
+        3,
+        10
+      ],
+      "to": [
+        -4,
+        5,
+        11
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            3.0,
+            6.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -16,
+        3,
+        5
+      ],
+      "to": [
+        -4,
+        5,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            8.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -16,
+        3,
+        10
+      ],
+      "to": [
+        -4,
+        5,
+        11
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            3.0,
+            6.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -16,
+        3,
+        5
+      ],
+      "to": [
+        -10,
+        5,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            7.0,
+            8.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -16,
+        3,
+        10
+      ],
+      "to": [
+        -10,
+        5,
+        11
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            7.0,
+            3.0,
+            13.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -10,
+        3,
+        5
+      ],
+      "to": [
+        -4,
+        5,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            8.0,
+            9.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -10,
+        3,
+        10
+      ],
+      "to": [
+        -4,
+        5,
+        11
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -16,
+        3,
+        5
+      ],
+      "to": [
+        -10,
+        5,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            7.0,
+            8.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -16,
+        3,
+        10
+      ],
+      "to": [
+        -10,
+        5,
+        11
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            7.0,
+            3.0,
+            13.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -10,
+        3,
+        5
+      ],
+      "to": [
+        -4,
+        5,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            8.0,
+            9.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_0",
+      "from": [
+        -10,
+        3,
+        10
+      ],
+      "to": [
+        -4,
+        5,
+        11
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_0",
+      "from": [
+        -16,
+        5,
+        6
+      ],
+      "to": [
+        -15,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.0,
+            8.0,
+            8.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_0",
+      "from": [
+        -16,
+        5,
+        6
+      ],
+      "to": [
+        -15,
+        9,
+        10
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            7.0,
+            8.0,
+            8.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_0",
+      "from": [
+        -16,
+        5,
+        6
+      ],
+      "to": [
+        -15,
+        9,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_0",
+      "from": [
+        -16,
+        5,
+        6
+      ],
+      "to": [
+        -15,
+        9,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_0",
+      "from": [
+        -16,
+        5,
+        6
+      ],
+      "to": [
+        -15,
+        9,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            7.0,
+            9.0,
+            8.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_0",
+      "from": [
+        -16,
+        5,
+        6
+      ],
+      "to": [
+        -15,
+        9,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            7.0,
+            9.0,
+            8.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_0",
+      "from": [
+        -16,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.0,
+            12.0,
+            8.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_0",
+      "from": [
+        -16,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            7.0,
+            12.0,
+            8.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_0",
+      "from": [
+        -16,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_0",
+      "from": [
+        -16,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_0",
+      "from": [
+        -16,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        10.0,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.0,
+            15.0,
+            1.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_0",
+      "from": [
+        -16,
+        9.0,
+        8
+      ],
+      "to": [
+        -15,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.0,
+            14.0,
+            1.5,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_0",
+      "from": [
+        -16,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            7.0,
+            9.0,
+            8.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_1",
+      "from": [
+        -16,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.0,
+            5.0,
+            8.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_1",
+      "from": [
+        -16,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            7.0,
+            5.0,
+            8.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_1",
+      "from": [
+        -16,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_1",
+      "from": [
+        -16,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_1",
+      "from": [
+        -16,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            7.0,
+            9.0,
+            8.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_1",
+      "from": [
+        -16,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        13.0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.0,
+            15.0,
+            1.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_1",
+      "from": [
+        -16,
+        12.0,
+        8
+      ],
+      "to": [
+        -15,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.0,
+            14.0,
+            1.5,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_2",
+      "from": [
+        -16,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.0,
+            3.0,
+            8.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_2",
+      "from": [
+        -16,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1.0,
+            15.0,
+            1.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_2",
+      "from": [
+        -16,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_2",
+      "from": [
+        -16,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_2",
+      "from": [
+        -16,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            7.0,
+            9.0,
+            8.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_2",
+      "from": [
+        -16,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -15,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            7.0,
+            9.0,
+            8.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_3",
+      "from": [
+        -16,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -15,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.0,
+            15.0,
+            1.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_3",
+      "from": [
+        -16,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -15,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            7.0,
+            3.0,
+            8.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_3",
+      "from": [
+        -16,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -15,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_3",
+      "from": [
+        -16,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -15,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_3",
+      "from": [
+        -16,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -15,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            7.0,
+            12.0,
+            8.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_0_square_bore_strip_3",
+      "from": [
+        -16,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -15,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            7.0,
+            12.0,
+            8.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_1",
+      "from": [
+        -11,
+        5,
+        6
+      ],
+      "to": [
+        -10,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_1",
+      "from": [
+        -10,
+        5,
+        6
+      ],
+      "to": [
+        -9,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            8.0,
+            4.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_1",
+      "from": [
+        -11,
+        5,
+        6
+      ],
+      "to": [
+        -10,
+        9,
+        10
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_1",
+      "from": [
+        -10,
+        5,
+        6
+      ],
+      "to": [
+        -9,
+        9,
+        10
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            8.0,
+            4.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_1",
+      "from": [
+        -11,
+        5,
+        6
+      ],
+      "to": [
+        -9,
+        9,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_1",
+      "from": [
+        -11,
+        5,
+        6
+      ],
+      "to": [
+        -9,
+        9,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_1",
+      "from": [
+        -11,
+        5,
+        6
+      ],
+      "to": [
+        -10,
+        9,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            9.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_1",
+      "from": [
+        -10,
+        5,
+        6
+      ],
+      "to": [
+        -9,
+        9,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_1",
+      "from": [
+        -11,
+        5,
+        6
+      ],
+      "to": [
+        -10,
+        9,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            9.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_1",
+      "from": [
+        -10,
+        5,
+        6
+      ],
+      "to": [
+        -9,
+        9,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_0",
+      "from": [
+        -11,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -10,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_0",
+      "from": [
+        -10,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            12.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_0",
+      "from": [
+        -11,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -10,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_0",
+      "from": [
+        -10,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            12.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_0",
+      "from": [
+        -11,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_0",
+      "from": [
+        -11,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_0",
+      "from": [
+        -11,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        10.0,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.5,
+            15.0,
+            2.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_0",
+      "from": [
+        -11,
+        9.0,
+        8
+      ],
+      "to": [
+        -9,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.5,
+            14.0,
+            2.5,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_0",
+      "from": [
+        -11,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -10,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            9.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_0",
+      "from": [
+        -10,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_1",
+      "from": [
+        -11,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -10,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_1",
+      "from": [
+        -10,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            5.0,
+            4.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_1",
+      "from": [
+        -11,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -10,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_1",
+      "from": [
+        -10,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            5.0,
+            4.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_1",
+      "from": [
+        -11,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_1",
+      "from": [
+        -11,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_1",
+      "from": [
+        -11,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -10,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            9.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_1",
+      "from": [
+        -10,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_1",
+      "from": [
+        -11,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        13.0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.5,
+            15.0,
+            2.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_1",
+      "from": [
+        -11,
+        12.0,
+        8
+      ],
+      "to": [
+        -9,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.5,
+            14.0,
+            2.5,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_2",
+      "from": [
+        -11,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -10,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_2",
+      "from": [
+        -10,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_2",
+      "from": [
+        -11,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1.5,
+            15.0,
+            2.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_2",
+      "from": [
+        -11,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_2",
+      "from": [
+        -11,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_2",
+      "from": [
+        -11,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -10,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            9.0,
+            13.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_2",
+      "from": [
+        -10,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_2",
+      "from": [
+        -11,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -10,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            9.0,
+            13.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_2",
+      "from": [
+        -10,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -9,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_3",
+      "from": [
+        -11,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -9,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            15.0,
+            2.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_3",
+      "from": [
+        -11,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -10,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_3",
+      "from": [
+        -10,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -9,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_3",
+      "from": [
+        -11,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -9,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_3",
+      "from": [
+        -11,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -9,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_3",
+      "from": [
+        -11,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -10,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_3",
+      "from": [
+        -10,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -9,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            12.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_3",
+      "from": [
+        -11,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -10,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_1_square_bore_strip_3",
+      "from": [
+        -10,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -9,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            12.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_2",
+      "from": [
+        -5,
+        5,
+        6
+      ],
+      "to": [
+        -4,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.0,
+            8.0,
+            9.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_2",
+      "from": [
+        -5,
+        5,
+        6
+      ],
+      "to": [
+        -4,
+        9,
+        10
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.0,
+            8.0,
+            9.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_2",
+      "from": [
+        -5,
+        5,
+        6
+      ],
+      "to": [
+        -4,
+        9,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_2",
+      "from": [
+        -5,
+        5,
+        6
+      ],
+      "to": [
+        -4,
+        9,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_2",
+      "from": [
+        -5,
+        5,
+        6
+      ],
+      "to": [
+        -4,
+        9,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            9.0,
+            9.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_0_2",
+      "from": [
+        -5,
+        5,
+        6
+      ],
+      "to": [
+        -4,
+        9,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            9.0,
+            9.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_0",
+      "from": [
+        -5,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.0,
+            12.0,
+            9.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_0",
+      "from": [
+        -5,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.0,
+            12.0,
+            9.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_0",
+      "from": [
+        -5,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_0",
+      "from": [
+        -5,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_0",
+      "from": [
+        -5,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        10.0,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2.5,
+            15.0,
+            3.0,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_0",
+      "from": [
+        -5,
+        9.0,
+        8
+      ],
+      "to": [
+        -4,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2.5,
+            14.0,
+            3.0,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_0",
+      "from": [
+        -5,
+        9.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            9.0,
+            9.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_1",
+      "from": [
+        -5,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.0,
+            5.0,
+            9.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_1",
+      "from": [
+        -5,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.0,
+            5.0,
+            9.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_1",
+      "from": [
+        -5,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_1",
+      "from": [
+        -5,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_1",
+      "from": [
+        -5,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            9.0,
+            9.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_1",
+      "from": [
+        -5,
+        12.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        13.0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2.5,
+            15.0,
+            3.0,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_1",
+      "from": [
+        -5,
+        12.0,
+        8
+      ],
+      "to": [
+        -4,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2.5,
+            14.0,
+            3.0,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_2",
+      "from": [
+        -5,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.0,
+            3.0,
+            9.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_2",
+      "from": [
+        -5,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            2.5,
+            15.0,
+            3.0,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_2",
+      "from": [
+        -5,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_2",
+      "from": [
+        -5,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_2",
+      "from": [
+        -5,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            9.0,
+            9.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_2",
+      "from": [
+        -5,
+        10.0,
+        6.0
+      ],
+      "to": [
+        -4,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            9.0,
+            9.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_3",
+      "from": [
+        -5,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -4,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            15.0,
+            3.0,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_3",
+      "from": [
+        -5,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -4,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.0,
+            3.0,
+            9.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_3",
+      "from": [
+        -5,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -4,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_3",
+      "from": [
+        -5,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -4,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_3",
+      "from": [
+        -5,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -4,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            12.0,
+            9.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_0_2_square_bore_strip_3",
+      "from": [
+        -5,
+        10.0,
+        9.0
+      ],
+      "to": [
+        -4,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            12.0,
+            9.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        20,
+        3,
+        5
+      ],
+      "to": [
+        30,
+        5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        30,
+        3,
+        5
+      ],
+      "to": [
+        32,
+        5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            6.0,
+            5.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        20,
+        3,
+        5
+      ],
+      "to": [
+        30,
+        5,
+        11
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        30,
+        3,
+        5
+      ],
+      "to": [
+        32,
+        5,
+        11
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            6.0,
+            5.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        20,
+        3,
+        5
+      ],
+      "to": [
+        32,
+        5,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            8.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        20,
+        3,
+        10
+      ],
+      "to": [
+        32,
+        5,
+        11
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            3.0,
+            6.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        20,
+        3,
+        5
+      ],
+      "to": [
+        32,
+        5,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            8.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        20,
+        3,
+        10
+      ],
+      "to": [
+        32,
+        5,
+        11
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            3.0,
+            6.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        20,
+        3,
+        5
+      ],
+      "to": [
+        30,
+        5,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            8.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        20,
+        3,
+        10
+      ],
+      "to": [
+        30,
+        5,
+        11
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        30,
+        3,
+        5
+      ],
+      "to": [
+        32,
+        5,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            8.0,
+            5.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        30,
+        3,
+        10
+      ],
+      "to": [
+        32,
+        5,
+        11
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        20,
+        3,
+        5
+      ],
+      "to": [
+        30,
+        5,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            8.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        20,
+        3,
+        10
+      ],
+      "to": [
+        30,
+        5,
+        11
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        30,
+        3,
+        5
+      ],
+      "to": [
+        32,
+        5,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            8.0,
+            5.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_hydraulic_wing_1",
+      "from": [
+        30,
+        3,
+        10
+      ],
+      "to": [
+        32,
+        5,
+        11
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_0",
+      "from": [
+        20,
+        5,
+        6
+      ],
+      "to": [
+        21,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            8.0,
+            4.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_0",
+      "from": [
+        20,
+        5,
+        6
+      ],
+      "to": [
+        21,
+        9,
+        10
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            8.0,
+            4.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_0",
+      "from": [
+        20,
+        5,
+        6
+      ],
+      "to": [
+        21,
+        9,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_0",
+      "from": [
+        20,
+        5,
+        6
+      ],
+      "to": [
+        21,
+        9,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_0",
+      "from": [
+        20,
+        5,
+        6
+      ],
+      "to": [
+        21,
+        9,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_0",
+      "from": [
+        20,
+        5,
+        6
+      ],
+      "to": [
+        21,
+        9,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_0",
+      "from": [
+        20,
+        9.0,
+        6.0
+      ],
+      "to": [
+        21,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            12.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_0",
+      "from": [
+        20,
+        9.0,
+        6.0
+      ],
+      "to": [
+        21,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            12.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_0",
+      "from": [
+        20,
+        9.0,
+        6.0
+      ],
+      "to": [
+        21,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_0",
+      "from": [
+        20,
+        9.0,
+        6.0
+      ],
+      "to": [
+        21,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_0",
+      "from": [
+        20,
+        9.0,
+        6.0
+      ],
+      "to": [
+        21,
+        10.0,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.0,
+            15.0,
+            1.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_0",
+      "from": [
+        20,
+        9.0,
+        8
+      ],
+      "to": [
+        21,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.0,
+            14.0,
+            1.5,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_0",
+      "from": [
+        20,
+        9.0,
+        6.0
+      ],
+      "to": [
+        21,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_1",
+      "from": [
+        20,
+        12.0,
+        6.0
+      ],
+      "to": [
+        21,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            5.0,
+            4.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_1",
+      "from": [
+        20,
+        12.0,
+        6.0
+      ],
+      "to": [
+        21,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            5.0,
+            4.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_1",
+      "from": [
+        20,
+        12.0,
+        6.0
+      ],
+      "to": [
+        21,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_1",
+      "from": [
+        20,
+        12.0,
+        6.0
+      ],
+      "to": [
+        21,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_1",
+      "from": [
+        20,
+        12.0,
+        6.0
+      ],
+      "to": [
+        21,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_1",
+      "from": [
+        20,
+        12.0,
+        6.0
+      ],
+      "to": [
+        21,
+        13.0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.0,
+            15.0,
+            1.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_1",
+      "from": [
+        20,
+        12.0,
+        8
+      ],
+      "to": [
+        21,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.0,
+            14.0,
+            1.5,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_2",
+      "from": [
+        20,
+        10.0,
+        6.0
+      ],
+      "to": [
+        21,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_2",
+      "from": [
+        20,
+        10.0,
+        6.0
+      ],
+      "to": [
+        21,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1.0,
+            15.0,
+            1.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_2",
+      "from": [
+        20,
+        10.0,
+        6.0
+      ],
+      "to": [
+        21,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_2",
+      "from": [
+        20,
+        10.0,
+        6.0
+      ],
+      "to": [
+        21,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_2",
+      "from": [
+        20,
+        10.0,
+        6.0
+      ],
+      "to": [
+        21,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_2",
+      "from": [
+        20,
+        10.0,
+        6.0
+      ],
+      "to": [
+        21,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_3",
+      "from": [
+        20,
+        10.0,
+        9.0
+      ],
+      "to": [
+        21,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.0,
+            15.0,
+            1.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_3",
+      "from": [
+        20,
+        10.0,
+        9.0
+      ],
+      "to": [
+        21,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_3",
+      "from": [
+        20,
+        10.0,
+        9.0
+      ],
+      "to": [
+        21,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_3",
+      "from": [
+        20,
+        10.0,
+        9.0
+      ],
+      "to": [
+        21,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_3",
+      "from": [
+        20,
+        10.0,
+        9.0
+      ],
+      "to": [
+        21,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            12.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_0_square_bore_strip_3",
+      "from": [
+        20,
+        10.0,
+        9.0
+      ],
+      "to": [
+        21,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            12.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_1",
+      "from": [
+        25,
+        5,
+        6
+      ],
+      "to": [
+        27,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.0,
+            8.0,
+            10.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_1",
+      "from": [
+        25,
+        5,
+        6
+      ],
+      "to": [
+        27,
+        9,
+        10
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.0,
+            8.0,
+            10.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_1",
+      "from": [
+        25,
+        5,
+        6
+      ],
+      "to": [
+        27,
+        9,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_1",
+      "from": [
+        25,
+        5,
+        6
+      ],
+      "to": [
+        27,
+        9,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_1",
+      "from": [
+        25,
+        5,
+        6
+      ],
+      "to": [
+        27,
+        9,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            9.0,
+            10.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_1",
+      "from": [
+        25,
+        5,
+        6
+      ],
+      "to": [
+        27,
+        9,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            9.0,
+            10.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_0",
+      "from": [
+        25,
+        9.0,
+        6.0
+      ],
+      "to": [
+        27,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.0,
+            12.0,
+            10.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_0",
+      "from": [
+        25,
+        9.0,
+        6.0
+      ],
+      "to": [
+        27,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.0,
+            12.0,
+            10.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_0",
+      "from": [
+        25,
+        9.0,
+        6.0
+      ],
+      "to": [
+        27,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_0",
+      "from": [
+        25,
+        9.0,
+        6.0
+      ],
+      "to": [
+        27,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_0",
+      "from": [
+        25,
+        9.0,
+        6.0
+      ],
+      "to": [
+        27,
+        10.0,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.5,
+            15.0,
+            2.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_0",
+      "from": [
+        25,
+        9.0,
+        8
+      ],
+      "to": [
+        27,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.5,
+            14.0,
+            2.5,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_0",
+      "from": [
+        25,
+        9.0,
+        6.0
+      ],
+      "to": [
+        27,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            9.0,
+            10.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_1",
+      "from": [
+        25,
+        12.0,
+        6.0
+      ],
+      "to": [
+        27,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.0,
+            5.0,
+            10.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_1",
+      "from": [
+        25,
+        12.0,
+        6.0
+      ],
+      "to": [
+        27,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.0,
+            5.0,
+            10.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_1",
+      "from": [
+        25,
+        12.0,
+        6.0
+      ],
+      "to": [
+        27,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_1",
+      "from": [
+        25,
+        12.0,
+        6.0
+      ],
+      "to": [
+        27,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_1",
+      "from": [
+        25,
+        12.0,
+        6.0
+      ],
+      "to": [
+        27,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            9.0,
+            10.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_1",
+      "from": [
+        25,
+        12.0,
+        6.0
+      ],
+      "to": [
+        27,
+        13.0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.5,
+            15.0,
+            2.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_1",
+      "from": [
+        25,
+        12.0,
+        8
+      ],
+      "to": [
+        27,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.5,
+            14.0,
+            2.5,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_2",
+      "from": [
+        25,
+        10.0,
+        6.0
+      ],
+      "to": [
+        27,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_2",
+      "from": [
+        25,
+        10.0,
+        6.0
+      ],
+      "to": [
+        27,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1.5,
+            15.0,
+            2.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_2",
+      "from": [
+        25,
+        10.0,
+        6.0
+      ],
+      "to": [
+        27,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_2",
+      "from": [
+        25,
+        10.0,
+        6.0
+      ],
+      "to": [
+        27,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_2",
+      "from": [
+        25,
+        10.0,
+        6.0
+      ],
+      "to": [
+        27,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            9.0,
+            10.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_2",
+      "from": [
+        25,
+        10.0,
+        6.0
+      ],
+      "to": [
+        27,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            9.0,
+            10.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_3",
+      "from": [
+        25,
+        10.0,
+        9.0
+      ],
+      "to": [
+        27,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            15.0,
+            2.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_3",
+      "from": [
+        25,
+        10.0,
+        9.0
+      ],
+      "to": [
+        27,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_3",
+      "from": [
+        25,
+        10.0,
+        9.0
+      ],
+      "to": [
+        27,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_3",
+      "from": [
+        25,
+        10.0,
+        9.0
+      ],
+      "to": [
+        27,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_3",
+      "from": [
+        25,
+        10.0,
+        9.0
+      ],
+      "to": [
+        27,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            12.0,
+            10.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_1_square_bore_strip_3",
+      "from": [
+        25,
+        10.0,
+        9.0
+      ],
+      "to": [
+        27,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            12.0,
+            10.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_2",
+      "from": [
+        31,
+        5,
+        6
+      ],
+      "to": [
+        32,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            8.0,
+            5.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_2",
+      "from": [
+        31,
+        5,
+        6
+      ],
+      "to": [
+        32,
+        9,
+        10
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            4.0,
+            8.0,
+            5.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_2",
+      "from": [
+        31,
+        5,
+        6
+      ],
+      "to": [
+        32,
+        9,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_2",
+      "from": [
+        31,
+        5,
+        6
+      ],
+      "to": [
+        32,
+        9,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            8.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_2",
+      "from": [
+        31,
+        5,
+        6
+      ],
+      "to": [
+        32,
+        9,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            4.0,
+            9.0,
+            5.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_clevis_support_1_2",
+      "from": [
+        31,
+        5,
+        6
+      ],
+      "to": [
+        32,
+        9,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            9.0,
+            5.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_0",
+      "from": [
+        31,
+        9.0,
+        6.0
+      ],
+      "to": [
+        32,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            12.0,
+            5.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_0",
+      "from": [
+        31,
+        9.0,
+        6.0
+      ],
+      "to": [
+        32,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            4.0,
+            12.0,
+            5.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_0",
+      "from": [
+        31,
+        9.0,
+        6.0
+      ],
+      "to": [
+        32,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_0",
+      "from": [
+        31,
+        9.0,
+        6.0
+      ],
+      "to": [
+        32,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_0",
+      "from": [
+        31,
+        9.0,
+        6.0
+      ],
+      "to": [
+        32,
+        10.0,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2.5,
+            15.0,
+            3.0,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_0",
+      "from": [
+        31,
+        9.0,
+        8
+      ],
+      "to": [
+        32,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2.5,
+            14.0,
+            3.0,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_0",
+      "from": [
+        31,
+        9.0,
+        6.0
+      ],
+      "to": [
+        32,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            9.0,
+            5.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_1",
+      "from": [
+        31,
+        12.0,
+        6.0
+      ],
+      "to": [
+        32,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            5.0,
+            5.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_1",
+      "from": [
+        31,
+        12.0,
+        6.0
+      ],
+      "to": [
+        32,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            4.0,
+            5.0,
+            5.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_1",
+      "from": [
+        31,
+        12.0,
+        6.0
+      ],
+      "to": [
+        32,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_1",
+      "from": [
+        31,
+        12.0,
+        6.0
+      ],
+      "to": [
+        32,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_1",
+      "from": [
+        31,
+        12.0,
+        6.0
+      ],
+      "to": [
+        32,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            4.0,
+            9.0,
+            5.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_1",
+      "from": [
+        31,
+        12.0,
+        6.0
+      ],
+      "to": [
+        32,
+        13.0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2.5,
+            15.0,
+            3.0,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_1",
+      "from": [
+        31,
+        12.0,
+        8
+      ],
+      "to": [
+        32,
+        13.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2.5,
+            14.0,
+            3.0,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_2",
+      "from": [
+        31,
+        10.0,
+        6.0
+      ],
+      "to": [
+        32,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            3.0,
+            5.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_2",
+      "from": [
+        31,
+        10.0,
+        6.0
+      ],
+      "to": [
+        32,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            2.5,
+            15.0,
+            3.0,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_2",
+      "from": [
+        31,
+        10.0,
+        6.0
+      ],
+      "to": [
+        32,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_2",
+      "from": [
+        31,
+        10.0,
+        6.0
+      ],
+      "to": [
+        32,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            3.0,
+            10.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_2",
+      "from": [
+        31,
+        10.0,
+        6.0
+      ],
+      "to": [
+        32,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            4.0,
+            9.0,
+            5.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_2",
+      "from": [
+        31,
+        10.0,
+        6.0
+      ],
+      "to": [
+        32,
+        12.0,
+        7.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            9.0,
+            5.0,
+            10.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_3",
+      "from": [
+        31,
+        10.0,
+        9.0
+      ],
+      "to": [
+        32,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            15.0,
+            3.0,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_3",
+      "from": [
+        31,
+        10.0,
+        9.0
+      ],
+      "to": [
+        32,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            4.0,
+            3.0,
+            5.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_3",
+      "from": [
+        31,
+        10.0,
+        9.0
+      ],
+      "to": [
+        32,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_3",
+      "from": [
+        31,
+        10.0,
+        9.0
+      ],
+      "to": [
+        32,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_3",
+      "from": [
+        31,
+        10.0,
+        9.0
+      ],
+      "to": [
+        32,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            4.0,
+            12.0,
+            5.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "fixed_base_eye_clevis_1_2_square_bore_strip_3",
+      "from": [
+        31,
+        10.0,
+        9.0
+      ],
+      "to": [
+        32,
+        12.0,
+        10.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            12.0,
+            5.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    }
+  ]
+}

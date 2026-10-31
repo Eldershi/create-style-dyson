@@ -1,0 +1,31 @@
+newmtl tex_4
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_60f5eb557327f0070f24d09d
+
+newmtl tex_27
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_022b36203bdacc77de4b93ae
+
+newmtl tex_48
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_6aecf354dce6689c93540019
+
+newmtl tex_16
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_6614c978e5c6072f344ce4ee

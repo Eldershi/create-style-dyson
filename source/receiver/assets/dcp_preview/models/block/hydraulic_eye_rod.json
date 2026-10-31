@@ -1,0 +1,1549 @@
+{
+  "credit": "V6 functional hydraulic support/cranks; cuboids only; genuineCBC/Aeronautics UVcrops at nativepixel density",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+    "m0": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+    "m1": "simulated:block/dock_2"
+  },
+  "elements": [
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        -1.0,
+        -2.0,
+        -2.0
+      ],
+      "to": [
+        0,
+        -1.0,
+        2.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            11.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        0,
+        -2.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        -1.0,
+        2.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            11.0,
+            4.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        -1.0,
+        -2.0,
+        -2.0
+      ],
+      "to": [
+        0,
+        -1.0,
+        2.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            11.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        0,
+        -2.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        -1.0,
+        2.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            11.0,
+            4.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        -1.0,
+        -2.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        -1.0,
+        0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            11.0,
+            11.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        -1.0,
+        -2.0,
+        0
+      ],
+      "to": [
+        1.0,
+        -1.0,
+        2.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            3.0,
+            11.0,
+            5.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        -1.0,
+        -2.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        -1.0,
+        0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            11.0,
+            11.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        -1.0,
+        -2.0,
+        0
+      ],
+      "to": [
+        1.0,
+        -1.0,
+        2.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            3.0,
+            11.0,
+            5.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        -1.0,
+        -2.0,
+        -2.0
+      ],
+      "to": [
+        0,
+        -1.0,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2.5,
+            15.0,
+            3.0,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        -1.0,
+        -2.0,
+        0
+      ],
+      "to": [
+        0,
+        -1.0,
+        2.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2.5,
+            14.0,
+            3.0,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        0,
+        -2.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        -1.0,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.0,
+            15.0,
+            1.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        0,
+        -2.0,
+        0
+      ],
+      "to": [
+        1.0,
+        -1.0,
+        2.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.0,
+            14.0,
+            1.5,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        -1.0,
+        -2.0,
+        -2.0
+      ],
+      "to": [
+        0,
+        -1.0,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            11.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        -1.0,
+        -2.0,
+        0
+      ],
+      "to": [
+        0,
+        -1.0,
+        2.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        0,
+        -2.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        -1.0,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            11.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_0",
+      "from": [
+        0,
+        -2.0,
+        0
+      ],
+      "to": [
+        1.0,
+        -1.0,
+        2.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        -1.0,
+        1.0,
+        -2.0
+      ],
+      "to": [
+        0,
+        2.0,
+        2.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            4.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        0,
+        1.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        2.0,
+        2.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            4.0,
+            4.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        -1.0,
+        1.0,
+        -2.0
+      ],
+      "to": [
+        0,
+        2.0,
+        2.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            4.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        0,
+        1.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        2.0,
+        2.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            4.0,
+            4.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        -1.0,
+        1.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        2.0,
+        0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            11.0,
+            4.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        -1.0,
+        1.0,
+        0
+      ],
+      "to": [
+        1.0,
+        2.0,
+        2.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            3.0,
+            4.0,
+            5.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        -1.0,
+        1.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        2.0,
+        0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            11.0,
+            4.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        -1.0,
+        1.0,
+        0
+      ],
+      "to": [
+        1.0,
+        2.0,
+        2.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            3.0,
+            4.0,
+            5.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        -1.0,
+        1.0,
+        -2.0
+      ],
+      "to": [
+        0,
+        2.0,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            11.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        -1.0,
+        1.0,
+        0
+      ],
+      "to": [
+        0,
+        2.0,
+        2.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        0,
+        1.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        2.0,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            11.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        0,
+        1.0,
+        0
+      ],
+      "to": [
+        1.0,
+        2.0,
+        2.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        -1.0,
+        1.0,
+        -2.0
+      ],
+      "to": [
+        0,
+        2.0,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2.5,
+            15.0,
+            3.0,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        -1.0,
+        1.0,
+        0
+      ],
+      "to": [
+        0,
+        2.0,
+        2.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2.5,
+            14.0,
+            3.0,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        0,
+        1.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        2.0,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.0,
+            15.0,
+            1.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_1",
+      "from": [
+        0,
+        1.0,
+        0
+      ],
+      "to": [
+        1.0,
+        2.0,
+        2.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.0,
+            14.0,
+            1.5,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        -1.0,
+        -1.0,
+        -2.0
+      ],
+      "to": [
+        0,
+        0,
+        -1.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        -1.0,
+        0,
+        -2.0
+      ],
+      "to": [
+        0,
+        1.0,
+        -1.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        0,
+        -1.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        0,
+        -1.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            12.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        0,
+        0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        -1.0,
+        -1.0,
+        -2.0
+      ],
+      "to": [
+        0,
+        0,
+        -1.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            2.5,
+            15.5,
+            3.0,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        -1.0,
+        0,
+        -2.0
+      ],
+      "to": [
+        0,
+        1.0,
+        -1.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            2.5,
+            14.0,
+            3.0,
+            14.5
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        0,
+        -1.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        0,
+        -1.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1.0,
+            15.5,
+            1.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        0,
+        0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1.0,
+            14.0,
+            1.5,
+            14.5
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        -1.0,
+        -1.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        0,
+        -1.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            11.0,
+            12.0,
+            12.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        -1.0,
+        0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            11.0,
+            3.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        -1.0,
+        -1.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        0,
+        -1.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            11.0,
+            12.0,
+            12.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        -1.0,
+        0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            11.0,
+            3.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        -1.0,
+        -1.0,
+        -2.0
+      ],
+      "to": [
+        0,
+        1.0,
+        -1.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            11.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        0,
+        -1.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            11.0,
+            4.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        -1.0,
+        -1.0,
+        -2.0
+      ],
+      "to": [
+        0,
+        1.0,
+        -1.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            11.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_2",
+      "from": [
+        0,
+        -1.0,
+        -2.0
+      ],
+      "to": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            11.0,
+            4.0,
+            12.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "to": [
+        0,
+        0,
+        2.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            15.5,
+            3.0,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        -1.0,
+        0,
+        1.0
+      ],
+      "to": [
+        0,
+        1.0,
+        2.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            14.0,
+            3.0,
+            14.5
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        0,
+        -1.0,
+        1.0
+      ],
+      "to": [
+        1.0,
+        0,
+        2.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.0,
+            15.5,
+            1.5,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        0,
+        0,
+        1.0
+      ],
+      "to": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.0,
+            14.0,
+            1.5,
+            14.5
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "to": [
+        0,
+        0,
+        2.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            12.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        -1.0,
+        0,
+        1.0
+      ],
+      "to": [
+        0,
+        1.0,
+        2.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            3.0,
+            13.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        0,
+        -1.0,
+        1.0
+      ],
+      "to": [
+        1.0,
+        0,
+        2.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            12.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        0,
+        0,
+        1.0
+      ],
+      "to": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "to": [
+        1.0,
+        0,
+        2.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            4.0,
+            12.0,
+            5.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        -1.0,
+        0,
+        1.0
+      ],
+      "to": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            4.0,
+            3.0,
+            5.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "to": [
+        1.0,
+        0,
+        2.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            4.0,
+            12.0,
+            5.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        -1.0,
+        0,
+        1.0
+      ],
+      "to": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            4.0,
+            3.0,
+            5.0,
+            4.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "to": [
+        0,
+        1.0,
+        2.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            4.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        0,
+        -1.0,
+        1.0
+      ],
+      "to": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            4.0,
+            4.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "to": [
+        0,
+        1.0,
+        2.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            4.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "actuator_eye_square_bore_strip_3",
+      "from": [
+        0,
+        -1.0,
+        1.0
+      ],
+      "to": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            4.0,
+            4.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    }
+  ]
+}

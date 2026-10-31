@@ -1,0 +1,80 @@
+{
+  "loader": "forge:composite",
+  "children": {
+    "fixed_base": {
+      "parent": "dcp_scripted_rail:block/fixed_base"
+    },
+    "modern_slew_fixed_windowed": {
+      "parent": "dcp_scripted_rail:block/modern_slew_fixed_windowed"
+    },
+    "modern_slew_rotor_plain": {
+      "parent": "dcp_scripted_rail:block/modern_slew_rotor_plain"
+    },
+    "modern_mount": {
+      "parent": "dcp_scripted_rail:block/modern_mount"
+    },
+    "modern_pitch_lugs": {
+      "parent": "dcp_scripted_rail:block/modern_pitch_lugs"
+    },
+    "modern_ram_barrel": {
+      "parent": "dcp_scripted_rail:block/modern_ram_barrel"
+    },
+    "modern_ram_rod": {
+      "parent": "dcp_scripted_rail:block/modern_ram_rod"
+    },
+    "modern_launcher": {
+      "parent": "dcp_scripted_rail:block/modern_launcher"
+    },
+    "modern_cradle": {
+      "parent": "dcp_scripted_rail:block/modern_cradle"
+    },
+    "modern_loading_station": {
+      "parent": "dcp_scripted_rail:block/modern_loading_station"
+    },
+    "modern_loading_carriage": {
+      "parent": "dcp_scripted_rail:block/modern_loading_carriage"
+    },
+    "modern_rammer_rod": {
+      "parent": "dcp_scripted_rail:block/modern_rammer_rod"
+    },
+    "modern_staged_package": {
+      "parent": "dcp_scripted_rail:block/modern_staged_package"
+    },
+    "electromagnetic_modules": {
+      "parent": "dcp_scripted_rail:block/electromagnetic_modules"
+    },
+    "inner_winding_rims": {
+      "parent": "dcp_scripted_rail:block/inner_winding_rims"
+    },
+    "power_fixed_v10": {
+      "parent": "dcp_scripted_rail:block/power_fixed_v10"
+    },
+    "power_yaw_v10": {
+      "parent": "dcp_scripted_rail:block/power_yaw_v10"
+    },
+    "power_breech_boots_v10": {
+      "parent": "dcp_scripted_rail:block/power_breech_boots_v10"
+    },
+    "power_pitch_leg12_v10": {
+      "parent": "dcp_scripted_rail:block/power_pitch_leg12_v10"
+    },
+    "power_pitch_elbow_v10": {
+      "parent": "dcp_scripted_rail:block/power_pitch_elbow_v10"
+    },
+    "modern_base_transformers": {
+      "parent": "dcp_scripted_rail:block/modern_base_transformers"
+    },
+    "modern_rear_hood": {
+      "parent": "dcp_scripted_rail:block/modern_rear_hood"
+    },
+    "modern_rear_radiators": {
+      "parent": "dcp_scripted_rail:block/modern_rear_radiators"
+    },
+    "modern_tail_hatch": {
+      "parent": "dcp_scripted_rail:block/modern_tail_hatch"
+    },
+    "em_railejector_projectile": {
+      "parent": "dcp_scripted_rail:block/em_railejector_projectile"
+    }
+  }
+}

@@ -20,10 +20,10 @@ import sys
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent
-from private_inputs import input_root
-PRIVATE=input_root()
-SCENE_SOURCE = PRIVATE / 'rail/scene.js'
-SOURCE = PRIVATE / 'rail/payload.json'
+from source_inputs import input_root
+INPUT=input_root()
+SCENE_SOURCE = INPUT / 'rail/scene.js'
+SOURCE = INPUT / 'rail/payload.json'
 OUT = ROOT / 'outputs/scripted-pack'
 WORK = ROOT / 'work/scripted-rail'
 NS = 'dcp_scripted_rail'

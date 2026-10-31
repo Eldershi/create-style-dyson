@@ -1,0 +1,12 @@
+{
+  "loader": "forge:obj",
+  "model": "dcp_scripted_rail:models/block/modern_staged_package.obj",
+  "automatic_culling": false,
+  "shade_quads": true,
+  "flip_v": false,
+  "emissive_ambient": false,
+  "textures": {
+    "particle": "dcp_scripted_rail:block/tex_cb387a704d5f8924c9325508"
+  },
+  "ambientocclusion": true
+}

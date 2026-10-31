@@ -1,0 +1,12 @@
+{
+  "loader": "forge:obj",
+  "model": "dcp_scripted_rail:models/block/electromagnetic_modules.obj",
+  "automatic_culling": false,
+  "shade_quads": true,
+  "flip_v": false,
+  "emissive_ambient": false,
+  "textures": {
+    "particle": "dcp_scripted_rail:block/tex_8525f816ddf047c4afe68aff"
+  },
+  "ambientocclusion": true
+}

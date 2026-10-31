@@ -1,0 +1,3111 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true,
+  "credit": "V6 square assembly; exact native PNGs and model parts; custom surfaces use source texel crops, no scaled blocks",
+  "textures": {
+    "2": "simulated:block/swivel_bearing"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        1,
+        0
+      ],
+      "to": [
+        16,
+        6,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            5,
+            16,
+            7.5
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            8,
+            5,
+            16,
+            7.5
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            8,
+            5,
+            16,
+            7.5
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            8,
+            5,
+            16,
+            7.5
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            16,
+            16
+          ],
+          "texture": "#2"
+        },
+        "down": {
+          "uv": [
+            8,
+            8,
+            16,
+            16
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        12
+      ],
+      "to": [
+        16,
+        1,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            15.5,
+            16,
+            16
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            8,
+            7.5,
+            10,
+            8
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            8,
+            7.5,
+            16,
+            8
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            14,
+            7.5,
+            16,
+            8
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            16,
+            16
+          ],
+          "texture": "#2"
+        },
+        "down": {
+          "uv": [
+            8,
+            8,
+            16,
+            10
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        1,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            7.5,
+            16,
+            8
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            14,
+            7.5,
+            16,
+            8
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            8,
+            15.5,
+            16,
+            16
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            8,
+            7.5,
+            10,
+            8
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            16,
+            16
+          ],
+          "texture": "#2"
+        },
+        "down": {
+          "uv": [
+            8,
+            14,
+            16,
+            16
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        4
+      ],
+      "to": [
+        4,
+        1,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            5,
+            16,
+            7.5
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            10,
+            15.5,
+            14,
+            16
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            8,
+            5,
+            16,
+            7.5
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            10,
+            7.5,
+            14,
+            8
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            16,
+            16
+          ],
+          "texture": "#2"
+        },
+        "down": {
+          "uv": [
+            8,
+            10,
+            10,
+            14
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "from": [
+        12,
+        0,
+        4
+      ],
+      "to": [
+        16,
+        1,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            5,
+            16,
+            7.5
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            10,
+            7.5,
+            14,
+            8
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            8,
+            5,
+            16,
+            7.5
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            10,
+            15.5,
+            14,
+            16
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            16,
+            16
+          ],
+          "texture": "#2"
+        },
+        "down": {
+          "uv": [
+            14,
+            10,
+            16,
+            14
+          ],
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        -3,
+        5,
+        -3
+      ],
+      "to": [
+        -2,
+        6,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        -3,
+        5,
+        7
+      ],
+      "to": [
+        -2,
+        6,
+        17
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        -3,
+        5,
+        17
+      ],
+      "to": [
+        -2,
+        6,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        -3,
+        6,
+        -3
+      ],
+      "to": [
+        -2,
+        10.75,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        -3,
+        6,
+        7
+      ],
+      "to": [
+        -2,
+        10.75,
+        17
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        -3,
+        6,
+        17
+      ],
+      "to": [
+        -2,
+        10.75,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            7.75
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            7.75
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        -3,
+        10.75,
+        -3
+      ],
+      "to": [
+        -2,
+        11.75,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        -3,
+        10.75,
+        7
+      ],
+      "to": [
+        -2,
+        11.75,
+        17
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        -3,
+        10.75,
+        17
+      ],
+      "to": [
+        -2,
+        11.75,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_end",
+      "from": [
+        -2,
+        5,
+        -3
+      ],
+      "to": [
+        8,
+        6,
+        -2
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_end",
+      "from": [
+        8,
+        5,
+        -3
+      ],
+      "to": [
+        18,
+        6,
+        -2
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_end",
+      "from": [
+        -2,
+        6,
+        -3
+      ],
+      "to": [
+        8,
+        10.75,
+        -2
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_end",
+      "from": [
+        8,
+        6,
+        -3
+      ],
+      "to": [
+        18,
+        10.75,
+        -2
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_end",
+      "from": [
+        -2,
+        10.75,
+        -3
+      ],
+      "to": [
+        8,
+        11.75,
+        -2
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_end",
+      "from": [
+        8,
+        10.75,
+        -3
+      ],
+      "to": [
+        18,
+        11.75,
+        -2
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        18,
+        5,
+        -3
+      ],
+      "to": [
+        19,
+        6,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        18,
+        5,
+        7
+      ],
+      "to": [
+        19,
+        6,
+        17
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        18,
+        5,
+        17
+      ],
+      "to": [
+        19,
+        6,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        18,
+        6,
+        -3
+      ],
+      "to": [
+        19,
+        10.75,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        18,
+        6,
+        7
+      ],
+      "to": [
+        19,
+        10.75,
+        17
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        18,
+        6,
+        17
+      ],
+      "to": [
+        19,
+        10.75,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            7.75
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            7.75
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        18,
+        10.75,
+        -3
+      ],
+      "to": [
+        19,
+        11.75,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        18,
+        10.75,
+        7
+      ],
+      "to": [
+        19,
+        11.75,
+        17
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_side",
+      "from": [
+        18,
+        10.75,
+        17
+      ],
+      "to": [
+        19,
+        11.75,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_end",
+      "from": [
+        -2,
+        5,
+        18
+      ],
+      "to": [
+        8,
+        6,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_end",
+      "from": [
+        8,
+        5,
+        18
+      ],
+      "to": [
+        18,
+        6,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_end",
+      "from": [
+        -2,
+        6,
+        18
+      ],
+      "to": [
+        8,
+        10.75,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_end",
+      "from": [
+        8,
+        6,
+        18
+      ],
+      "to": [
+        18,
+        10.75,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.75
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            7.75
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_end",
+      "from": [
+        -2,
+        10.75,
+        18
+      ],
+      "to": [
+        8,
+        11.75,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "square_gear_guard_end",
+      "from": [
+        8,
+        10.75,
+        18
+      ],
+      "to": [
+        18,
+        11.75,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "guard_support_shoulder",
+      "from": [
+        -3,
+        4,
+        -3
+      ],
+      "to": [
+        0,
+        5,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "guard_support_shoulder",
+      "from": [
+        -3,
+        4,
+        7
+      ],
+      "to": [
+        0,
+        5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            9.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            9.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "guard_support_shoulder",
+      "from": [
+        -3,
+        4,
+        13
+      ],
+      "to": [
+        0,
+        5,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            9.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            9.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "guard_support_shoulder",
+      "from": [
+        16,
+        4,
+        -3
+      ],
+      "to": [
+        19,
+        5,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "guard_support_shoulder",
+      "from": [
+        16,
+        4,
+        7
+      ],
+      "to": [
+        19,
+        5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            9.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            9.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "guard_support_shoulder",
+      "from": [
+        16,
+        4,
+        13
+      ],
+      "to": [
+        19,
+        5,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            9.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            9.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "guard_support_shoulder",
+      "from": [
+        0,
+        4,
+        -3
+      ],
+      "to": [
+        10,
+        5,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            6.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            6.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "guard_support_shoulder",
+      "from": [
+        10,
+        4,
+        -3
+      ],
+      "to": [
+        16,
+        5,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            6.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            6.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "guard_support_shoulder",
+      "from": [
+        0,
+        4,
+        16
+      ],
+      "to": [
+        10,
+        5,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            6.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            6.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "guard_support_shoulder",
+      "from": [
+        10,
+        4,
+        16
+      ],
+      "to": [
+        16,
+        5,
+        19
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            6.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            9.0,
+            6.0
+          ]
+        }
+      }
+    }
+  ]
+}

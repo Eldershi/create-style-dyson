@@ -1,0 +1,1989 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true,
+  "credit": "V6 square assembly; exact native PNGs and model parts; custom surfaces use source texel crops, no scaled blocks",
+  "textures": {},
+  "elements": [
+    {
+      "name": "connected_train_deck_top_notch_crop_0",
+      "from": [
+        -16,
+        0,
+        -16
+      ],
+      "to": [
+        0,
+        4,
+        -0.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/railway_casing_connected",
+          "uv": [
+            10.0,
+            4.0,
+            12.0,
+            5.9375
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_train_deck_top_notch_crop_3",
+      "from": [
+        -4,
+        0,
+        -0.5
+      ],
+      "to": [
+        0,
+        4,
+        0
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/railway_casing_connected",
+          "uv": [
+            11.5,
+            5.9375,
+            12.0,
+            6.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "deck_underside_notch_crop_0",
+      "from": [
+        -16,
+        0,
+        -16
+      ],
+      "to": [
+        0,
+        4,
+        -0.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            0.5,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "deck_underside_notch_crop_3",
+      "from": [
+        -4,
+        0,
+        -0.5
+      ],
+      "to": [
+        0,
+        4,
+        0
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            0.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_train_deck_top",
+      "from": [
+        0,
+        0,
+        -16
+      ],
+      "to": [
+        16,
+        4,
+        0
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/railway_casing_connected",
+          "uv": [
+            4.0,
+            14.0,
+            6.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "deck_underside",
+      "from": [
+        0,
+        0,
+        -16
+      ],
+      "to": [
+        16,
+        4,
+        0
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_train_deck_top_notch_crop_0",
+      "from": [
+        16,
+        0,
+        -16
+      ],
+      "to": [
+        32,
+        4,
+        -0.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/railway_casing_connected",
+          "uv": [
+            10.0,
+            2.0,
+            12.0,
+            3.9375
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_train_deck_top_notch_crop_2",
+      "from": [
+        16,
+        0,
+        -0.5
+      ],
+      "to": [
+        20,
+        4,
+        0
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/railway_casing_connected",
+          "uv": [
+            10.0,
+            3.9375,
+            10.5,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "deck_underside_notch_crop_0",
+      "from": [
+        16,
+        0,
+        -16
+      ],
+      "to": [
+        32,
+        4,
+        -0.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            0.5,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "deck_underside_notch_crop_2",
+      "from": [
+        16,
+        0,
+        -0.5
+      ],
+      "to": [
+        20,
+        4,
+        0
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            0.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_train_deck_top_notch_crop_3",
+      "from": [
+        -4,
+        0,
+        0
+      ],
+      "to": [
+        0,
+        4,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/railway_casing_connected",
+          "uv": [
+            5.5,
+            10.0,
+            6.0,
+            12.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "deck_underside_notch_crop_3",
+      "from": [
+        -4,
+        0,
+        0
+      ],
+      "to": [
+        0,
+        4,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_train_deck_top",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/railway_casing_connected",
+          "uv": [
+            12.0,
+            12.0,
+            14.0,
+            14.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "deck_underside",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_train_deck_top_notch_crop_2",
+      "from": [
+        16,
+        0,
+        0
+      ],
+      "to": [
+        20,
+        4,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/railway_casing_connected",
+          "uv": [
+            4.0,
+            8.0,
+            4.5,
+            10.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "deck_underside_notch_crop_2",
+      "from": [
+        16,
+        0,
+        0
+      ],
+      "to": [
+        20,
+        4,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_train_deck_top_notch_crop_1",
+      "from": [
+        -16,
+        0,
+        16.5
+      ],
+      "to": [
+        0,
+        4,
+        32
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/railway_casing_connected",
+          "uv": [
+            8.0,
+            4.0625,
+            10.0,
+            6.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_train_deck_top_notch_crop_3",
+      "from": [
+        -4,
+        0,
+        16
+      ],
+      "to": [
+        0,
+        4,
+        16.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/railway_casing_connected",
+          "uv": [
+            9.5,
+            4.0,
+            10.0,
+            4.0625
+          ]
+        }
+      }
+    },
+    {
+      "name": "deck_underside_notch_crop_1",
+      "from": [
+        -16,
+        0,
+        16.5
+      ],
+      "to": [
+        0,
+        4,
+        32
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            15.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "deck_underside_notch_crop_3",
+      "from": [
+        -4,
+        0,
+        16
+      ],
+      "to": [
+        0,
+        4,
+        16.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            12.0,
+            15.5,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_train_deck_top",
+      "from": [
+        0,
+        0,
+        16
+      ],
+      "to": [
+        16,
+        4,
+        32
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/railway_casing_connected",
+          "uv": [
+            4.0,
+            12.0,
+            6.0,
+            14.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "deck_underside",
+      "from": [
+        0,
+        0,
+        16
+      ],
+      "to": [
+        16,
+        4,
+        32
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_train_deck_top_notch_crop_1",
+      "from": [
+        16,
+        0,
+        16.5
+      ],
+      "to": [
+        32,
+        4,
+        32
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/railway_casing_connected",
+          "uv": [
+            8.0,
+            2.0625,
+            10.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_train_deck_top_notch_crop_2",
+      "from": [
+        16,
+        0,
+        16
+      ],
+      "to": [
+        20,
+        4,
+        16.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "create:block/railway_casing_connected",
+          "uv": [
+            8.0,
+            2.0,
+            8.5,
+            2.0625
+          ]
+        }
+      }
+    },
+    {
+      "name": "deck_underside_notch_crop_1",
+      "from": [
+        16,
+        0,
+        16.5
+      ],
+      "to": [
+        32,
+        4,
+        32
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            15.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "deck_underside_notch_crop_2",
+      "from": [
+        16,
+        0,
+        16
+      ],
+      "to": [
+        20,
+        4,
+        16.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            15.5,
+            4.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_deck_edge_north",
+      "from": [
+        -16,
+        0,
+        -16
+      ],
+      "to": [
+        0,
+        4,
+        -16
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            0.0,
+            5.5,
+            2.0,
+            6.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_deck_edge_north",
+      "from": [
+        0,
+        0,
+        -16
+      ],
+      "to": [
+        16,
+        4,
+        -16
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            0.0,
+            7.5,
+            2.0,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_deck_edge_north",
+      "from": [
+        16,
+        0,
+        -16
+      ],
+      "to": [
+        32,
+        4,
+        -16
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            0.0,
+            3.5,
+            2.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_deck_edge_south",
+      "from": [
+        -16,
+        0,
+        32
+      ],
+      "to": [
+        0,
+        4,
+        32
+      ],
+      "faces": {
+        "south": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            0.0,
+            5.5,
+            2.0,
+            6.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_deck_edge_south",
+      "from": [
+        0,
+        0,
+        32
+      ],
+      "to": [
+        16,
+        4,
+        32
+      ],
+      "faces": {
+        "south": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            0.0,
+            7.5,
+            2.0,
+            8.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_deck_edge_south",
+      "from": [
+        16,
+        0,
+        32
+      ],
+      "to": [
+        32,
+        4,
+        32
+      ],
+      "faces": {
+        "south": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            0.0,
+            3.5,
+            2.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_deck_edge_west_open_edge_crop",
+      "from": [
+        -16,
+        0,
+        -16
+      ],
+      "to": [
+        -16,
+        4,
+        -0.5
+      ],
+      "faces": {
+        "west": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            0.0,
+            5.5,
+            1.9375,
+            6.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_deck_edge_west_open_edge_crop",
+      "from": [
+        -16,
+        0,
+        16.5
+      ],
+      "to": [
+        -16,
+        4,
+        32
+      ],
+      "faces": {
+        "west": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            0.0625,
+            3.5,
+            2.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_deck_edge_east_open_edge_crop",
+      "from": [
+        32,
+        0,
+        -16
+      ],
+      "to": [
+        32,
+        4,
+        -0.5
+      ],
+      "faces": {
+        "east": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            0.0625,
+            5.5,
+            2.0,
+            6.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "connected_deck_edge_east_open_edge_crop",
+      "from": [
+        32,
+        0,
+        16.5
+      ],
+      "to": [
+        32,
+        4,
+        32
+      ],
+      "faces": {
+        "east": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            0.0,
+            3.5,
+            1.9375,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_steel_inner_wall",
+      "from": [
+        -4,
+        0,
+        -0.5
+      ],
+      "to": [
+        -4,
+        4,
+        9.5
+      ],
+      "faces": {
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_steel_inner_wall",
+      "from": [
+        -4,
+        0,
+        9.5
+      ],
+      "to": [
+        -4,
+        4,
+        16.5
+      ],
+      "faces": {
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            10.0,
+            7.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_steel_front_wall",
+      "from": [
+        -16,
+        0,
+        -0.5
+      ],
+      "to": [
+        -6,
+        4,
+        -0.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_steel_front_wall",
+      "from": [
+        -6,
+        0,
+        -0.5
+      ],
+      "to": [
+        -4,
+        4,
+        -0.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            7.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_steel_rear_wall",
+      "from": [
+        -16,
+        0,
+        16.5
+      ],
+      "to": [
+        -6,
+        4,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_steel_rear_wall",
+      "from": [
+        -6,
+        0,
+        16.5
+      ],
+      "to": [
+        -4,
+        4,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            7.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_brass_inner_lip",
+      "from": [
+        -4,
+        4,
+        -0.5
+      ],
+      "to": [
+        -3,
+        5,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_brass_inner_lip",
+      "from": [
+        -4,
+        4,
+        9.5
+      ],
+      "to": [
+        -3,
+        5,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            10.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            10.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            10.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            10.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_brass_front_lip",
+      "from": [
+        -16,
+        4,
+        -1.5
+      ],
+      "to": [
+        -6,
+        5,
+        -0.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_brass_front_lip",
+      "from": [
+        -6,
+        4,
+        -1.5
+      ],
+      "to": [
+        -3,
+        5,
+        -0.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_brass_rear_lip",
+      "from": [
+        -16,
+        4,
+        16.5
+      ],
+      "to": [
+        -6,
+        5,
+        17.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_brass_rear_lip",
+      "from": [
+        -6,
+        4,
+        16.5
+      ],
+      "to": [
+        -3,
+        5,
+        17.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_steel_inner_wall",
+      "from": [
+        20,
+        0,
+        -0.5
+      ],
+      "to": [
+        20,
+        4,
+        9.5
+      ],
+      "faces": {
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_steel_inner_wall",
+      "from": [
+        20,
+        0,
+        9.5
+      ],
+      "to": [
+        20,
+        4,
+        16.5
+      ],
+      "faces": {
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            10.0,
+            7.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_steel_front_wall",
+      "from": [
+        20,
+        0,
+        -0.5
+      ],
+      "to": [
+        30,
+        4,
+        -0.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_steel_front_wall",
+      "from": [
+        30,
+        0,
+        -0.5
+      ],
+      "to": [
+        32,
+        4,
+        -0.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            7.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_steel_rear_wall",
+      "from": [
+        20,
+        0,
+        16.5
+      ],
+      "to": [
+        30,
+        4,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            7.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_steel_rear_wall",
+      "from": [
+        30,
+        0,
+        16.5
+      ],
+      "to": [
+        32,
+        4,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            5.0,
+            7.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_brass_inner_lip",
+      "from": [
+        19,
+        4,
+        -0.5
+      ],
+      "to": [
+        20,
+        5,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_brass_inner_lip",
+      "from": [
+        19,
+        4,
+        9.5
+      ],
+      "to": [
+        20,
+        5,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            10.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            10.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            10.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            10.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_brass_front_lip",
+      "from": [
+        19,
+        4,
+        -1.5
+      ],
+      "to": [
+        29,
+        5,
+        -0.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_brass_front_lip",
+      "from": [
+        29,
+        4,
+        -1.5
+      ],
+      "to": [
+        32,
+        5,
+        -0.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_brass_rear_lip",
+      "from": [
+        19,
+        4,
+        16.5
+      ],
+      "to": [
+        29,
+        5,
+        17.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "notch_brass_rear_lip",
+      "from": [
+        29,
+        4,
+        16.5
+      ],
+      "to": [
+        32,
+        5,
+        17.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            3.0,
+            3.0,
+            6.0,
+            4.0
+          ]
+        }
+      }
+    }
+  ]
+}

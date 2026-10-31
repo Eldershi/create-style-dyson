@@ -1,0 +1,12 @@
+{
+  "loader": "forge:obj",
+  "model": "dcp_scripted_rail:models/block/power_yaw_v10.obj",
+  "automatic_culling": false,
+  "shade_quads": true,
+  "flip_v": false,
+  "emissive_ambient": false,
+  "textures": {
+    "particle": "dcp_scripted_rail:block/tex_6aecf354dce6689c93540019"
+  },
+  "ambientocclusion": true
+}

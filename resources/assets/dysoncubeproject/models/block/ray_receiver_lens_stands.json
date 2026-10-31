@@ -1,0 +1,8 @@
+{
+  "credit": "Body rendered by the approved-part KubeJS client renderer; original Java renderer keeps native FX only.",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "dysoncubeproject:block/particle"
+  },
+  "elements": []
+}

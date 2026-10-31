@@ -1,0 +1,23 @@
+newmtl tex_7
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_e624eb13092b24556e37017a
+
+newmtl tex_10
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_3ab06b01cbfc035354e6dc30
+
+newmtl tex_16
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_6614c978e5c6072f344ce4ee

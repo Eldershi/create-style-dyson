@@ -1,0 +1,7 @@
+newmtl tex_50
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_ee4bd995d0bd99eded5ac44e

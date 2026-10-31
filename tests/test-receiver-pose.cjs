@@ -1,6 +1,6 @@
 const fs=require('fs'),path=require('path'),vm=require('vm');
 const root=path.resolve(__dirname,'..');
-const source=fs.readFileSync(path.join(process.env.DCP_PRIVATE_INPUTS||path.join(root,'source'),'receiver/scene.js'),'utf8');
+const source=fs.readFileSync(path.join(process.env.DCP_SOURCE_INPUTS||path.join(root,'source'),'receiver/scene.js'),'utf8');
 const reference=new Function('pitch','const state={pitch:pitch,yaw:0};\n'+source+'\nreturn scene("new");');
 vm.runInThisContext(fs.readFileSync(path.join(root,'work/scripted-receiver/receiver_pose.js'),'utf8'));
 const names={};for(const [name,resource]of Object.entries(DCP_RECEIVER_V6_POSE.models))names[resource.split('/').pop()]=name;

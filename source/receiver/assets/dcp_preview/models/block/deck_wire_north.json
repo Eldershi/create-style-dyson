@@ -1,0 +1,5725 @@
+{
+  "credit": "V6 functional hydraulic support/cranks; cuboids only; genuineCBC/Aeronautics UVcrops at nativepixel density",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+    "m0": "create:block/hose",
+    "m1": "createbigcannons:block/cannon_mount/rotating_mount_plate"
+  },
+  "elements": [
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        -10.25
+      ],
+      "to": [
+        4,
+        7,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        4,
+        5,
+        -10.25
+      ],
+      "to": [
+        5,
+        7,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            5.0,
+            13.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        -10.25
+      ],
+      "to": [
+        4,
+        7,
+        3
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            15.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        4,
+        5,
+        -10.25
+      ],
+      "to": [
+        5,
+        7,
+        3
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            5.0,
+            13.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        -10.25
+      ],
+      "to": [
+        5,
+        7,
+        -8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            13.75,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        -8
+      ],
+      "to": [
+        5,
+        7,
+        -4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        -4
+      ],
+      "to": [
+        5,
+        7,
+        0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        0
+      ],
+      "to": [
+        5,
+        7,
+        3
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            5.0,
+            15.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        -10.25
+      ],
+      "to": [
+        5,
+        7,
+        -8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            13.75,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        -8
+      ],
+      "to": [
+        5,
+        7,
+        -4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        -4
+      ],
+      "to": [
+        5,
+        7,
+        0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        0
+      ],
+      "to": [
+        5,
+        7,
+        3
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            5.0,
+            15.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        -10.25
+      ],
+      "to": [
+        4,
+        7,
+        -8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            5.75,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        -8
+      ],
+      "to": [
+        4,
+        7,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        0
+      ],
+      "to": [
+        4,
+        7,
+        3
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        4,
+        5,
+        -10.25
+      ],
+      "to": [
+        5,
+        7,
+        -8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            5.75,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        4,
+        5,
+        -8
+      ],
+      "to": [
+        5,
+        7,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        4,
+        5,
+        0
+      ],
+      "to": [
+        5,
+        7,
+        3
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        -10.25
+      ],
+      "to": [
+        4,
+        7,
+        -8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            5.75,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        -8
+      ],
+      "to": [
+        4,
+        7,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        3,
+        5,
+        0
+      ],
+      "to": [
+        4,
+        7,
+        3
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        4,
+        5,
+        -10.25
+      ],
+      "to": [
+        5,
+        7,
+        -8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            5.75,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        4,
+        5,
+        -8
+      ],
+      "to": [
+        5,
+        7,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_0",
+      "from": [
+        4,
+        5,
+        0
+      ],
+      "to": [
+        5,
+        7,
+        3
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        3,
+        -2,
+        -10.25
+      ],
+      "to": [
+        4,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        3,
+        0,
+        -10.25
+      ],
+      "to": [
+        4,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        4,
+        -2,
+        -10.25
+      ],
+      "to": [
+        5,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        4,
+        0,
+        -10.25
+      ],
+      "to": [
+        5,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        3,
+        -2,
+        -10.25
+      ],
+      "to": [
+        4,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            15.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        3,
+        0,
+        -10.25
+      ],
+      "to": [
+        4,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        4,
+        -2,
+        -10.25
+      ],
+      "to": [
+        5,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        4,
+        0,
+        -10.25
+      ],
+      "to": [
+        5,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        3,
+        -2,
+        -10.25
+      ],
+      "to": [
+        5,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            13.75,
+            6.0,
+            15.75,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        3,
+        0,
+        -10.25
+      ],
+      "to": [
+        5,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            13.75,
+            0.0,
+            15.75,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        3,
+        -2,
+        -10.25
+      ],
+      "to": [
+        5,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            13.75,
+            6.0,
+            15.75,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        3,
+        0,
+        -10.25
+      ],
+      "to": [
+        5,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            13.75,
+            0.0,
+            15.75,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        3,
+        -2,
+        -10.25
+      ],
+      "to": [
+        4,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            5.75,
+            16.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        4,
+        -2,
+        -10.25
+      ],
+      "to": [
+        5,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            5.75,
+            13.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        3,
+        -2,
+        -10.25
+      ],
+      "to": [
+        4,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            5.75,
+            16.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_0",
+      "from": [
+        4,
+        -2,
+        -10.25
+      ],
+      "to": [
+        5,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            5.75,
+            13.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        -8.25
+      ],
+      "to": [
+        4,
+        0,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        4,
+        -2,
+        -8.25
+      ],
+      "to": [
+        5,
+        0,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        -8.25
+      ],
+      "to": [
+        4,
+        0,
+        11
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            15.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        4,
+        -2,
+        -8.25
+      ],
+      "to": [
+        5,
+        0,
+        11
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        -8.25
+      ],
+      "to": [
+        5,
+        0,
+        -8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            15.75,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        -8
+      ],
+      "to": [
+        5,
+        0,
+        -4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        -4
+      ],
+      "to": [
+        5,
+        0,
+        0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        0
+      ],
+      "to": [
+        5,
+        0,
+        4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        4
+      ],
+      "to": [
+        5,
+        0,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        8
+      ],
+      "to": [
+        5,
+        0,
+        11
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            15.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        -8.25
+      ],
+      "to": [
+        5,
+        0,
+        -8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            15.75,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        -8
+      ],
+      "to": [
+        5,
+        0,
+        -4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        -4
+      ],
+      "to": [
+        5,
+        0,
+        0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        0
+      ],
+      "to": [
+        5,
+        0,
+        4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        4
+      ],
+      "to": [
+        5,
+        0,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        8
+      ],
+      "to": [
+        5,
+        0,
+        11
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            15.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        -8.25
+      ],
+      "to": [
+        4,
+        0,
+        -8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            7.75,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        -8
+      ],
+      "to": [
+        4,
+        0,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        0
+      ],
+      "to": [
+        4,
+        0,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        8
+      ],
+      "to": [
+        4,
+        0,
+        11
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        4,
+        -2,
+        -8.25
+      ],
+      "to": [
+        5,
+        0,
+        -8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            7.75,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        4,
+        -2,
+        -8
+      ],
+      "to": [
+        5,
+        0,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        4,
+        -2,
+        0
+      ],
+      "to": [
+        5,
+        0,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        4,
+        -2,
+        8
+      ],
+      "to": [
+        5,
+        0,
+        11
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        -8.25
+      ],
+      "to": [
+        4,
+        0,
+        -8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            7.75,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        -8
+      ],
+      "to": [
+        4,
+        0,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        0
+      ],
+      "to": [
+        4,
+        0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        3,
+        -2,
+        8
+      ],
+      "to": [
+        4,
+        0,
+        11
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        4,
+        -2,
+        -8.25
+      ],
+      "to": [
+        5,
+        0,
+        -8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            7.75,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        4,
+        -2,
+        -8
+      ],
+      "to": [
+        5,
+        0,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        4,
+        -2,
+        0
+      ],
+      "to": [
+        5,
+        0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_0",
+      "from": [
+        4,
+        -2,
+        8
+      ],
+      "to": [
+        5,
+        0,
+        11
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        -10.25
+      ],
+      "to": [
+        8,
+        7,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        8,
+        5,
+        -10.25
+      ],
+      "to": [
+        9,
+        7,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            5.0,
+            13.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        -10.25
+      ],
+      "to": [
+        8,
+        7,
+        3
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            15.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        8,
+        5,
+        -10.25
+      ],
+      "to": [
+        9,
+        7,
+        3
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            5.0,
+            13.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        -10.25
+      ],
+      "to": [
+        9,
+        7,
+        -8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            13.75,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        -8
+      ],
+      "to": [
+        9,
+        7,
+        -4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        -4
+      ],
+      "to": [
+        9,
+        7,
+        0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        0
+      ],
+      "to": [
+        9,
+        7,
+        3
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            5.0,
+            15.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        -10.25
+      ],
+      "to": [
+        9,
+        7,
+        -8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            13.75,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        -8
+      ],
+      "to": [
+        9,
+        7,
+        -4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        -4
+      ],
+      "to": [
+        9,
+        7,
+        0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        0
+      ],
+      "to": [
+        9,
+        7,
+        3
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            5.0,
+            15.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        -10.25
+      ],
+      "to": [
+        8,
+        7,
+        -8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            5.75,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        -8
+      ],
+      "to": [
+        8,
+        7,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        0
+      ],
+      "to": [
+        8,
+        7,
+        3
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        8,
+        5,
+        -10.25
+      ],
+      "to": [
+        9,
+        7,
+        -8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            5.75,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        8,
+        5,
+        -8
+      ],
+      "to": [
+        9,
+        7,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        8,
+        5,
+        0
+      ],
+      "to": [
+        9,
+        7,
+        3
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        -10.25
+      ],
+      "to": [
+        8,
+        7,
+        -8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            5.75,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        -8
+      ],
+      "to": [
+        8,
+        7,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        7,
+        5,
+        0
+      ],
+      "to": [
+        8,
+        7,
+        3
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        8,
+        5,
+        -10.25
+      ],
+      "to": [
+        9,
+        7,
+        -8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            5.75,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        8,
+        5,
+        -8
+      ],
+      "to": [
+        9,
+        7,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_1",
+      "from": [
+        8,
+        5,
+        0
+      ],
+      "to": [
+        9,
+        7,
+        3
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        7,
+        -2,
+        -10.25
+      ],
+      "to": [
+        8,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        7,
+        0,
+        -10.25
+      ],
+      "to": [
+        8,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        8,
+        -2,
+        -10.25
+      ],
+      "to": [
+        9,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        8,
+        0,
+        -10.25
+      ],
+      "to": [
+        9,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        7,
+        -2,
+        -10.25
+      ],
+      "to": [
+        8,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            15.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        7,
+        0,
+        -10.25
+      ],
+      "to": [
+        8,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        8,
+        -2,
+        -10.25
+      ],
+      "to": [
+        9,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        8,
+        0,
+        -10.25
+      ],
+      "to": [
+        9,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        7,
+        -2,
+        -10.25
+      ],
+      "to": [
+        9,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            13.75,
+            6.0,
+            15.75,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        7,
+        0,
+        -10.25
+      ],
+      "to": [
+        9,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            13.75,
+            0.0,
+            15.75,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        7,
+        -2,
+        -10.25
+      ],
+      "to": [
+        9,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            13.75,
+            6.0,
+            15.75,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        7,
+        0,
+        -10.25
+      ],
+      "to": [
+        9,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            13.75,
+            0.0,
+            15.75,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        7,
+        -2,
+        -10.25
+      ],
+      "to": [
+        8,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            5.75,
+            16.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        8,
+        -2,
+        -10.25
+      ],
+      "to": [
+        9,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            5.75,
+            13.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        7,
+        -2,
+        -10.25
+      ],
+      "to": [
+        8,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            5.75,
+            16.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_1",
+      "from": [
+        8,
+        -2,
+        -10.25
+      ],
+      "to": [
+        9,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            5.75,
+            13.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        -8.25
+      ],
+      "to": [
+        8,
+        0,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        8,
+        -2,
+        -8.25
+      ],
+      "to": [
+        9,
+        0,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        -8.25
+      ],
+      "to": [
+        8,
+        0,
+        11
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            15.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        8,
+        -2,
+        -8.25
+      ],
+      "to": [
+        9,
+        0,
+        11
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        -8.25
+      ],
+      "to": [
+        9,
+        0,
+        -8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            15.75,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        -8
+      ],
+      "to": [
+        9,
+        0,
+        -4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        -4
+      ],
+      "to": [
+        9,
+        0,
+        0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        0
+      ],
+      "to": [
+        9,
+        0,
+        4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        4
+      ],
+      "to": [
+        9,
+        0,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        8
+      ],
+      "to": [
+        9,
+        0,
+        11
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            15.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        -8.25
+      ],
+      "to": [
+        9,
+        0,
+        -8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            15.75,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        -8
+      ],
+      "to": [
+        9,
+        0,
+        -4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        -4
+      ],
+      "to": [
+        9,
+        0,
+        0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        0
+      ],
+      "to": [
+        9,
+        0,
+        4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        4
+      ],
+      "to": [
+        9,
+        0,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        8
+      ],
+      "to": [
+        9,
+        0,
+        11
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            15.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        -8.25
+      ],
+      "to": [
+        8,
+        0,
+        -8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            7.75,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        -8
+      ],
+      "to": [
+        8,
+        0,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        0
+      ],
+      "to": [
+        8,
+        0,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        8
+      ],
+      "to": [
+        8,
+        0,
+        11
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        8,
+        -2,
+        -8.25
+      ],
+      "to": [
+        9,
+        0,
+        -8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            7.75,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        8,
+        -2,
+        -8
+      ],
+      "to": [
+        9,
+        0,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        8,
+        -2,
+        0
+      ],
+      "to": [
+        9,
+        0,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        8,
+        -2,
+        8
+      ],
+      "to": [
+        9,
+        0,
+        11
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        -8.25
+      ],
+      "to": [
+        8,
+        0,
+        -8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            7.75,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        -8
+      ],
+      "to": [
+        8,
+        0,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        0
+      ],
+      "to": [
+        8,
+        0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        7,
+        -2,
+        8
+      ],
+      "to": [
+        8,
+        0,
+        11
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        8,
+        -2,
+        -8.25
+      ],
+      "to": [
+        9,
+        0,
+        -8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            7.75,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        8,
+        -2,
+        -8
+      ],
+      "to": [
+        9,
+        0,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        8,
+        -2,
+        0
+      ],
+      "to": [
+        9,
+        0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_1",
+      "from": [
+        8,
+        -2,
+        8
+      ],
+      "to": [
+        9,
+        0,
+        11
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        -10.25
+      ],
+      "to": [
+        12,
+        7,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        12,
+        5,
+        -10.25
+      ],
+      "to": [
+        13,
+        7,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            5.0,
+            13.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        -10.25
+      ],
+      "to": [
+        12,
+        7,
+        3
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            15.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        12,
+        5,
+        -10.25
+      ],
+      "to": [
+        13,
+        7,
+        3
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            5.0,
+            13.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        -10.25
+      ],
+      "to": [
+        13,
+        7,
+        -8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            13.75,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        -8
+      ],
+      "to": [
+        13,
+        7,
+        -4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        -4
+      ],
+      "to": [
+        13,
+        7,
+        0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        0
+      ],
+      "to": [
+        13,
+        7,
+        3
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            5.0,
+            15.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        -10.25
+      ],
+      "to": [
+        13,
+        7,
+        -8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            13.75,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        -8
+      ],
+      "to": [
+        13,
+        7,
+        -4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        -4
+      ],
+      "to": [
+        13,
+        7,
+        0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            5.0,
+            16.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        0
+      ],
+      "to": [
+        13,
+        7,
+        3
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            5.0,
+            15.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        -10.25
+      ],
+      "to": [
+        12,
+        7,
+        -8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            5.75,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        -8
+      ],
+      "to": [
+        12,
+        7,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        0
+      ],
+      "to": [
+        12,
+        7,
+        3
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        12,
+        5,
+        -10.25
+      ],
+      "to": [
+        13,
+        7,
+        -8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            5.75,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        12,
+        5,
+        -8
+      ],
+      "to": [
+        13,
+        7,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        12,
+        5,
+        0
+      ],
+      "to": [
+        13,
+        7,
+        3
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        -10.25
+      ],
+      "to": [
+        12,
+        7,
+        -8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            5.75,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        -8
+      ],
+      "to": [
+        12,
+        7,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        11,
+        5,
+        0
+      ],
+      "to": [
+        12,
+        7,
+        3
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        12,
+        5,
+        -10.25
+      ],
+      "to": [
+        13,
+        7,
+        -8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            5.75,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        12,
+        5,
+        -8
+      ],
+      "to": [
+        13,
+        7,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_deck_run_2",
+      "from": [
+        12,
+        5,
+        0
+      ],
+      "to": [
+        13,
+        7,
+        3
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        11,
+        -2,
+        -10.25
+      ],
+      "to": [
+        12,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        11,
+        0,
+        -10.25
+      ],
+      "to": [
+        12,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        12,
+        -2,
+        -10.25
+      ],
+      "to": [
+        13,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        12,
+        0,
+        -10.25
+      ],
+      "to": [
+        13,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        11,
+        -2,
+        -10.25
+      ],
+      "to": [
+        12,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            15.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        11,
+        0,
+        -10.25
+      ],
+      "to": [
+        12,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        12,
+        -2,
+        -10.25
+      ],
+      "to": [
+        13,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        12,
+        0,
+        -10.25
+      ],
+      "to": [
+        13,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        11,
+        -2,
+        -10.25
+      ],
+      "to": [
+        13,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            13.75,
+            6.0,
+            15.75,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        11,
+        0,
+        -10.25
+      ],
+      "to": [
+        13,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            13.75,
+            0.0,
+            15.75,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        11,
+        -2,
+        -10.25
+      ],
+      "to": [
+        13,
+        0,
+        -8.25
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            13.75,
+            6.0,
+            15.75,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        11,
+        0,
+        -10.25
+      ],
+      "to": [
+        13,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            13.75,
+            0.0,
+            15.75,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        11,
+        -2,
+        -10.25
+      ],
+      "to": [
+        12,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            5.75,
+            16.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        12,
+        -2,
+        -10.25
+      ],
+      "to": [
+        13,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            5.75,
+            13.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        11,
+        -2,
+        -10.25
+      ],
+      "to": [
+        12,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            5.75,
+            16.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_right_angle_drop_2",
+      "from": [
+        12,
+        -2,
+        -10.25
+      ],
+      "to": [
+        13,
+        5,
+        -8.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            5.75,
+            13.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        -8.25
+      ],
+      "to": [
+        12,
+        0,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        12,
+        -2,
+        -8.25
+      ],
+      "to": [
+        13,
+        0,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        -8.25
+      ],
+      "to": [
+        12,
+        0,
+        11
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            15.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        12,
+        -2,
+        -8.25
+      ],
+      "to": [
+        13,
+        0,
+        11
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.0,
+            6.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        -8.25
+      ],
+      "to": [
+        13,
+        0,
+        -8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            15.75,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        -8
+      ],
+      "to": [
+        13,
+        0,
+        -4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        -4
+      ],
+      "to": [
+        13,
+        0,
+        0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        0
+      ],
+      "to": [
+        13,
+        0,
+        4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        4
+      ],
+      "to": [
+        13,
+        0,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        8
+      ],
+      "to": [
+        13,
+        0,
+        11
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.0,
+            6.0,
+            15.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        -8.25
+      ],
+      "to": [
+        13,
+        0,
+        -8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            15.75,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        -8
+      ],
+      "to": [
+        13,
+        0,
+        -4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        -4
+      ],
+      "to": [
+        13,
+        0,
+        0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        0
+      ],
+      "to": [
+        13,
+        0,
+        4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        4
+      ],
+      "to": [
+        13,
+        0,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        8
+      ],
+      "to": [
+        13,
+        0,
+        11
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.0,
+            6.0,
+            15.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        -8.25
+      ],
+      "to": [
+        12,
+        0,
+        -8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            7.75,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        -8
+      ],
+      "to": [
+        12,
+        0,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        0
+      ],
+      "to": [
+        12,
+        0,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        8
+      ],
+      "to": [
+        12,
+        0,
+        11
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        12,
+        -2,
+        -8.25
+      ],
+      "to": [
+        13,
+        0,
+        -8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            7.75,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        12,
+        -2,
+        -8
+      ],
+      "to": [
+        13,
+        0,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        12,
+        -2,
+        0
+      ],
+      "to": [
+        13,
+        0,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        12,
+        -2,
+        8
+      ],
+      "to": [
+        13,
+        0,
+        11
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        -8.25
+      ],
+      "to": [
+        12,
+        0,
+        -8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            7.75,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        -8
+      ],
+      "to": [
+        12,
+        0,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        0
+      ],
+      "to": [
+        12,
+        0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        11,
+        -2,
+        8
+      ],
+      "to": [
+        12,
+        0,
+        11
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            15.0,
+            0.0,
+            16.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        12,
+        -2,
+        -8.25
+      ],
+      "to": [
+        13,
+        0,
+        -8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            7.75,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        12,
+        -2,
+        -8
+      ],
+      "to": [
+        13,
+        0,
+        0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        12,
+        -2,
+        0
+      ],
+      "to": [
+        13,
+        0,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            8.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_hose_underside_return_2",
+      "from": [
+        12,
+        -2,
+        8
+      ],
+      "to": [
+        13,
+        0,
+        11
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_left_foot",
+      "from": [
+        2,
+        4,
+        -3
+      ],
+      "to": [
+        3,
+        7,
+        -1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.0,
+            7.0,
+            6.0,
+            10.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_left_foot",
+      "from": [
+        2,
+        4,
+        -3
+      ],
+      "to": [
+        3,
+        7,
+        -1
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            5.0,
+            7.0,
+            6.0,
+            10.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_left_foot",
+      "from": [
+        2,
+        4,
+        -3
+      ],
+      "to": [
+        3,
+        7,
+        -1
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            10.0,
+            7.0,
+            12.0,
+            10.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_left_foot",
+      "from": [
+        2,
+        4,
+        -3
+      ],
+      "to": [
+        3,
+        7,
+        -1
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            10.0,
+            7.0,
+            12.0,
+            10.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_left_foot",
+      "from": [
+        2,
+        4,
+        -3
+      ],
+      "to": [
+        3,
+        7,
+        -1
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            5.0,
+            10.0,
+            6.0,
+            12.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_left_foot",
+      "from": [
+        2,
+        4,
+        -3
+      ],
+      "to": [
+        3,
+        7,
+        -1
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            5.0,
+            10.0,
+            6.0,
+            12.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_right_foot",
+      "from": [
+        13,
+        4,
+        -3
+      ],
+      "to": [
+        14,
+        7,
+        -1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.0,
+            7.0,
+            7.0,
+            10.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_right_foot",
+      "from": [
+        13,
+        4,
+        -3
+      ],
+      "to": [
+        14,
+        7,
+        -1
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.0,
+            7.0,
+            7.0,
+            10.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_right_foot",
+      "from": [
+        13,
+        4,
+        -3
+      ],
+      "to": [
+        14,
+        7,
+        -1
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            10.0,
+            7.0,
+            12.0,
+            10.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_right_foot",
+      "from": [
+        13,
+        4,
+        -3
+      ],
+      "to": [
+        14,
+        7,
+        -1
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            10.0,
+            7.0,
+            12.0,
+            10.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_right_foot",
+      "from": [
+        13,
+        4,
+        -3
+      ],
+      "to": [
+        14,
+        7,
+        -1
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            6.0,
+            10.0,
+            7.0,
+            12.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_right_foot",
+      "from": [
+        13,
+        4,
+        -3
+      ],
+      "to": [
+        14,
+        7,
+        -1
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            6.0,
+            10.0,
+            7.0,
+            12.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_bridge",
+      "from": [
+        2,
+        7,
+        -3
+      ],
+      "to": [
+        10,
+        8,
+        -1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.0,
+            10.0,
+            13.0,
+            11.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_bridge",
+      "from": [
+        10,
+        7,
+        -3
+      ],
+      "to": [
+        14,
+        8,
+        -1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            10.0,
+            7.0,
+            11.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_bridge",
+      "from": [
+        2,
+        7,
+        -3
+      ],
+      "to": [
+        10,
+        8,
+        -1
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            5.0,
+            10.0,
+            13.0,
+            11.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_bridge",
+      "from": [
+        10,
+        7,
+        -3
+      ],
+      "to": [
+        14,
+        8,
+        -1
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            10.0,
+            7.0,
+            11.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_bridge",
+      "from": [
+        2,
+        7,
+        -3
+      ],
+      "to": [
+        14,
+        8,
+        -1
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            10.0,
+            10.0,
+            12.0,
+            11.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_bridge",
+      "from": [
+        2,
+        7,
+        -3
+      ],
+      "to": [
+        14,
+        8,
+        -1
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            10.0,
+            10.0,
+            12.0,
+            11.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_bridge",
+      "from": [
+        2,
+        7,
+        -3
+      ],
+      "to": [
+        10,
+        8,
+        -1
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            5.0,
+            10.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_bridge",
+      "from": [
+        10,
+        7,
+        -3
+      ],
+      "to": [
+        14,
+        8,
+        -1
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            10.0,
+            7.0,
+            12.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_bridge",
+      "from": [
+        2,
+        7,
+        -3
+      ],
+      "to": [
+        10,
+        8,
+        -1
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            5.0,
+            10.0,
+            13.0,
+            12.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "shared_hose_clip_bridge",
+      "from": [
+        10,
+        7,
+        -3
+      ],
+      "to": [
+        14,
+        8,
+        -1
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            10.0,
+            7.0,
+            12.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    }
+  ]
+}

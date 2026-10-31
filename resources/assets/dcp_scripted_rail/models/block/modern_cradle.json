@@ -1,0 +1,12 @@
+{
+  "loader": "forge:obj",
+  "model": "dcp_scripted_rail:models/block/modern_cradle.obj",
+  "automatic_culling": false,
+  "shade_quads": true,
+  "flip_v": false,
+  "emissive_ambient": false,
+  "textures": {
+    "particle": "dcp_scripted_rail:block/tex_b20d69538ccffe63558bbe62"
+  },
+  "ambientocclusion": true
+}

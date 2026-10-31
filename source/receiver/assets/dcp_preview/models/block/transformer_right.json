@@ -1,0 +1,563 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true,
+  "credit": "V6: original gray steel yokes and open cage exterior, two-limb iron core, no top terminals; native brass is used only by the separate inner winding models, no block scale or PNG edits",
+  "textures": {
+    "particle": "create:block/industrial_iron_block"
+  },
+  "elements": [
+    {
+      "name": "pg_native_lower_yoke_gray_steel",
+      "from": [
+        2,
+        0,
+        0
+      ],
+      "to": [
+        14,
+        3,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            14.0,
+            7.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            4.0,
+            16.0,
+            7.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            14.0,
+            7.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            4.0,
+            16.0,
+            7.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            0.0,
+            14.0,
+            16.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            0.0,
+            14.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "pg_native_upper_yoke_gray_steel",
+      "from": [
+        2,
+        11,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            14.0,
+            7.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            4.0,
+            16.0,
+            7.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            14.0,
+            7.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            0.0,
+            4.0,
+            16.0,
+            7.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            0.0,
+            14.0,
+            16.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            0.0,
+            14.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "reassembled_iron_limb_left",
+      "from": [
+        3,
+        3,
+        5
+      ],
+      "to": [
+        6,
+        11,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            5.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            8.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            5.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            8.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            3.0,
+            5.0,
+            9.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            3.0,
+            5.0,
+            9.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "reassembled_iron_limb_right",
+      "from": [
+        10,
+        3,
+        5
+      ],
+      "to": [
+        13,
+        11,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            5.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            8.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            5.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            8.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            3.0,
+            5.0,
+            9.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            3.0,
+            5.0,
+            9.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_style_open_steel_retainer",
+      "from": [
+        2,
+        3,
+        0
+      ],
+      "to": [
+        3,
+        11,
+        1
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            3.0,
+            3.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            3.0,
+            3.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_style_open_steel_retainer",
+      "from": [
+        2,
+        3,
+        15
+      ],
+      "to": [
+        3,
+        11,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            3.0,
+            3.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            3.0,
+            3.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_style_open_steel_retainer",
+      "from": [
+        13,
+        3,
+        0
+      ],
+      "to": [
+        14,
+        11,
+        1
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            3.0,
+            3.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            3.0,
+            3.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "aero_style_open_steel_retainer",
+      "from": [
+        13,
+        3,
+        15
+      ],
+      "to": [
+        14,
+        11,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/industrial_iron_block",
+          "uv": [
+            2.0,
+            4.0,
+            3.0,
+            12.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            3.0,
+            3.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/industrial_iron_block_top",
+          "uv": [
+            2.0,
+            3.0,
+            3.0,
+            4.0
+          ]
+        }
+      }
+    }
+  ]
+}

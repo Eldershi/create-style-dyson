@@ -1,0 +1,2553 @@
+{
+  "credit": "V6 functional hydraulic support/cranks; cuboids only; genuineCBC/Aeronautics UVcrops at nativepixel density",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+    "m0": "create:block/girder",
+    "m1": "createbigcannons:block/cannon_mount/rotating_mount_plate"
+  },
+  "elements": [
+    {
+      "name": "native_lowered_side_bridge_0_0_0_fixed_joint_face_crop_1_fixed_joint_face_crop_0_fixed_joint_face_crop_3",
+      "from": [
+        -10,
+        16,
+        -3
+      ],
+      "to": [
+        -6,
+        18,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            6.0,
+            5.5,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_0_fixed_joint_face_crop_1_fixed_joint_face_crop_3_fixed_joint_face_crop_3",
+      "from": [
+        -10,
+        18,
+        -3
+      ],
+      "to": [
+        -6,
+        20,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            5.0,
+            5.5,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_0_fixed_joint_face_crop_3",
+      "from": [
+        -10,
+        12,
+        -4
+      ],
+      "to": [
+        -6,
+        16,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            7.0,
+            6.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_0_fixed_joint_face_crop_1_fixed_joint_face_crop_0_fixed_joint_face_crop_3",
+      "from": [
+        -10,
+        16,
+        -3
+      ],
+      "to": [
+        -6,
+        18,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2.5,
+            6.0,
+            8.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_0_fixed_joint_face_crop_1_fixed_joint_face_crop_3_fixed_joint_face_crop_3",
+      "from": [
+        -10,
+        18,
+        -3
+      ],
+      "to": [
+        -6,
+        20,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2.5,
+            5.0,
+            8.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_0_fixed_joint_face_crop_3",
+      "from": [
+        -10,
+        12,
+        -4
+      ],
+      "to": [
+        -6,
+        16,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2.0,
+            7.0,
+            8.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_1_fixed_joint_face_crop_3",
+      "from": [
+        -12,
+        10,
+        -4
+      ],
+      "to": [
+        -4,
+        12,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2.0,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_1_fixed_joint_face_crop_3",
+      "from": [
+        -12,
+        10,
+        -4
+      ],
+      "to": [
+        -4,
+        12,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            6.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_1_fixed_joint_face_crop_1_fixed_joint_face_crop_2",
+      "from": [
+        -12,
+        10,
+        -4
+      ],
+      "to": [
+        -10,
+        12,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            10.0,
+            3.0,
+            16.0,
+            4.0
+          ],
+          "rotation": 90,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_1_fixed_joint_face_crop_1_fixed_joint_face_crop_3",
+      "from": [
+        -6,
+        10,
+        -4
+      ],
+      "to": [
+        -4,
+        12,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            10.0,
+            0.0,
+            16.0,
+            1.0
+          ],
+          "rotation": 90,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_1_fixed_joint_face_crop_1",
+      "from": [
+        -12,
+        10,
+        -4
+      ],
+      "to": [
+        -4,
+        12,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            0.0,
+            6.0,
+            4.0
+          ],
+          "rotation": 90,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_2_fixed_joint_face_crop_0_fixed_joint_face_crop_3_fixed_joint_face_crop_3",
+      "from": [
+        -12,
+        20,
+        -3
+      ],
+      "to": [
+        -4,
+        21,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            4.5,
+            5.5,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_2_fixed_joint_face_crop_3",
+      "from": [
+        -12,
+        21,
+        -6
+      ],
+      "to": [
+        -4,
+        22,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            7.0,
+            4.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_2_fixed_joint_face_crop_0_fixed_joint_face_crop_3_fixed_joint_face_crop_3",
+      "from": [
+        -12,
+        20,
+        -3
+      ],
+      "to": [
+        -4,
+        21,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2.5,
+            4.5,
+            8.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_2_fixed_joint_face_crop_3",
+      "from": [
+        -12,
+        21,
+        -6
+      ],
+      "to": [
+        -4,
+        22,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            1.0,
+            4.0,
+            8.0,
+            4.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_2_fixed_joint_face_crop_1_fixed_joint_face_crop_0",
+      "from": [
+        -12,
+        20,
+        -6
+      ],
+      "to": [
+        -4,
+        22,
+        2
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            0.0,
+            7.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_2_fixed_joint_face_crop_1_fixed_joint_face_crop_1",
+      "from": [
+        -12,
+        20,
+        4
+      ],
+      "to": [
+        -4,
+        22,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0.0,
+            0.0,
+            2.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_2_fixed_joint_face_crop_1_fixed_joint_face_crop_2",
+      "from": [
+        -12,
+        20,
+        2
+      ],
+      "to": [
+        -9.918353236728963,
+        22,
+        4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2.0,
+            0.0,
+            3.0,
+            1.040823
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_2_fixed_joint_face_crop_1_fixed_joint_face_crop_3",
+      "from": [
+        -8.418353236728963,
+        20,
+        2
+      ],
+      "to": [
+        -4,
+        22,
+        4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2.0,
+            1.790823,
+            3.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_2_fixed_joint_face_crop_1_fixed_joint_face_crop_1_fixed_joint_face_crop_1_fixed_joint_face_crop_2",
+      "from": [
+        -12,
+        20,
+        -3
+      ],
+      "to": [
+        -10,
+        22,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            10.5,
+            0.0,
+            16.0,
+            1.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_0_2_fixed_joint_face_crop_1_fixed_joint_face_crop_1_fixed_joint_face_crop_1_fixed_joint_face_crop_3",
+      "from": [
+        -6,
+        20,
+        -3
+      ],
+      "to": [
+        -4,
+        22,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            10.5,
+            3.0,
+            16.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_0_fixed_joint_face_crop_1_fixed_joint_face_crop_0_fixed_joint_face_crop_2",
+      "from": [
+        -10,
+        16,
+        8
+      ],
+      "to": [
+        -6,
+        18,
+        19
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2.5,
+            6.0,
+            8.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_0_fixed_joint_face_crop_1_fixed_joint_face_crop_2_fixed_joint_face_crop_2",
+      "from": [
+        -10,
+        18,
+        8
+      ],
+      "to": [
+        -6,
+        20,
+        19
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2.5,
+            5.0,
+            8.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_0_fixed_joint_face_crop_2",
+      "from": [
+        -10,
+        12,
+        8
+      ],
+      "to": [
+        -6,
+        16,
+        20
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2.0,
+            7.0,
+            8.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_0_fixed_joint_face_crop_1_fixed_joint_face_crop_0_fixed_joint_face_crop_2",
+      "from": [
+        -10,
+        16,
+        8
+      ],
+      "to": [
+        -6,
+        18,
+        19
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            6.0,
+            5.5,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_0_fixed_joint_face_crop_1_fixed_joint_face_crop_2_fixed_joint_face_crop_2",
+      "from": [
+        -10,
+        18,
+        8
+      ],
+      "to": [
+        -6,
+        20,
+        19
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            5.0,
+            5.5,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_0_fixed_joint_face_crop_2",
+      "from": [
+        -10,
+        12,
+        8
+      ],
+      "to": [
+        -6,
+        16,
+        20
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            7.0,
+            6.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_1_fixed_joint_face_crop_2",
+      "from": [
+        -12,
+        10,
+        8
+      ],
+      "to": [
+        -4,
+        12,
+        20
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            6.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_1_fixed_joint_face_crop_2",
+      "from": [
+        -12,
+        10,
+        8
+      ],
+      "to": [
+        -4,
+        12,
+        20
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2.0,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_1_fixed_joint_face_crop_0_fixed_joint_face_crop_2",
+      "from": [
+        -12,
+        10,
+        8
+      ],
+      "to": [
+        -10,
+        12,
+        20
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            3.0,
+            14.0,
+            4.0
+          ],
+          "rotation": 90,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_1_fixed_joint_face_crop_0_fixed_joint_face_crop_3",
+      "from": [
+        -6,
+        10,
+        8
+      ],
+      "to": [
+        -4,
+        12,
+        20
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            14.0,
+            1.0
+          ],
+          "rotation": 90,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_1_fixed_joint_face_crop_0",
+      "from": [
+        -12,
+        10,
+        8
+      ],
+      "to": [
+        -4,
+        12,
+        20
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "rotation": 90,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_2_fixed_joint_face_crop_2",
+      "from": [
+        -12,
+        20,
+        8
+      ],
+      "to": [
+        -4,
+        21,
+        19
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2.5,
+            4.5,
+            8.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_2_fixed_joint_face_crop_2",
+      "from": [
+        -12,
+        21,
+        8
+      ],
+      "to": [
+        -4,
+        22,
+        22
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            1.0,
+            4.0,
+            8.0,
+            4.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_2_fixed_joint_face_crop_2",
+      "from": [
+        -12,
+        20,
+        8
+      ],
+      "to": [
+        -4,
+        21,
+        19
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            4.5,
+            5.5,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_2_fixed_joint_face_crop_2",
+      "from": [
+        -12,
+        21,
+        8
+      ],
+      "to": [
+        -4,
+        22,
+        22
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            7.0,
+            4.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_0",
+      "from": [
+        -12,
+        20,
+        8
+      ],
+      "to": [
+        -4,
+        22,
+        12
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            6.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_1",
+      "from": [
+        -12,
+        20,
+        14
+      ],
+      "to": [
+        -4,
+        22,
+        22
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.0,
+            0.0,
+            5.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_2",
+      "from": [
+        -12,
+        20,
+        12
+      ],
+      "to": [
+        -9.918353236728963,
+        22,
+        14
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            5.0,
+            0.0,
+            6.0,
+            1.040823
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_3",
+      "from": [
+        -8.418353236728963,
+        20,
+        12
+      ],
+      "to": [
+        -4,
+        22,
+        14
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            5.0,
+            1.790823,
+            6.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_0_fixed_joint_face_crop_0_fixed_joint_face_crop_2",
+      "from": [
+        -12,
+        20,
+        8
+      ],
+      "to": [
+        -10,
+        22,
+        19
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            13.5,
+            1.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_0_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_0_fixed_joint_face_crop_0_fixed_joint_face_crop_3",
+      "from": [
+        -6,
+        20,
+        8
+      ],
+      "to": [
+        -4,
+        22,
+        19
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            3.0,
+            13.5,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_0_fixed_joint_face_crop_1_fixed_joint_face_crop_0_fixed_joint_face_crop_3",
+      "from": [
+        22,
+        16,
+        -3
+      ],
+      "to": [
+        26,
+        18,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            6.0,
+            5.5,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_0_fixed_joint_face_crop_1_fixed_joint_face_crop_3_fixed_joint_face_crop_3",
+      "from": [
+        22,
+        18,
+        -3
+      ],
+      "to": [
+        26,
+        20,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            5.0,
+            5.5,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_0_fixed_joint_face_crop_3",
+      "from": [
+        22,
+        12,
+        -4
+      ],
+      "to": [
+        26,
+        16,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            7.0,
+            6.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_0_fixed_joint_face_crop_1_fixed_joint_face_crop_0_fixed_joint_face_crop_3",
+      "from": [
+        22,
+        16,
+        -3
+      ],
+      "to": [
+        26,
+        18,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2.5,
+            6.0,
+            8.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_0_fixed_joint_face_crop_1_fixed_joint_face_crop_3_fixed_joint_face_crop_3",
+      "from": [
+        22,
+        18,
+        -3
+      ],
+      "to": [
+        26,
+        20,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2.5,
+            5.0,
+            8.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_0_fixed_joint_face_crop_3",
+      "from": [
+        22,
+        12,
+        -4
+      ],
+      "to": [
+        26,
+        16,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2.0,
+            7.0,
+            8.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_1_fixed_joint_face_crop_3",
+      "from": [
+        20,
+        10,
+        -4
+      ],
+      "to": [
+        28,
+        12,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2.0,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_1_fixed_joint_face_crop_3",
+      "from": [
+        20,
+        10,
+        -4
+      ],
+      "to": [
+        28,
+        12,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            6.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_1_fixed_joint_face_crop_1_fixed_joint_face_crop_2",
+      "from": [
+        20,
+        10,
+        -4
+      ],
+      "to": [
+        22,
+        12,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            10.0,
+            3.0,
+            16.0,
+            4.0
+          ],
+          "rotation": 90,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_1_fixed_joint_face_crop_1_fixed_joint_face_crop_3",
+      "from": [
+        26,
+        10,
+        -4
+      ],
+      "to": [
+        28,
+        12,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            10.0,
+            0.0,
+            16.0,
+            1.0
+          ],
+          "rotation": 90,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_1_fixed_joint_face_crop_1",
+      "from": [
+        20,
+        10,
+        -4
+      ],
+      "to": [
+        28,
+        12,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            0.0,
+            6.0,
+            4.0
+          ],
+          "rotation": 90,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_2_fixed_joint_face_crop_0_fixed_joint_face_crop_3_fixed_joint_face_crop_3",
+      "from": [
+        20,
+        20,
+        -3
+      ],
+      "to": [
+        28,
+        21,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            4.5,
+            5.5,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_2_fixed_joint_face_crop_3",
+      "from": [
+        20,
+        21,
+        -6
+      ],
+      "to": [
+        28,
+        22,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            7.0,
+            4.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_2_fixed_joint_face_crop_0_fixed_joint_face_crop_3_fixed_joint_face_crop_3",
+      "from": [
+        20,
+        20,
+        -3
+      ],
+      "to": [
+        28,
+        21,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2.5,
+            4.5,
+            8.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_2_fixed_joint_face_crop_3",
+      "from": [
+        20,
+        21,
+        -6
+      ],
+      "to": [
+        28,
+        22,
+        8
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            1.0,
+            4.0,
+            8.0,
+            4.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_2_fixed_joint_face_crop_1_fixed_joint_face_crop_0",
+      "from": [
+        20,
+        20,
+        -6
+      ],
+      "to": [
+        28,
+        22,
+        2
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            0.0,
+            7.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_2_fixed_joint_face_crop_1_fixed_joint_face_crop_1",
+      "from": [
+        20,
+        20,
+        4
+      ],
+      "to": [
+        28,
+        22,
+        8
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0.0,
+            0.0,
+            2.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_2_fixed_joint_face_crop_1_fixed_joint_face_crop_2",
+      "from": [
+        20,
+        20,
+        2
+      ],
+      "to": [
+        24.41835323672896,
+        22,
+        4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2.0,
+            0.0,
+            3.0,
+            2.209177
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_2_fixed_joint_face_crop_1_fixed_joint_face_crop_3",
+      "from": [
+        25.91835323672896,
+        20,
+        2
+      ],
+      "to": [
+        28,
+        22,
+        4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2.0,
+            2.959177,
+            3.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_2_fixed_joint_face_crop_1_fixed_joint_face_crop_1_fixed_joint_face_crop_1_fixed_joint_face_crop_2",
+      "from": [
+        20,
+        20,
+        -3
+      ],
+      "to": [
+        22,
+        22,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            10.5,
+            0.0,
+            16.0,
+            1.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_0_2_fixed_joint_face_crop_1_fixed_joint_face_crop_1_fixed_joint_face_crop_1_fixed_joint_face_crop_3",
+      "from": [
+        26,
+        20,
+        -3
+      ],
+      "to": [
+        28,
+        22,
+        8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            10.5,
+            3.0,
+            16.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_0_fixed_joint_face_crop_1_fixed_joint_face_crop_0_fixed_joint_face_crop_2",
+      "from": [
+        22,
+        16,
+        8
+      ],
+      "to": [
+        26,
+        18,
+        19
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2.5,
+            6.0,
+            8.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_0_fixed_joint_face_crop_1_fixed_joint_face_crop_2_fixed_joint_face_crop_2",
+      "from": [
+        22,
+        18,
+        8
+      ],
+      "to": [
+        26,
+        20,
+        19
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2.5,
+            5.0,
+            8.0,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_0_fixed_joint_face_crop_2",
+      "from": [
+        22,
+        12,
+        8
+      ],
+      "to": [
+        26,
+        16,
+        20
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2.0,
+            7.0,
+            8.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_0_fixed_joint_face_crop_1_fixed_joint_face_crop_0_fixed_joint_face_crop_2",
+      "from": [
+        22,
+        16,
+        8
+      ],
+      "to": [
+        26,
+        18,
+        19
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            6.0,
+            5.5,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_0_fixed_joint_face_crop_1_fixed_joint_face_crop_2_fixed_joint_face_crop_2",
+      "from": [
+        22,
+        18,
+        8
+      ],
+      "to": [
+        26,
+        20,
+        19
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            5.0,
+            5.5,
+            6.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_0_fixed_joint_face_crop_2",
+      "from": [
+        22,
+        12,
+        8
+      ],
+      "to": [
+        26,
+        16,
+        20
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            7.0,
+            6.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_1_fixed_joint_face_crop_2",
+      "from": [
+        20,
+        10,
+        8
+      ],
+      "to": [
+        28,
+        12,
+        20
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            6.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_1_fixed_joint_face_crop_2",
+      "from": [
+        20,
+        10,
+        8
+      ],
+      "to": [
+        28,
+        12,
+        20
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2.0,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_1_fixed_joint_face_crop_0_fixed_joint_face_crop_2",
+      "from": [
+        20,
+        10,
+        8
+      ],
+      "to": [
+        22,
+        12,
+        20
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            3.0,
+            14.0,
+            4.0
+          ],
+          "rotation": 90,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_1_fixed_joint_face_crop_0_fixed_joint_face_crop_3",
+      "from": [
+        26,
+        10,
+        8
+      ],
+      "to": [
+        28,
+        12,
+        20
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            14.0,
+            1.0
+          ],
+          "rotation": 90,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_1_fixed_joint_face_crop_0",
+      "from": [
+        20,
+        10,
+        8
+      ],
+      "to": [
+        28,
+        12,
+        20
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "rotation": 90,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_2_fixed_joint_face_crop_2",
+      "from": [
+        20,
+        20,
+        8
+      ],
+      "to": [
+        28,
+        21,
+        19
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2.5,
+            4.5,
+            8.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_2_fixed_joint_face_crop_2",
+      "from": [
+        20,
+        21,
+        8
+      ],
+      "to": [
+        28,
+        22,
+        22
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            1.0,
+            4.0,
+            8.0,
+            4.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_2_fixed_joint_face_crop_2",
+      "from": [
+        20,
+        20,
+        8
+      ],
+      "to": [
+        28,
+        21,
+        19
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            4.5,
+            5.5,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_2_fixed_joint_face_crop_2",
+      "from": [
+        20,
+        21,
+        8
+      ],
+      "to": [
+        28,
+        22,
+        22
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            7.0,
+            4.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_0",
+      "from": [
+        20,
+        20,
+        8
+      ],
+      "to": [
+        28,
+        22,
+        12
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            6.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_1",
+      "from": [
+        20,
+        20,
+        14
+      ],
+      "to": [
+        28,
+        22,
+        22
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.0,
+            0.0,
+            5.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_2",
+      "from": [
+        20,
+        20,
+        12
+      ],
+      "to": [
+        24.41835323672896,
+        22,
+        14
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            5.0,
+            0.0,
+            6.0,
+            2.209177
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_3",
+      "from": [
+        25.91835323672896,
+        20,
+        12
+      ],
+      "to": [
+        28,
+        22,
+        14
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            5.0,
+            2.959177,
+            6.0,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_0_fixed_joint_face_crop_0_fixed_joint_face_crop_2",
+      "from": [
+        20,
+        20,
+        8
+      ],
+      "to": [
+        22,
+        22,
+        19
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            13.5,
+            1.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "native_lowered_side_bridge_1_1_2_fixed_joint_face_crop_0_fixed_joint_face_crop_0_fixed_joint_face_crop_0_fixed_joint_face_crop_3",
+      "from": [
+        26,
+        20,
+        8
+      ],
+      "to": [
+        28,
+        22,
+        19
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            3.0,
+            13.5,
+            4.0
+          ],
+          "rotation": 270,
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_0_0",
+      "from": [
+        -9.918353236728963,
+        22,
+        2
+      ],
+      "to": [
+        -8.418353236728963,
+        24.35,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.081647,
+            5.0,
+            4.581647,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_0_0",
+      "from": [
+        -9.918353236728963,
+        22,
+        2
+      ],
+      "to": [
+        -8.418353236728963,
+        24.35,
+        4
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.081647,
+            5.0,
+            4.581647,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_0_0",
+      "from": [
+        -9.918353236728963,
+        22,
+        2
+      ],
+      "to": [
+        -8.418353236728963,
+        24.35,
+        4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            5.0,
+            5.0,
+            7.0,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_0_0",
+      "from": [
+        -9.918353236728963,
+        22,
+        2
+      ],
+      "to": [
+        -8.418353236728963,
+        24.35,
+        4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            5.0,
+            5.0,
+            7.0,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_0_0",
+      "from": [
+        -9.918353236728963,
+        22,
+        2
+      ],
+      "to": [
+        -8.418353236728963,
+        24.35,
+        4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.081647,
+            5.0,
+            4.581647,
+            7.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_0_1",
+      "from": [
+        -9.918353236728963,
+        22,
+        12
+      ],
+      "to": [
+        -8.418353236728963,
+        24.35,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.081647,
+            5.0,
+            4.581647,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_0_1",
+      "from": [
+        -9.918353236728963,
+        22,
+        12
+      ],
+      "to": [
+        -8.418353236728963,
+        24.35,
+        14
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.081647,
+            5.0,
+            4.581647,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_0_1",
+      "from": [
+        -9.918353236728963,
+        22,
+        12
+      ],
+      "to": [
+        -8.418353236728963,
+        24.35,
+        14
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            5.0,
+            5.0,
+            7.0,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_0_1",
+      "from": [
+        -9.918353236728963,
+        22,
+        12
+      ],
+      "to": [
+        -8.418353236728963,
+        24.35,
+        14
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            5.0,
+            5.0,
+            7.0,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_0_1",
+      "from": [
+        -9.918353236728963,
+        22,
+        12
+      ],
+      "to": [
+        -8.418353236728963,
+        24.35,
+        14
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.081647,
+            5.0,
+            4.581647,
+            7.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_1_0",
+      "from": [
+        24.41835323672896,
+        22,
+        2
+      ],
+      "to": [
+        25.91835323672896,
+        24.35,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.418353,
+            5.0,
+            8.918353,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_1_0",
+      "from": [
+        24.41835323672896,
+        22,
+        2
+      ],
+      "to": [
+        25.91835323672896,
+        24.35,
+        4
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            7.418353,
+            5.0,
+            8.918353,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_1_0",
+      "from": [
+        24.41835323672896,
+        22,
+        2
+      ],
+      "to": [
+        25.91835323672896,
+        24.35,
+        4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            5.0,
+            5.0,
+            7.0,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_1_0",
+      "from": [
+        24.41835323672896,
+        22,
+        2
+      ],
+      "to": [
+        25.91835323672896,
+        24.35,
+        4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            5.0,
+            5.0,
+            7.0,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_1_0",
+      "from": [
+        24.41835323672896,
+        22,
+        2
+      ],
+      "to": [
+        25.91835323672896,
+        24.35,
+        4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            7.418353,
+            5.0,
+            8.918353,
+            7.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_1_1",
+      "from": [
+        24.41835323672896,
+        22,
+        12
+      ],
+      "to": [
+        25.91835323672896,
+        24.35,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.418353,
+            5.0,
+            8.918353,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_1_1",
+      "from": [
+        24.41835323672896,
+        22,
+        12
+      ],
+      "to": [
+        25.91835323672896,
+        24.35,
+        14
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            7.418353,
+            5.0,
+            8.918353,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_1_1",
+      "from": [
+        24.41835323672896,
+        22,
+        12
+      ],
+      "to": [
+        25.91835323672896,
+        24.35,
+        14
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            5.0,
+            5.0,
+            7.0,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_1_1",
+      "from": [
+        24.41835323672896,
+        22,
+        12
+      ],
+      "to": [
+        25.91835323672896,
+        24.35,
+        14
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            5.0,
+            5.0,
+            7.0,
+            7.35
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "short_welded_saddle_riser_1_1",
+      "from": [
+        24.41835323672896,
+        22,
+        12
+      ],
+      "to": [
+        25.91835323672896,
+        24.35,
+        14
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            7.418353,
+            5.0,
+            8.918353,
+            7.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    }
+  ]
+}

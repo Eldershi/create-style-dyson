@@ -1,0 +1,1115 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true,
+  "credit": "V6: four separated 1-pixel BRASS winding loops; native Create brass golden highlights, interior gradient and brown bevel/shadow sampled by physical face at source texel density1; no recolor",
+  "textures": {
+    "particle": "create:block/industrial_iron_block"
+  },
+  "elements": [
+    {
+      "name": "AERO_BRASS_turn_0_front",
+      "from": [
+        2,
+        3,
+        3
+      ],
+      "to": [
+        7,
+        4,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            3.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            7.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            14.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            6.0,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            11.0,
+            14.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_0_rear",
+      "from": [
+        2,
+        3,
+        11
+      ],
+      "to": [
+        7,
+        4,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            3.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            7.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            14.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            6.0,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            11.0,
+            14.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_0_left",
+      "from": [
+        2,
+        3,
+        5
+      ],
+      "to": [
+        3,
+        4,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            7.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            3.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            10.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            2.0,
+            7.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            10.0,
+            1.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_0_right",
+      "from": [
+        6,
+        3,
+        5
+      ],
+      "to": [
+        7,
+        4,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            7.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            3.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            10.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            2.0,
+            7.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            10.0,
+            1.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_1_front",
+      "from": [
+        2,
+        5,
+        3
+      ],
+      "to": [
+        7,
+        6,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            3.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            7.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            14.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            6.0,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            11.0,
+            14.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_1_rear",
+      "from": [
+        2,
+        5,
+        11
+      ],
+      "to": [
+        7,
+        6,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            3.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            7.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            14.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            6.0,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            11.0,
+            14.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_1_left",
+      "from": [
+        2,
+        5,
+        5
+      ],
+      "to": [
+        3,
+        6,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            7.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            3.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            10.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            2.0,
+            7.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            10.0,
+            1.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_1_right",
+      "from": [
+        6,
+        5,
+        5
+      ],
+      "to": [
+        7,
+        6,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            7.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            3.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            10.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            2.0,
+            7.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            10.0,
+            1.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_2_front",
+      "from": [
+        2,
+        7,
+        3
+      ],
+      "to": [
+        7,
+        8,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            3.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            7.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            14.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            6.0,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            11.0,
+            14.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_2_rear",
+      "from": [
+        2,
+        7,
+        11
+      ],
+      "to": [
+        7,
+        8,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            3.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            7.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            14.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            6.0,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            11.0,
+            14.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_2_left",
+      "from": [
+        2,
+        7,
+        5
+      ],
+      "to": [
+        3,
+        8,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            7.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            3.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            10.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            2.0,
+            7.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            10.0,
+            1.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_2_right",
+      "from": [
+        6,
+        7,
+        5
+      ],
+      "to": [
+        7,
+        8,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            7.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            3.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            10.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            2.0,
+            7.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            10.0,
+            1.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_3_front",
+      "from": [
+        2,
+        9,
+        3
+      ],
+      "to": [
+        7,
+        10,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            3.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            7.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            14.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            6.0,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            11.0,
+            14.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_3_rear",
+      "from": [
+        2,
+        9,
+        11
+      ],
+      "to": [
+        7,
+        10,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            3.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            7.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            14.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            6.0,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            11.0,
+            14.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_3_left",
+      "from": [
+        2,
+        9,
+        5
+      ],
+      "to": [
+        3,
+        10,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            7.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            3.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            10.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            2.0,
+            7.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            10.0,
+            1.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "AERO_BRASS_turn_3_right",
+      "from": [
+        6,
+        9,
+        5
+      ],
+      "to": [
+        7,
+        10,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            14.0,
+            7.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            2.0,
+            2.0,
+            3.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            10.0,
+            15.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            1.0,
+            1.0,
+            2.0,
+            7.0
+          ]
+        },
+        "down": {
+          "texture": "create:block/brass_block",
+          "uv": [
+            0.0,
+            10.0,
+            1.0,
+            16.0
+          ]
+        }
+      }
+    }
+  ]
+}

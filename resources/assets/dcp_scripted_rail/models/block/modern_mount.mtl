@@ -1,0 +1,63 @@
+newmtl tex_17
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_89d56d497ac6fb935b73ae70
+
+newmtl tex_18
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_17d3e9747b22261f8f3770b2
+
+newmtl tex_19
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_4c8018752a1a81291ba7d9d2
+
+newmtl tex_20
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_b20d69538ccffe63558bbe62
+
+newmtl tex_14
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_30d391f476ad250bfb15158e
+
+newmtl tex_21
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_150008cb43bdf353cdee0eb5
+
+newmtl tex_22
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_d96400565f72e7270eeb9daa
+
+newmtl tex_23
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_rail:block/tex_6478540493ff30828015f9f2

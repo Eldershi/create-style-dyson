@@ -3,8 +3,8 @@ from pathlib import Path
 import hashlib, json, zipfile
 
 ROOT=Path(__file__).resolve().parent
-from private_inputs import input_root
-PRIVATE=input_root()
+from source_inputs import input_root
+INPUT=input_root()
 PACK=ROOT/'outputs/scripted-pack'
 CLIENT=ROOT/'outputs/scripted-client'
 WORK=ROOT/'src/runtime'
@@ -21,11 +21,11 @@ def main():
         write_json(models/'block'/(name+'.json'),{'credit':'Body rendered by the approved-part KubeJS client renderer; original Java renderer keeps native FX only.','parent':'minecraft:block/block','textures':{'particle':'dysoncubeproject:block/particle'},'elements':[]})
     for name,ns in [('em_railejector_controller','dcp_scripted_rail'),('ray_receiver_controller','dcp_scripted_receiver')]:
         write_json(models/'item'/(name+'.json'),{'parent':ns+':block/item_assembled'})
-    projectile=json.loads((PRIVATE/'native/em_railejector_projectile.json').read_text())
+    projectile=json.loads((INPUT/'native/em_railejector_projectile.json').read_text())
     write_json(models/'block/em_railejector_projectile.json',projectile)
     png=PACK/'assets/dysoncubeproject/textures/block/particle.png'
     png.parent.mkdir(parents=True,exist_ok=True)
-    png.write_bytes((PRIVATE/'native/particle.png').read_bytes())
+    png.write_bytes((INPUT/'native/particle.png').read_bytes())
     bounds={}
     for machine,ns in [('rail','dcp_scripted_rail'),('receiver','dcp_scripted_receiver')]:
         bounds[machine]={}

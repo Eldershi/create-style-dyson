@@ -1,0 +1,12 @@
+{
+  "loader": "forge:obj",
+  "model": "dcp_scripted_rail:models/block/modern_loading_carriage.obj",
+  "automatic_culling": false,
+  "shade_quads": true,
+  "flip_v": false,
+  "emissive_ambient": false,
+  "textures": {
+    "particle": "dcp_scripted_rail:block/tex_3ab06b01cbfc035354e6dc30"
+  },
+  "ambientocclusion": true
+}

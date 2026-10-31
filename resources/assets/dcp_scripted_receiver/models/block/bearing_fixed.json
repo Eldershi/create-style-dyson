@@ -1,0 +1,13 @@
+{
+  "loader": "forge:obj",
+  "model": "dcp_scripted_receiver:models/block/bearing_fixed.obj",
+  "automatic_culling": false,
+  "shade_quads": true,
+  "flip_v": false,
+  "emissive_ambient": false,
+  "textures": {
+    "particle": "dcp_scripted_receiver:block/tex_c39ec39c2475f2ac858d4aea"
+  },
+  "ambientocclusion": true,
+  "render_type": "minecraft:cutout"
+}

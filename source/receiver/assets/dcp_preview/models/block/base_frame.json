@@ -1,0 +1,4473 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true,
+  "credit": "V6 square assembly; exact native PNGs and model parts; custom surfaces use source texel crops, no scaled blocks",
+  "textures": {},
+  "elements": [
+    {
+      "name": "square_ground_shoe",
+      "from": [
+        -13,
+        0,
+        -13
+      ],
+      "to": [
+        -3,
+        2,
+        -3
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        -12,
+        2,
+        -12
+      ],
+      "to": [
+        -4,
+        16,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        },
+        "east": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        },
+        "south": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        },
+        "west": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        }
+      },
+      "name": "corner_load_post_native_14px_cell0"
+    },
+    {
+      "name": "square_ground_shoe",
+      "from": [
+        -13,
+        0,
+        19
+      ],
+      "to": [
+        -3,
+        2,
+        29
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        -12,
+        2,
+        20
+      ],
+      "to": [
+        -4,
+        16,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        },
+        "east": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        },
+        "south": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        },
+        "west": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        }
+      },
+      "name": "corner_load_post_native_14px_cell0"
+    },
+    {
+      "name": "square_ground_shoe",
+      "from": [
+        19,
+        0,
+        -13
+      ],
+      "to": [
+        29,
+        2,
+        -3
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        20,
+        2,
+        -12
+      ],
+      "to": [
+        28,
+        16,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        },
+        "east": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        },
+        "south": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        },
+        "west": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        }
+      },
+      "name": "corner_load_post_native_14px_cell0"
+    },
+    {
+      "name": "square_ground_shoe",
+      "from": [
+        19,
+        0,
+        19
+      ],
+      "to": [
+        29,
+        2,
+        29
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            5.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            13.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        20,
+        2,
+        20
+      ],
+      "to": [
+        28,
+        16,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        },
+        "east": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        },
+        "south": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        },
+        "west": {
+          "uv": [
+            2.0,
+            1.0,
+            6.0,
+            8.0
+          ],
+          "texture": "create:block/girder_pole_side_connected"
+        }
+      },
+      "name": "corner_load_post_native_14px_cell0"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_0",
+      "from": [
+        -16,
+        21,
+        -10
+      ],
+      "to": [
+        0,
+        27,
+        -6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            5.5,
+            8.0,
+            8.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        27,
+        -10
+      ],
+      "to": [
+        -13,
+        28,
+        -6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            5.0,
+            8.0,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        27,
+        -10
+      ],
+      "to": [
+        0,
+        28,
+        -6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            5.0,
+            1.5,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        20,
+        -10
+      ],
+      "to": [
+        -13,
+        21,
+        -6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            8.5,
+            8.0,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        20,
+        -10
+      ],
+      "to": [
+        0,
+        21,
+        -6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            8.5,
+            1.5,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_0",
+      "from": [
+        -16,
+        21,
+        -10
+      ],
+      "to": [
+        0,
+        27,
+        -6
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            5.5,
+            8.0,
+            8.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        27,
+        -10
+      ],
+      "to": [
+        -13,
+        28,
+        -6
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            5.0,
+            1.5,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        27,
+        -10
+      ],
+      "to": [
+        0,
+        28,
+        -6
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            5.0,
+            8.0,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        20,
+        -10
+      ],
+      "to": [
+        -13,
+        21,
+        -6
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            8.5,
+            1.5,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        20,
+        -10
+      ],
+      "to": [
+        0,
+        21,
+        -6
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            8.5,
+            8.0,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        -16,
+        20,
+        -10
+      ],
+      "to": [
+        0,
+        28,
+        -6
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            8,
+            1,
+            12,
+            3
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        18,
+        -12
+      ],
+      "to": [
+        -13,
+        20,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        18,
+        -12
+      ],
+      "to": [
+        0,
+        20,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        18,
+        -12
+      ],
+      "to": [
+        -13,
+        20,
+        -4
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        18,
+        -12
+      ],
+      "to": [
+        0,
+        20,
+        -4
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        -16,
+        18,
+        -12
+      ],
+      "to": [
+        0,
+        20,
+        -4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12,
+            2,
+            16,
+            3
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        18,
+        -12
+      ],
+      "to": [
+        -13,
+        20,
+        -4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            14.5,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        18,
+        -12
+      ],
+      "to": [
+        0,
+        20,
+        -4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            9.5,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        18,
+        -12
+      ],
+      "to": [
+        -13,
+        20,
+        -4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            0.0,
+            1.5,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        18,
+        -12
+      ],
+      "to": [
+        0,
+        20,
+        -4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            6.5,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        28,
+        -12
+      ],
+      "to": [
+        -13,
+        30,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        28,
+        -12
+      ],
+      "to": [
+        0,
+        30,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        28,
+        -12
+      ],
+      "to": [
+        -13,
+        30,
+        -4
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        28,
+        -12
+      ],
+      "to": [
+        0,
+        30,
+        -4
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        -16,
+        28,
+        -12
+      ],
+      "to": [
+        0,
+        30,
+        -4
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12,
+            1,
+            16,
+            2
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        28,
+        -12
+      ],
+      "to": [
+        -13,
+        30,
+        -4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0.0,
+            0.0,
+            1.5,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        28,
+        -12
+      ],
+      "to": [
+        0,
+        30,
+        -4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            6.5,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        28,
+        -12
+      ],
+      "to": [
+        -13,
+        30,
+        -4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            14.5,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        28,
+        -12
+      ],
+      "to": [
+        0,
+        30,
+        -4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            9.5,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_0",
+      "from": [
+        -16,
+        21,
+        22
+      ],
+      "to": [
+        0,
+        27,
+        26
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            5.5,
+            8.0,
+            8.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        27,
+        22
+      ],
+      "to": [
+        -13,
+        28,
+        26
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            5.0,
+            8.0,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        27,
+        22
+      ],
+      "to": [
+        0,
+        28,
+        26
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            5.0,
+            1.5,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        20,
+        22
+      ],
+      "to": [
+        -13,
+        21,
+        26
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            8.5,
+            8.0,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        20,
+        22
+      ],
+      "to": [
+        0,
+        21,
+        26
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            8.5,
+            1.5,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_0",
+      "from": [
+        -16,
+        21,
+        22
+      ],
+      "to": [
+        0,
+        27,
+        26
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            5.5,
+            8.0,
+            8.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        27,
+        22
+      ],
+      "to": [
+        -13,
+        28,
+        26
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            5.0,
+            1.5,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        27,
+        22
+      ],
+      "to": [
+        0,
+        28,
+        26
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            5.0,
+            8.0,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        20,
+        22
+      ],
+      "to": [
+        -13,
+        21,
+        26
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            8.5,
+            1.5,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        20,
+        22
+      ],
+      "to": [
+        0,
+        21,
+        26
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            8.5,
+            8.0,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        -16,
+        20,
+        22
+      ],
+      "to": [
+        0,
+        28,
+        26
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            8,
+            1,
+            12,
+            3
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        18,
+        20
+      ],
+      "to": [
+        -13,
+        20,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        18,
+        20
+      ],
+      "to": [
+        0,
+        20,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        18,
+        20
+      ],
+      "to": [
+        -13,
+        20,
+        28
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        18,
+        20
+      ],
+      "to": [
+        0,
+        20,
+        28
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        -16,
+        18,
+        20
+      ],
+      "to": [
+        0,
+        20,
+        28
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12,
+            2,
+            16,
+            3
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        18,
+        20
+      ],
+      "to": [
+        -13,
+        20,
+        28
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            14.5,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        18,
+        20
+      ],
+      "to": [
+        0,
+        20,
+        28
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            9.5,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        18,
+        20
+      ],
+      "to": [
+        -13,
+        20,
+        28
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            0.0,
+            1.5,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        18,
+        20
+      ],
+      "to": [
+        0,
+        20,
+        28
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            6.5,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        28,
+        20
+      ],
+      "to": [
+        -13,
+        30,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        28,
+        20
+      ],
+      "to": [
+        0,
+        30,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        28,
+        20
+      ],
+      "to": [
+        -13,
+        30,
+        28
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        28,
+        20
+      ],
+      "to": [
+        0,
+        30,
+        28
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        -16,
+        28,
+        20
+      ],
+      "to": [
+        0,
+        30,
+        28
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12,
+            1,
+            16,
+            2
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        28,
+        20
+      ],
+      "to": [
+        -13,
+        30,
+        28
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0.0,
+            0.0,
+            1.5,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        28,
+        20
+      ],
+      "to": [
+        0,
+        30,
+        28
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            6.5,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        -16,
+        28,
+        20
+      ],
+      "to": [
+        -13,
+        30,
+        28
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            14.5,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        -3,
+        28,
+        20
+      ],
+      "to": [
+        0,
+        30,
+        28
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            9.5,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        20,
+        -10
+      ],
+      "to": [
+        16,
+        28,
+        -6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            5,
+            8,
+            9
+          ],
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            0,
+            5,
+            8,
+            9
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "from": [
+        0,
+        18,
+        -12
+      ],
+      "to": [
+        16,
+        20,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            8,
+            5
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            8,
+            5
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            4
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "from": [
+        0,
+        28,
+        -12
+      ],
+      "to": [
+        16,
+        30,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            8,
+            5
+          ],
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            8,
+            5
+          ],
+          "texture": "create:block/girder"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "create:block/girder"
+        },
+        "down": {
+          "uv": [
+            8,
+            0,
+            16,
+            4
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "from": [
+        0,
+        20,
+        22
+      ],
+      "to": [
+        16,
+        28,
+        26
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            5,
+            8,
+            9
+          ],
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            0,
+            5,
+            8,
+            9
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "from": [
+        0,
+        18,
+        20
+      ],
+      "to": [
+        16,
+        20,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            8,
+            5
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            8,
+            5
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            4
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "from": [
+        0,
+        28,
+        20
+      ],
+      "to": [
+        16,
+        30,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            8,
+            5
+          ],
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            8,
+            5
+          ],
+          "texture": "create:block/girder"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "create:block/girder"
+        },
+        "down": {
+          "uv": [
+            8,
+            0,
+            16,
+            4
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_0",
+      "from": [
+        16,
+        21,
+        -10
+      ],
+      "to": [
+        32,
+        27,
+        -6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            5.5,
+            8.0,
+            8.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_2",
+      "from": [
+        16,
+        27,
+        -10
+      ],
+      "to": [
+        19,
+        28,
+        -6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            5.0,
+            8.0,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_3",
+      "from": [
+        29,
+        27,
+        -10
+      ],
+      "to": [
+        32,
+        28,
+        -6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            5.0,
+            1.5,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        20,
+        -10
+      ],
+      "to": [
+        19,
+        21,
+        -6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            8.5,
+            8.0,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        20,
+        -10
+      ],
+      "to": [
+        32,
+        21,
+        -6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            8.5,
+            1.5,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        16,
+        20,
+        -10
+      ],
+      "to": [
+        32,
+        28,
+        -6
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            8,
+            1,
+            12,
+            3
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_0",
+      "from": [
+        16,
+        21,
+        -10
+      ],
+      "to": [
+        32,
+        27,
+        -6
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            5.5,
+            8.0,
+            8.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_2",
+      "from": [
+        16,
+        27,
+        -10
+      ],
+      "to": [
+        19,
+        28,
+        -6
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            5.0,
+            1.5,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_3",
+      "from": [
+        29,
+        27,
+        -10
+      ],
+      "to": [
+        32,
+        28,
+        -6
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            5.0,
+            8.0,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        20,
+        -10
+      ],
+      "to": [
+        19,
+        21,
+        -6
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            8.5,
+            1.5,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        20,
+        -10
+      ],
+      "to": [
+        32,
+        21,
+        -6
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            8.5,
+            8.0,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        18,
+        -12
+      ],
+      "to": [
+        19,
+        20,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        18,
+        -12
+      ],
+      "to": [
+        32,
+        20,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        16,
+        18,
+        -12
+      ],
+      "to": [
+        32,
+        20,
+        -4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12,
+            2,
+            16,
+            3
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        18,
+        -12
+      ],
+      "to": [
+        19,
+        20,
+        -4
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        18,
+        -12
+      ],
+      "to": [
+        32,
+        20,
+        -4
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        18,
+        -12
+      ],
+      "to": [
+        19,
+        20,
+        -4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            14.5,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        18,
+        -12
+      ],
+      "to": [
+        32,
+        20,
+        -4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            9.5,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        18,
+        -12
+      ],
+      "to": [
+        19,
+        20,
+        -4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            0.0,
+            1.5,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        18,
+        -12
+      ],
+      "to": [
+        32,
+        20,
+        -4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            6.5,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        28,
+        -12
+      ],
+      "to": [
+        19,
+        30,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        28,
+        -12
+      ],
+      "to": [
+        32,
+        30,
+        -4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        16,
+        28,
+        -12
+      ],
+      "to": [
+        32,
+        30,
+        -4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12,
+            1,
+            16,
+            2
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        28,
+        -12
+      ],
+      "to": [
+        19,
+        30,
+        -4
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        28,
+        -12
+      ],
+      "to": [
+        32,
+        30,
+        -4
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        28,
+        -12
+      ],
+      "to": [
+        19,
+        30,
+        -4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0.0,
+            0.0,
+            1.5,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        28,
+        -12
+      ],
+      "to": [
+        32,
+        30,
+        -4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            6.5,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        28,
+        -12
+      ],
+      "to": [
+        19,
+        30,
+        -4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            14.5,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        28,
+        -12
+      ],
+      "to": [
+        32,
+        30,
+        -4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            9.5,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_0",
+      "from": [
+        16,
+        21,
+        22
+      ],
+      "to": [
+        32,
+        27,
+        26
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            5.5,
+            8.0,
+            8.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_2",
+      "from": [
+        16,
+        27,
+        22
+      ],
+      "to": [
+        19,
+        28,
+        26
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            5.0,
+            8.0,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_3",
+      "from": [
+        29,
+        27,
+        22
+      ],
+      "to": [
+        32,
+        28,
+        26
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            5.0,
+            1.5,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        20,
+        22
+      ],
+      "to": [
+        19,
+        21,
+        26
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            8.5,
+            8.0,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        20,
+        22
+      ],
+      "to": [
+        32,
+        21,
+        26
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            8.5,
+            1.5,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        16,
+        20,
+        22
+      ],
+      "to": [
+        32,
+        28,
+        26
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            8,
+            1,
+            12,
+            3
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_0",
+      "from": [
+        16,
+        21,
+        22
+      ],
+      "to": [
+        32,
+        27,
+        26
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            5.5,
+            8.0,
+            8.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_2",
+      "from": [
+        16,
+        27,
+        22
+      ],
+      "to": [
+        19,
+        28,
+        26
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            5.0,
+            1.5,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_1_cross_occlusion_crop_3",
+      "from": [
+        29,
+        27,
+        22
+      ],
+      "to": [
+        32,
+        28,
+        26
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            5.0,
+            8.0,
+            5.5
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        20,
+        22
+      ],
+      "to": [
+        19,
+        21,
+        26
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            8.5,
+            1.5,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        20,
+        22
+      ],
+      "to": [
+        32,
+        21,
+        26
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            8.5,
+            8.0,
+            9.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        18,
+        20
+      ],
+      "to": [
+        19,
+        20,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        18,
+        20
+      ],
+      "to": [
+        32,
+        20,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        16,
+        18,
+        20
+      ],
+      "to": [
+        32,
+        20,
+        28
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12,
+            2,
+            16,
+            3
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        18,
+        20
+      ],
+      "to": [
+        19,
+        20,
+        28
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        18,
+        20
+      ],
+      "to": [
+        32,
+        20,
+        28
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        18,
+        20
+      ],
+      "to": [
+        19,
+        20,
+        28
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            14.5,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        18,
+        20
+      ],
+      "to": [
+        32,
+        20,
+        28
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            9.5,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        18,
+        20
+      ],
+      "to": [
+        19,
+        20,
+        28
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            0.0,
+            1.5,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        18,
+        20
+      ],
+      "to": [
+        32,
+        20,
+        28
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            6.5,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        28,
+        20
+      ],
+      "to": [
+        19,
+        30,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        28,
+        20
+      ],
+      "to": [
+        32,
+        30,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        16,
+        28,
+        20
+      ],
+      "to": [
+        32,
+        30,
+        28
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12,
+            1,
+            16,
+            2
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "perimeter_x_part"
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        28,
+        20
+      ],
+      "to": [
+        19,
+        30,
+        28
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            1.5,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        28,
+        20
+      ],
+      "to": [
+        32,
+        30,
+        28
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6.5,
+            4.0,
+            8.0,
+            5.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        28,
+        20
+      ],
+      "to": [
+        19,
+        30,
+        28
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0.0,
+            0.0,
+            1.5,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        28,
+        20
+      ],
+      "to": [
+        32,
+        30,
+        28
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            6.5,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_2",
+      "from": [
+        16,
+        28,
+        20
+      ],
+      "to": [
+        19,
+        30,
+        28
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            14.5,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "name": "perimeter_x_part_cross_occlusion_crop_3",
+      "from": [
+        29,
+        28,
+        20
+      ],
+      "to": [
+        32,
+        30,
+        28
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            9.5,
+            4.0
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        }
+      }
+    },
+    {
+      "from": [
+        -13,
+        27,
+        -13
+      ],
+      "to": [
+        -3,
+        32,
+        -3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "east": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "west": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "down": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "corner_joint_part"
+    },
+    {
+      "from": [
+        -13,
+        16,
+        -13
+      ],
+      "to": [
+        -3,
+        21,
+        -3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "east": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "west": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "down": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "corner_joint_part"
+    },
+    {
+      "from": [
+        -13,
+        27,
+        19
+      ],
+      "to": [
+        -3,
+        32,
+        29
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "east": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "west": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "down": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "corner_joint_part"
+    },
+    {
+      "from": [
+        -13,
+        16,
+        19
+      ],
+      "to": [
+        -3,
+        21,
+        29
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "east": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "west": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "down": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "corner_joint_part"
+    },
+    {
+      "from": [
+        19,
+        27,
+        -13
+      ],
+      "to": [
+        29,
+        32,
+        -3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "east": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "west": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "down": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "corner_joint_part"
+    },
+    {
+      "from": [
+        19,
+        16,
+        -13
+      ],
+      "to": [
+        29,
+        21,
+        -3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "east": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "west": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "down": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "corner_joint_part"
+    },
+    {
+      "from": [
+        19,
+        27,
+        19
+      ],
+      "to": [
+        29,
+        32,
+        29
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "east": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "west": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "create:block/girder"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "down": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "corner_joint_part"
+    },
+    {
+      "from": [
+        19,
+        16,
+        19
+      ],
+      "to": [
+        29,
+        21,
+        29
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "east": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "south": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "west": {
+          "uv": [
+            13,
+            8,
+            15.5,
+            13
+          ],
+          "rotation": 270,
+          "texture": "create:block/girder"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "rotation": 180,
+          "texture": "create:block/girder"
+        },
+        "down": {
+          "uv": [
+            8,
+            8,
+            13,
+            13
+          ],
+          "texture": "create:block/girder"
+        }
+      },
+      "name": "corner_joint_part"
+    },
+    {
+      "name": "central_square_foot",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            2.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            2.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            2.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            2.0
+          ]
+        },
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "controller_bottom_socket_surround",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        2,
+        6
+      ],
+      "faces": {
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            10.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "controller_bottom_socket_surround",
+      "from": [
+        0,
+        0,
+        10
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            6.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "controller_bottom_socket_surround",
+      "from": [
+        0,
+        0,
+        6
+      ],
+      "to": [
+        6,
+        2,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            6.0,
+            6.0,
+            10.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "controller_bottom_socket_surround",
+      "from": [
+        10,
+        0,
+        6
+      ],
+      "to": [
+        16,
+        2,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            10.0,
+            6.0,
+            16.0,
+            10.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "enclosed_central_pedestal",
+      "from": [
+        3,
+        2,
+        3
+      ],
+      "to": [
+        13,
+        16,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            4.375,
+            8.0,
+            5.625,
+            9.75
+          ]
+        },
+        "east": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            4.375,
+            8.0,
+            5.625,
+            9.75
+          ]
+        },
+        "south": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            4.375,
+            8.0,
+            5.625,
+            9.75
+          ]
+        },
+        "west": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            4.375,
+            8.0,
+            5.625,
+            9.75
+          ]
+        },
+        "up": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            4.375,
+            8.0,
+            5.625,
+            9.25
+          ]
+        },
+        "down": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            4.375,
+            8.0,
+            5.625,
+            9.25
+          ]
+        }
+      }
+    },
+    {
+      "name": "enclosed_central_pedestal",
+      "from": [
+        3,
+        16,
+        3
+      ],
+      "to": [
+        13,
+        32,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            4.375,
+            8.0,
+            5.625,
+            10.0
+          ]
+        },
+        "east": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            4.375,
+            8.0,
+            5.625,
+            10.0
+          ]
+        },
+        "south": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            4.375,
+            8.0,
+            5.625,
+            10.0
+          ]
+        },
+        "west": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            4.375,
+            8.0,
+            5.625,
+            10.0
+          ]
+        },
+        "up": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            4.375,
+            8.0,
+            5.625,
+            9.25
+          ]
+        },
+        "down": {
+          "texture": "create:block/railway_casing_side_connected",
+          "uv": [
+            4.375,
+            8.0,
+            5.625,
+            9.25
+          ]
+        }
+      }
+    }
+  ]
+}

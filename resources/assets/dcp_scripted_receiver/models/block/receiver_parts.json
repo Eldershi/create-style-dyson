@@ -1,0 +1,80 @@
+{
+  "loader": "forge:composite",
+  "children": {
+    "base_frame": {
+      "parent": "dcp_scripted_receiver:block/base_frame"
+    },
+    "deck": {
+      "parent": "dcp_scripted_receiver:block/deck"
+    },
+    "bearing_fixed": {
+      "parent": "dcp_scripted_receiver:block/bearing_fixed"
+    },
+    "bearing_rotor": {
+      "parent": "dcp_scripted_receiver:block/bearing_rotor"
+    },
+    "bearing_spacer": {
+      "parent": "dcp_scripted_receiver:block/bearing_spacer"
+    },
+    "upper_fork": {
+      "parent": "dcp_scripted_receiver:block/upper_fork"
+    },
+    "upper_head": {
+      "parent": "dcp_scripted_receiver:block/upper_head"
+    },
+    "hydraulic_fixed_mounts": {
+      "parent": "dcp_scripted_receiver:block/hydraulic_fixed_mounts"
+    },
+    "hydraulic_cranks": {
+      "parent": "dcp_scripted_receiver:block/hydraulic_cranks"
+    },
+    "hydraulic_eye_base": {
+      "parent": "dcp_scripted_receiver:block/hydraulic_eye_base"
+    },
+    "hydraulic_eye_rod": {
+      "parent": "dcp_scripted_receiver:block/hydraulic_eye_rod"
+    },
+    "hydraulic_base_pin": {
+      "parent": "dcp_scripted_receiver:block/hydraulic_base_pin"
+    },
+    "hydraulic_barrel_skin": {
+      "parent": "dcp_scripted_receiver:block/hydraulic_barrel_skin"
+    },
+    "hydraulic_rod_skin": {
+      "parent": "dcp_scripted_receiver:block/hydraulic_rod_skin"
+    },
+    "deck_wire_north": {
+      "parent": "dcp_scripted_receiver:block/deck_wire_north"
+    },
+    "controller_output_socket": {
+      "parent": "dcp_scripted_receiver:block/controller_output_socket"
+    },
+    "transformer_left": {
+      "parent": "dcp_scripted_receiver:block/transformer_left"
+    },
+    "transformer_right": {
+      "parent": "dcp_scripted_receiver:block/transformer_right"
+    },
+    "transformer_coil1": {
+      "parent": "dcp_scripted_receiver:block/transformer_coil1"
+    },
+    "transformer_coil2": {
+      "parent": "dcp_scripted_receiver:block/transformer_coil2"
+    },
+    "transformer_saddles": {
+      "parent": "dcp_scripted_receiver:block/transformer_saddles"
+    },
+    "transformer_bridge_supports": {
+      "parent": "dcp_scripted_receiver:block/transformer_bridge_supports"
+    },
+    "central_energy_hose": {
+      "parent": "dcp_scripted_receiver:block/central_energy_hose"
+    },
+    "metal_bearing_plate": {
+      "parent": "dcp_scripted_receiver:block/metal_bearing_plate"
+    },
+    "connector_small_passive": {
+      "parent": "dcp_scripted_receiver:block/connector_small_passive"
+    }
+  }
+}

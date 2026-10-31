@@ -1,0 +1,93 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true,
+  "credit": "V6 square assembly; exact native PNGs and model parts; custom surfaces use source texel crops, no scaled blocks",
+  "textures": {},
+  "elements": [
+    {
+      "name": "bearing_adapter_side",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            6.0,
+            16.0,
+            9.0
+          ]
+        },
+        "east": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            6.0,
+            16.0,
+            9.0
+          ]
+        },
+        "south": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            6.0,
+            16.0,
+            9.0
+          ]
+        },
+        "west": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            6.0,
+            16.0,
+            9.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bearing_adapter_faces",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "down": {
+          "texture": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      }
+    }
+  ]
+}

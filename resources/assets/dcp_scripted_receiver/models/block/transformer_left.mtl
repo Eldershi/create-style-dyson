@@ -1,0 +1,15 @@
+newmtl tex_5
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_receiver:block/tex_962b044ebd8849c99d2b8e6a
+
+newmtl tex_15
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd dcp_scripted_receiver:block/tex_5a0a6dffc165e5d78e795126

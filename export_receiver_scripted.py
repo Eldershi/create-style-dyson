@@ -13,9 +13,9 @@ import sys
 import numpy as np
 
 ROOT=Path(__file__).resolve().parent
-from private_inputs import input_root
-PRIVATE=input_root()
-REC=PRIVATE/'receiver'
+from source_inputs import input_root
+INPUT=input_root()
+REC=INPUT/'receiver'
 WORK=ROOT/'work/scripted-receiver'
 TEMP=WORK/'export-tmp'
 OUT=ROOT/'outputs/scripted-pack'

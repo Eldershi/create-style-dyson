@@ -709,6 +709,6 @@
       "dependency_entry": "assets/dysoncubeproject/textures/block/ray_receiver_lens.png"
     }
   ],
-  "artwork_in_repository": false,
-  "assessment_scope": "Source and packaging records, not a blanket determination that all current art is unpublishable."
+  "artwork_in_repository": true,
+  "assessment_scope": "Actual canonical input and resource snapshot provenance; upstream terms and specific author/community permission records remain applicable."
 }

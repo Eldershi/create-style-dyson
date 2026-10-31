@@ -1,0 +1,4285 @@
+{
+  "credit": "V6 functional hydraulic support/cranks; cuboids only; genuineCBC/Aeronautics UVcrops at nativepixel density",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+    "m0": "createbigcannons:block/cannon_mount/rotating_mount_plate",
+    "m1": "simulated:block/dock_2"
+  },
+  "elements": [
+    {
+      "name": "left_short_pitch_shaft",
+      "from": [
+        -5,
+        22,
+        6
+      ],
+      "to": [
+        0,
+        26,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.0,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_short_pitch_shaft",
+      "from": [
+        -5,
+        22,
+        6
+      ],
+      "to": [
+        0,
+        26,
+        10
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.0,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_short_pitch_shaft",
+      "from": [
+        -5,
+        22,
+        6
+      ],
+      "to": [
+        0,
+        26,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_short_pitch_shaft",
+      "from": [
+        -5,
+        22,
+        6
+      ],
+      "to": [
+        0,
+        26,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_short_pitch_shaft",
+      "from": [
+        -5,
+        22,
+        6
+      ],
+      "to": [
+        0,
+        26,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            9.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_short_pitch_shaft",
+      "from": [
+        -5,
+        22,
+        6
+      ],
+      "to": [
+        0,
+        26,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            9.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_short_pitch_shaft",
+      "from": [
+        16,
+        22,
+        6
+      ],
+      "to": [
+        20,
+        26,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_short_pitch_shaft",
+      "from": [
+        20,
+        22,
+        6
+      ],
+      "to": [
+        21,
+        26,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            5.0,
+            4.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_short_pitch_shaft",
+      "from": [
+        16,
+        22,
+        6
+      ],
+      "to": [
+        20,
+        26,
+        10
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_short_pitch_shaft",
+      "from": [
+        20,
+        22,
+        6
+      ],
+      "to": [
+        21,
+        26,
+        10
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            5.0,
+            4.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_short_pitch_shaft",
+      "from": [
+        16,
+        22,
+        6
+      ],
+      "to": [
+        21,
+        26,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_short_pitch_shaft",
+      "from": [
+        16,
+        22,
+        6
+      ],
+      "to": [
+        21,
+        26,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.0,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_short_pitch_shaft",
+      "from": [
+        16,
+        22,
+        6
+      ],
+      "to": [
+        20,
+        26,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            9.0,
+            9.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_short_pitch_shaft",
+      "from": [
+        20,
+        22,
+        6
+      ],
+      "to": [
+        21,
+        26,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_short_pitch_shaft",
+      "from": [
+        16,
+        22,
+        6
+      ],
+      "to": [
+        20,
+        26,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            9.0,
+            9.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_short_pitch_shaft",
+      "from": [
+        20,
+        22,
+        6
+      ],
+      "to": [
+        21,
+        26,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            9.0,
+            4.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_inner_dogleg_strut",
+      "from": [
+        -5,
+        22,
+        2
+      ],
+      "to": [
+        -4,
+        26,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.0,
+            5.0,
+            9.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_inner_dogleg_strut",
+      "from": [
+        -5,
+        22,
+        2
+      ],
+      "to": [
+        -4,
+        26,
+        6
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.0,
+            5.0,
+            9.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_inner_dogleg_strut",
+      "from": [
+        -5,
+        22,
+        2
+      ],
+      "to": [
+        -4,
+        26,
+        6
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            5.0,
+            5.0,
+            9.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_inner_dogleg_strut",
+      "from": [
+        -5,
+        22,
+        2
+      ],
+      "to": [
+        -4,
+        26,
+        6
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            5.0,
+            5.0,
+            9.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_inner_dogleg_strut",
+      "from": [
+        -5,
+        22,
+        2
+      ],
+      "to": [
+        -4,
+        26,
+        6
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            5.0,
+            9.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_inner_dogleg_strut",
+      "from": [
+        -5,
+        22,
+        2
+      ],
+      "to": [
+        -4,
+        26,
+        6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            5.0,
+            9.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_inner_dogleg_strut",
+      "from": [
+        20,
+        22,
+        2
+      ],
+      "to": [
+        21,
+        26,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            5.0,
+            4.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_inner_dogleg_strut",
+      "from": [
+        20,
+        22,
+        2
+      ],
+      "to": [
+        21,
+        26,
+        6
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            5.0,
+            4.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_inner_dogleg_strut",
+      "from": [
+        20,
+        22,
+        2
+      ],
+      "to": [
+        21,
+        26,
+        6
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            5.0,
+            5.0,
+            9.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_inner_dogleg_strut",
+      "from": [
+        20,
+        22,
+        2
+      ],
+      "to": [
+        21,
+        26,
+        6
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            5.0,
+            5.0,
+            9.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_inner_dogleg_strut",
+      "from": [
+        20,
+        22,
+        2
+      ],
+      "to": [
+        21,
+        26,
+        6
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            5.0,
+            4.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_inner_dogleg_strut",
+      "from": [
+        20,
+        22,
+        2
+      ],
+      "to": [
+        21,
+        26,
+        6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            5.0,
+            4.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_rear_torque_bridge",
+      "from": [
+        -10.75,
+        23.25,
+        0
+      ],
+      "to": [
+        -10,
+        25.25,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.25,
+            6.25,
+            13.0,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_rear_torque_bridge",
+      "from": [
+        -10,
+        23.25,
+        0
+      ],
+      "to": [
+        -4.125,
+        25.25,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            6.25,
+            8.875,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_rear_torque_bridge",
+      "from": [
+        -10.75,
+        23.25,
+        0
+      ],
+      "to": [
+        -10,
+        25.25,
+        2
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.25,
+            6.25,
+            13.0,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_rear_torque_bridge",
+      "from": [
+        -10,
+        23.25,
+        0
+      ],
+      "to": [
+        -4.125,
+        25.25,
+        2
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            6.25,
+            8.875,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_rear_torque_bridge",
+      "from": [
+        -10.75,
+        23.25,
+        0
+      ],
+      "to": [
+        -4.125,
+        25.25,
+        2
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            3.0,
+            6.25,
+            5.0,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_rear_torque_bridge",
+      "from": [
+        -10.75,
+        23.25,
+        0
+      ],
+      "to": [
+        -4.125,
+        25.25,
+        2
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            3.0,
+            6.25,
+            5.0,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_rear_torque_bridge",
+      "from": [
+        -10.75,
+        23.25,
+        0
+      ],
+      "to": [
+        -10,
+        25.25,
+        2
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.25,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_rear_torque_bridge",
+      "from": [
+        -10,
+        23.25,
+        0
+      ],
+      "to": [
+        -4.125,
+        25.25,
+        2
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            3.0,
+            8.875,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_rear_torque_bridge",
+      "from": [
+        -10.75,
+        23.25,
+        0
+      ],
+      "to": [
+        -10,
+        25.25,
+        2
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.25,
+            3.0,
+            13.0,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "left_rear_torque_bridge",
+      "from": [
+        -10,
+        23.25,
+        0
+      ],
+      "to": [
+        -4.125,
+        25.25,
+        2
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            3.0,
+            8.875,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_rear_torque_bridge",
+      "from": [
+        20.125,
+        23.25,
+        0
+      ],
+      "to": [
+        26.75,
+        25.25,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.125,
+            6.25,
+            9.75,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_rear_torque_bridge",
+      "from": [
+        20.125,
+        23.25,
+        0
+      ],
+      "to": [
+        26.75,
+        25.25,
+        2
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.125,
+            6.25,
+            9.75,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_rear_torque_bridge",
+      "from": [
+        20.125,
+        23.25,
+        0
+      ],
+      "to": [
+        26.75,
+        25.25,
+        2
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            3.0,
+            6.25,
+            5.0,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_rear_torque_bridge",
+      "from": [
+        20.125,
+        23.25,
+        0
+      ],
+      "to": [
+        26.75,
+        25.25,
+        2
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            3.0,
+            6.25,
+            5.0,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_rear_torque_bridge",
+      "from": [
+        20.125,
+        23.25,
+        0
+      ],
+      "to": [
+        26.75,
+        25.25,
+        2
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.125,
+            3.0,
+            9.75,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "right_rear_torque_bridge",
+      "from": [
+        20.125,
+        23.25,
+        0
+      ],
+      "to": [
+        26.75,
+        25.25,
+        2
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.125,
+            3.0,
+            9.75,
+            5.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10.75,
+        22,
+        2
+      ],
+      "to": [
+        -10,
+        26,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.25,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10,
+        22,
+        2
+      ],
+      "to": [
+        -9.25,
+        26,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            5.0,
+            3.75,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10.75,
+        22,
+        2
+      ],
+      "to": [
+        -10,
+        26,
+        14
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.25,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10,
+        22,
+        2
+      ],
+      "to": [
+        -9.25,
+        26,
+        14
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            5.0,
+            3.75,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10.75,
+        22,
+        2
+      ],
+      "to": [
+        -9.25,
+        26,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            5.0,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10.75,
+        22,
+        10
+      ],
+      "to": [
+        -9.25,
+        26,
+        14
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            3.0,
+            5.0,
+            7.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10.75,
+        22,
+        2
+      ],
+      "to": [
+        -9.25,
+        26,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            5.0,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10.75,
+        22,
+        10
+      ],
+      "to": [
+        -9.25,
+        26,
+        14
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            3.0,
+            5.0,
+            7.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10.75,
+        22,
+        2
+      ],
+      "to": [
+        -10,
+        26,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.25,
+            5.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10.75,
+        22,
+        10
+      ],
+      "to": [
+        -10,
+        26,
+        14
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.25,
+            3.0,
+            13.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10,
+        22,
+        2
+      ],
+      "to": [
+        -9.25,
+        26,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            5.0,
+            3.75,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10,
+        22,
+        10
+      ],
+      "to": [
+        -9.25,
+        26,
+        14
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            3.0,
+            3.75,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10.75,
+        22,
+        2
+      ],
+      "to": [
+        -10,
+        26,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.25,
+            5.0,
+            13.0,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10.75,
+        22,
+        10
+      ],
+      "to": [
+        -10,
+        26,
+        14
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.25,
+            3.0,
+            13.0,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10,
+        22,
+        2
+      ],
+      "to": [
+        -9.25,
+        26,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            5.0,
+            3.75,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_0",
+      "from": [
+        -10,
+        22,
+        10
+      ],
+      "to": [
+        -9.25,
+        26,
+        14
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            3.0,
+            3.75,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_0",
+      "from": [
+        -10.75,
+        22.0,
+        14.0
+      ],
+      "to": [
+        -10,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.25,
+            5.0,
+            13.0,
+            6.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_0",
+      "from": [
+        -10,
+        22.0,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            5.0,
+            3.75,
+            6.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_0",
+      "from": [
+        -10.75,
+        22.0,
+        14.0
+      ],
+      "to": [
+        -10,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.25,
+            5.0,
+            13.0,
+            6.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_0",
+      "from": [
+        -10,
+        22.0,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            5.0,
+            3.75,
+            6.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_0",
+      "from": [
+        -10.75,
+        22.0,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7.0,
+            5.0,
+            11.0,
+            6.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_0",
+      "from": [
+        -10.75,
+        22.0,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7.0,
+            5.0,
+            11.0,
+            6.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_0",
+      "from": [
+        -10.75,
+        22.0,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        23.25,
+        16
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.625,
+            15.0,
+            2.375,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_0",
+      "from": [
+        -10.75,
+        22.0,
+        16
+      ],
+      "to": [
+        -9.25,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.625,
+            14.0,
+            2.375,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_0",
+      "from": [
+        -10.75,
+        22.0,
+        14.0
+      ],
+      "to": [
+        -10,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.25,
+            7.0,
+            13.0,
+            11.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_0",
+      "from": [
+        -10,
+        22.0,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            7.0,
+            3.75,
+            11.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_1",
+      "from": [
+        -10.75,
+        24.75,
+        14.0
+      ],
+      "to": [
+        -10,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.25,
+            7.75,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_1",
+      "from": [
+        -10,
+        24.75,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            7.75,
+            3.75,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_1",
+      "from": [
+        -10.75,
+        24.75,
+        14.0
+      ],
+      "to": [
+        -10,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.25,
+            7.75,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_1",
+      "from": [
+        -10,
+        24.75,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            7.75,
+            3.75,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_1",
+      "from": [
+        -10.75,
+        24.75,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7.0,
+            7.75,
+            11.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_1",
+      "from": [
+        -10.75,
+        24.75,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7.0,
+            7.75,
+            11.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_1",
+      "from": [
+        -10.75,
+        24.75,
+        14.0
+      ],
+      "to": [
+        -10,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.25,
+            7.0,
+            13.0,
+            11.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_1",
+      "from": [
+        -10,
+        24.75,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            7.0,
+            3.75,
+            11.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_1",
+      "from": [
+        -10.75,
+        24.75,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        26.0,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.625,
+            15.0,
+            2.375,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_1",
+      "from": [
+        -10.75,
+        24.75,
+        16
+      ],
+      "to": [
+        -9.25,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.625,
+            14.0,
+            2.375,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_2",
+      "from": [
+        -10.75,
+        23.25,
+        14.0
+      ],
+      "to": [
+        -10,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.25,
+            6.25,
+            13.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_2",
+      "from": [
+        -10,
+        23.25,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            6.25,
+            3.75,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_2",
+      "from": [
+        -10.75,
+        23.25,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        24,
+        15.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1.625,
+            15.625,
+            2.375,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_2",
+      "from": [
+        -10.75,
+        24,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1.625,
+            14.0,
+            2.375,
+            14.375
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_2",
+      "from": [
+        -10.75,
+        23.25,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7.0,
+            6.25,
+            8.25,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_2",
+      "from": [
+        -10.75,
+        23.25,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7.0,
+            6.25,
+            8.25,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_2",
+      "from": [
+        -10.75,
+        23.25,
+        14.0
+      ],
+      "to": [
+        -10,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.25,
+            7.0,
+            13.0,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_2",
+      "from": [
+        -10,
+        23.25,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            7.0,
+            3.75,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_2",
+      "from": [
+        -10.75,
+        23.25,
+        14.0
+      ],
+      "to": [
+        -10,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.25,
+            7.0,
+            13.0,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_2",
+      "from": [
+        -10,
+        23.25,
+        14.0
+      ],
+      "to": [
+        -9.25,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            7.0,
+            3.75,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_3",
+      "from": [
+        -10.75,
+        23.25,
+        16.75
+      ],
+      "to": [
+        -9.25,
+        24,
+        18.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.625,
+            15.625,
+            2.375,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_3",
+      "from": [
+        -10.75,
+        24,
+        16.75
+      ],
+      "to": [
+        -9.25,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.625,
+            14.0,
+            2.375,
+            14.375
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_3",
+      "from": [
+        -10.75,
+        23.25,
+        16.75
+      ],
+      "to": [
+        -10,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            12.25,
+            6.25,
+            13.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_3",
+      "from": [
+        -10,
+        23.25,
+        16.75
+      ],
+      "to": [
+        -9.25,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            6.25,
+            3.75,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_3",
+      "from": [
+        -10.75,
+        23.25,
+        16.75
+      ],
+      "to": [
+        -9.25,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.75,
+            6.25,
+            11.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_3",
+      "from": [
+        -10.75,
+        23.25,
+        16.75
+      ],
+      "to": [
+        -9.25,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.75,
+            6.25,
+            11.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_3",
+      "from": [
+        -10.75,
+        23.25,
+        16.75
+      ],
+      "to": [
+        -10,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.25,
+            9.75,
+            13.0,
+            11.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_3",
+      "from": [
+        -10,
+        23.25,
+        16.75
+      ],
+      "to": [
+        -9.25,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            9.75,
+            3.75,
+            11.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_3",
+      "from": [
+        -10.75,
+        23.25,
+        16.75
+      ],
+      "to": [
+        -10,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.25,
+            9.75,
+            13.0,
+            11.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_0_square_bore_strip_3",
+      "from": [
+        -10,
+        23.25,
+        16.75
+      ],
+      "to": [
+        -9.25,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            9.75,
+            3.75,
+            11.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_0",
+      "from": [
+        -14,
+        23.5,
+        15.5
+      ],
+      "to": [
+        -10,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.0,
+            6.5,
+            13.0,
+            7.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_0",
+      "from": [
+        -10,
+        23.5,
+        15.5
+      ],
+      "to": [
+        -6,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            6.5,
+            7.0,
+            7.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_0",
+      "from": [
+        -14,
+        23.5,
+        15.5
+      ],
+      "to": [
+        -10,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            9.0,
+            6.5,
+            13.0,
+            7.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_0",
+      "from": [
+        -10,
+        23.5,
+        15.5
+      ],
+      "to": [
+        -6,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            6.5,
+            7.0,
+            7.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_0",
+      "from": [
+        -14,
+        23.5,
+        15.5
+      ],
+      "to": [
+        -6,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            8.5,
+            6.5,
+            9.5,
+            7.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_0",
+      "from": [
+        -14,
+        23.5,
+        15.5
+      ],
+      "to": [
+        -6,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            8.5,
+            6.5,
+            9.5,
+            7.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_0",
+      "from": [
+        -14,
+        23.5,
+        15.5
+      ],
+      "to": [
+        -10,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            9.0,
+            8.5,
+            13.0,
+            9.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_0",
+      "from": [
+        -10,
+        23.5,
+        15.5
+      ],
+      "to": [
+        -6,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            8.5,
+            7.0,
+            9.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_0",
+      "from": [
+        -14,
+        23.5,
+        15.5
+      ],
+      "to": [
+        -10,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            9.0,
+            8.5,
+            13.0,
+            9.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_0",
+      "from": [
+        -10,
+        23.5,
+        15.5
+      ],
+      "to": [
+        -6,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            8.5,
+            7.0,
+            9.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_integral_square_head_0",
+      "from": [
+        -15,
+        22.5,
+        14.5
+      ],
+      "to": [
+        -14,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.0,
+            5.5,
+            9.0,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_integral_square_head_0",
+      "from": [
+        -15,
+        22.5,
+        14.5
+      ],
+      "to": [
+        -14,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.0,
+            5.5,
+            9.0,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_integral_square_head_0",
+      "from": [
+        -15,
+        22.5,
+        14.5
+      ],
+      "to": [
+        -14,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7.5,
+            5.5,
+            10.5,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_integral_square_head_0",
+      "from": [
+        -15,
+        22.5,
+        14.5
+      ],
+      "to": [
+        -14,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7.5,
+            5.5,
+            10.5,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_integral_square_head_0",
+      "from": [
+        -15,
+        22.5,
+        14.5
+      ],
+      "to": [
+        -14,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            7.5,
+            9.0,
+            10.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_integral_square_head_0",
+      "from": [
+        -15,
+        22.5,
+        14.5
+      ],
+      "to": [
+        -14,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            7.5,
+            9.0,
+            10.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_square_retaining_cap_0",
+      "from": [
+        -6,
+        22.5,
+        14.5
+      ],
+      "to": [
+        -5,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.0,
+            5.5,
+            8.0,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_square_retaining_cap_0",
+      "from": [
+        -6,
+        22.5,
+        14.5
+      ],
+      "to": [
+        -5,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            7.0,
+            5.5,
+            8.0,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_square_retaining_cap_0",
+      "from": [
+        -6,
+        22.5,
+        14.5
+      ],
+      "to": [
+        -5,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7.5,
+            5.5,
+            10.5,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_square_retaining_cap_0",
+      "from": [
+        -6,
+        22.5,
+        14.5
+      ],
+      "to": [
+        -5,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7.5,
+            5.5,
+            10.5,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_square_retaining_cap_0",
+      "from": [
+        -6,
+        22.5,
+        14.5
+      ],
+      "to": [
+        -5,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            7.0,
+            7.5,
+            8.0,
+            10.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_square_retaining_cap_0",
+      "from": [
+        -6,
+        22.5,
+        14.5
+      ],
+      "to": [
+        -5,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            7.0,
+            7.5,
+            8.0,
+            10.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_1",
+      "from": [
+        25.25,
+        22,
+        2
+      ],
+      "to": [
+        26.75,
+        26,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            5.0,
+            9.75,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_1",
+      "from": [
+        25.25,
+        22,
+        2
+      ],
+      "to": [
+        26.75,
+        26,
+        14
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.25,
+            5.0,
+            9.75,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_1",
+      "from": [
+        25.25,
+        22,
+        2
+      ],
+      "to": [
+        26.75,
+        26,
+        10
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            5.0,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_1",
+      "from": [
+        25.25,
+        22,
+        10
+      ],
+      "to": [
+        26.75,
+        26,
+        14
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            3.0,
+            5.0,
+            7.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_1",
+      "from": [
+        25.25,
+        22,
+        2
+      ],
+      "to": [
+        26.75,
+        26,
+        10
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            5.0,
+            5.0,
+            13.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_1",
+      "from": [
+        25.25,
+        22,
+        10
+      ],
+      "to": [
+        26.75,
+        26,
+        14
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            3.0,
+            5.0,
+            7.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_1",
+      "from": [
+        25.25,
+        22,
+        2
+      ],
+      "to": [
+        26.75,
+        26,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.25,
+            5.0,
+            9.75,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_1",
+      "from": [
+        25.25,
+        22,
+        10
+      ],
+      "to": [
+        26.75,
+        26,
+        14
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.25,
+            3.0,
+            9.75,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_1",
+      "from": [
+        25.25,
+        22,
+        2
+      ],
+      "to": [
+        26.75,
+        26,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.25,
+            5.0,
+            9.75,
+            13.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_web_1",
+      "from": [
+        25.25,
+        22,
+        10
+      ],
+      "to": [
+        26.75,
+        26,
+        14
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.25,
+            3.0,
+            9.75,
+            7.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_0",
+      "from": [
+        25.25,
+        22.0,
+        14.0
+      ],
+      "to": [
+        26.75,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            5.0,
+            9.75,
+            6.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_0",
+      "from": [
+        25.25,
+        22.0,
+        14.0
+      ],
+      "to": [
+        26.75,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.25,
+            5.0,
+            9.75,
+            6.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_0",
+      "from": [
+        25.25,
+        22.0,
+        14.0
+      ],
+      "to": [
+        26.75,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7.0,
+            5.0,
+            11.0,
+            6.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_0",
+      "from": [
+        25.25,
+        22.0,
+        14.0
+      ],
+      "to": [
+        26.75,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7.0,
+            5.0,
+            11.0,
+            6.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_0",
+      "from": [
+        25.25,
+        22.0,
+        14.0
+      ],
+      "to": [
+        26.75,
+        23.25,
+        16
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.625,
+            15.0,
+            2.375,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_0",
+      "from": [
+        25.25,
+        22.0,
+        16
+      ],
+      "to": [
+        26.75,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.625,
+            14.0,
+            2.375,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_0",
+      "from": [
+        25.25,
+        22.0,
+        14.0
+      ],
+      "to": [
+        26.75,
+        23.25,
+        18.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.25,
+            7.0,
+            9.75,
+            11.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_1",
+      "from": [
+        25.25,
+        24.75,
+        14.0
+      ],
+      "to": [
+        26.75,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            7.75,
+            9.75,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_1",
+      "from": [
+        25.25,
+        24.75,
+        14.0
+      ],
+      "to": [
+        26.75,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.25,
+            7.75,
+            9.75,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_1",
+      "from": [
+        25.25,
+        24.75,
+        14.0
+      ],
+      "to": [
+        26.75,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7.0,
+            7.75,
+            11.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_1",
+      "from": [
+        25.25,
+        24.75,
+        14.0
+      ],
+      "to": [
+        26.75,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7.0,
+            7.75,
+            11.0,
+            9.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_1",
+      "from": [
+        25.25,
+        24.75,
+        14.0
+      ],
+      "to": [
+        26.75,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.25,
+            7.0,
+            9.75,
+            11.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_1",
+      "from": [
+        25.25,
+        24.75,
+        14.0
+      ],
+      "to": [
+        26.75,
+        26.0,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.625,
+            15.0,
+            2.375,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_1",
+      "from": [
+        25.25,
+        24.75,
+        16
+      ],
+      "to": [
+        26.75,
+        26.0,
+        18.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1.625,
+            14.0,
+            2.375,
+            15.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_2",
+      "from": [
+        25.25,
+        23.25,
+        14.0
+      ],
+      "to": [
+        26.75,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            6.25,
+            9.75,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_2",
+      "from": [
+        25.25,
+        23.25,
+        14.0
+      ],
+      "to": [
+        26.75,
+        24,
+        15.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1.625,
+            15.625,
+            2.375,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_2",
+      "from": [
+        25.25,
+        24,
+        14.0
+      ],
+      "to": [
+        26.75,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1.625,
+            14.0,
+            2.375,
+            14.375
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_2",
+      "from": [
+        25.25,
+        23.25,
+        14.0
+      ],
+      "to": [
+        26.75,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7.0,
+            6.25,
+            8.25,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_2",
+      "from": [
+        25.25,
+        23.25,
+        14.0
+      ],
+      "to": [
+        26.75,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7.0,
+            6.25,
+            8.25,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_2",
+      "from": [
+        25.25,
+        23.25,
+        14.0
+      ],
+      "to": [
+        26.75,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.25,
+            7.0,
+            9.75,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_2",
+      "from": [
+        25.25,
+        23.25,
+        14.0
+      ],
+      "to": [
+        26.75,
+        24.75,
+        15.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.25,
+            7.0,
+            9.75,
+            8.25
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_3",
+      "from": [
+        25.25,
+        23.25,
+        16.75
+      ],
+      "to": [
+        26.75,
+        24,
+        18.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.625,
+            15.625,
+            2.375,
+            16.0
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_3",
+      "from": [
+        25.25,
+        24,
+        16.75
+      ],
+      "to": [
+        26.75,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.625,
+            14.0,
+            2.375,
+            14.375
+          ],
+          "texture": "#m1"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_3",
+      "from": [
+        25.25,
+        23.25,
+        16.75
+      ],
+      "to": [
+        26.75,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            8.25,
+            6.25,
+            9.75,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_3",
+      "from": [
+        25.25,
+        23.25,
+        16.75
+      ],
+      "to": [
+        26.75,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            9.75,
+            6.25,
+            11.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_3",
+      "from": [
+        25.25,
+        23.25,
+        16.75
+      ],
+      "to": [
+        26.75,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.75,
+            6.25,
+            11.0,
+            7.75
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_3",
+      "from": [
+        25.25,
+        23.25,
+        16.75
+      ],
+      "to": [
+        26.75,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.25,
+            9.75,
+            9.75,
+            11.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "moving_crank_crosshead_1_square_bore_strip_3",
+      "from": [
+        25.25,
+        23.25,
+        16.75
+      ],
+      "to": [
+        26.75,
+        24.75,
+        18.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.25,
+            9.75,
+            9.75,
+            11.0
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_1",
+      "from": [
+        22,
+        23.5,
+        15.5
+      ],
+      "to": [
+        30,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.0,
+            6.5,
+            13.0,
+            7.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_1",
+      "from": [
+        22,
+        23.5,
+        15.5
+      ],
+      "to": [
+        30,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            5.0,
+            6.5,
+            13.0,
+            7.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_1",
+      "from": [
+        22,
+        23.5,
+        15.5
+      ],
+      "to": [
+        30,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            8.5,
+            6.5,
+            9.5,
+            7.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_1",
+      "from": [
+        22,
+        23.5,
+        15.5
+      ],
+      "to": [
+        30,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            8.5,
+            6.5,
+            9.5,
+            7.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_1",
+      "from": [
+        22,
+        23.5,
+        15.5
+      ],
+      "to": [
+        30,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            5.0,
+            8.5,
+            13.0,
+            9.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "common_rod_crosshead_pin_1",
+      "from": [
+        22,
+        23.5,
+        15.5
+      ],
+      "to": [
+        30,
+        24.5,
+        16.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            5.0,
+            8.5,
+            13.0,
+            9.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_integral_square_head_1",
+      "from": [
+        21,
+        22.5,
+        14.5
+      ],
+      "to": [
+        22,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            5.5,
+            5.0,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_integral_square_head_1",
+      "from": [
+        21,
+        22.5,
+        14.5
+      ],
+      "to": [
+        22,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            4.0,
+            5.5,
+            5.0,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_integral_square_head_1",
+      "from": [
+        21,
+        22.5,
+        14.5
+      ],
+      "to": [
+        22,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7.5,
+            5.5,
+            10.5,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_integral_square_head_1",
+      "from": [
+        21,
+        22.5,
+        14.5
+      ],
+      "to": [
+        22,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7.5,
+            5.5,
+            10.5,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_integral_square_head_1",
+      "from": [
+        21,
+        22.5,
+        14.5
+      ],
+      "to": [
+        22,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            4.0,
+            7.5,
+            5.0,
+            10.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_integral_square_head_1",
+      "from": [
+        21,
+        22.5,
+        14.5
+      ],
+      "to": [
+        22,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            7.5,
+            5.0,
+            10.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_square_retaining_cap_1",
+      "from": [
+        30,
+        22.5,
+        14.5
+      ],
+      "to": [
+        31,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.0,
+            5.5,
+            4.0,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_square_retaining_cap_1",
+      "from": [
+        30,
+        22.5,
+        14.5
+      ],
+      "to": [
+        31,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            3.0,
+            5.5,
+            4.0,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_square_retaining_cap_1",
+      "from": [
+        30,
+        22.5,
+        14.5
+      ],
+      "to": [
+        31,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7.5,
+            5.5,
+            10.5,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_square_retaining_cap_1",
+      "from": [
+        30,
+        22.5,
+        14.5
+      ],
+      "to": [
+        31,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7.5,
+            5.5,
+            10.5,
+            8.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_square_retaining_cap_1",
+      "from": [
+        30,
+        22.5,
+        14.5
+      ],
+      "to": [
+        31,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3.0,
+            7.5,
+            4.0,
+            10.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    },
+    {
+      "name": "rod_pin_square_retaining_cap_1",
+      "from": [
+        30,
+        22.5,
+        14.5
+      ],
+      "to": [
+        31,
+        25.5,
+        17.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3.0,
+            7.5,
+            4.0,
+            10.5
+          ],
+          "texture": "#m0"
+        }
+      }
+    }
+  ]
+}
