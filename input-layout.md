@@ -1,11 +1,13 @@
-# 构建输入与资源快照
+# Build inputs and resource snapshots
 
-`source/` 包含49项已锁定的规范美术输入。默认运行 `python3 build.py` 即从仓库内输入重建，不需要外部美术目录。可用 `--source-inputs` 指定同一锁定内容的另一目录。
+English | [简体中文](input-layout.zh-CN.md)
 
-- `rail/payload.json`：发射器编译几何、UV和原像素数据。
-- `rail/scene.js`：发射器规范姿态函数。
-- `receiver/payload.json`、`receiver/scene.js`：接收器编译数据与规范姿态函数。
-- `receiver/assets/<namespace>/models/`、`textures/`：对应模型JSON、PNG及必要元数据。
-- `native/`：原弹丸JSON与粒子PNG。
+`source/` contains 49 locked canonical art inputs. Running `python3 build.py` rebuilds from the inputs in this repository by default; no external art directory is required. Use `--source-inputs` to select another directory containing the same locked inputs.
 
-`source-input-lock.json` 逐项记录规范输入SHA；`resources/` 保存246项最终编译资源，`resource-hashes.json` 记录其SHA。构建逐字节核对资源快照、最终ZIP和客户端脚本。来源与署名见 `THIRD_PARTY_INPUTS.md`、`donor-references.json`。
+- `rail/payload.json`: compiled ejector geometry, UVs, and original pixel data.
+- `rail/scene.js`: the canonical ejector pose functions.
+- `receiver/payload.json` and `receiver/scene.js`: compiled receiver data and canonical pose functions.
+- `receiver/assets/<namespace>/models/` and `textures/`: the corresponding model JSON, PNG images, and required metadata.
+- `native/`: the original projectile JSON and particle PNG.
+
+`source-input-lock.json` records the SHA of each canonical input. `resources/` contains the 246 final compiled resources, with their SHAs recorded in `resource-hashes.json`. The build checks the resource snapshot, final ZIP, and client script byte for byte. See [Third-party inputs](THIRD_PARTY_INPUTS.md) and `donor-references.json` for provenance and attribution.

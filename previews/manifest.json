@@ -1,6 +1,30 @@
 {
   "files": {
-    "previews/rail.png": "c3323cc34b5f31aa7600910dd844553eefd4914b3c3df2fa6a667defb891567c",
-    "previews/receiver.png": "0f37ddc6466f378998230423111114e7af30ee16e6773906c567abd6db03991b"
+    "previews/electromagnetic-ejector.png": "67e55ea1db1765aaafe376c80ed2447c4be60ea119a52738a7173cdd0de6bc8f",
+    "previews/ray-receiver.png": "debce41f15555cc1f020d6a942ab8e793ded2ba613edb0d19249e546f9344845"
+  },
+  "sources": {
+    "previews/electromagnetic-ejector.png": {
+      "capture": "APPROVED_pose_05.png",
+      "sha256": "c5c0f2c5603c3c4284040e6f72153da27bd723a43fc602cd201bcb887ac23385",
+      "crop": [
+        1060,
+        560,
+        1490,
+        1098
+      ],
+      "image_content": "Native in-game screenshot; crop only"
+    },
+    "previews/ray-receiver.png": {
+      "capture": "APPROVED_pose_16.png",
+      "sha256": "55c097a0f44dc43b942b1734615af7d99073ecd7964f1ce455983700c287e747",
+      "crop": [
+        1060,
+        585,
+        1490,
+        1123
+      ],
+      "image_content": "Native in-game screenshot; crop only"
+    }
   }
 }

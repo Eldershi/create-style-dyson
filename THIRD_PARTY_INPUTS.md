@@ -1,18 +1,20 @@
-# 美术来源、引用与发布依据
+# Artwork sources, references, and distribution terms
 
-当前仓库保存完整规范美术输入、编译资源快照、代码、资源ID和哈希。许可文件、作者补充说明、社区使用方式与具体打包内容需要一起核对。
+English | [简体中文](THIRD_PARTY_INPUTS.zh-CN.md)
 
-Create 官方仓库的[讨论 #9857](https://github.com/Creators-of-Create/Create/issues/9857)有贡献者转述美术作者的说明：保留美术权利与允许社区附属复用并存，ARR 是权利保留的澄清。该讨论不是把美术改为 MIT；也不能仅凭 ARR 标签宣布所有社区复用均被禁止。[资源包案例 #9594](https://github.com/Creators-of-Create/Create/issues/9594)还记录了针对具体智能侦测器贴图的作者许可。[ReCreate 的来源说明](https://github.com/Gordon-Frohman/ReCreate#%EF%B8%8F-legal-matters)明确记录其已获 Create 团队许可。具体案例的授权范围与一般社区说明分别记录，不互相替代。
+This repository contains the complete canonical art inputs, compiled resource snapshots, code, resource IDs, and hashes. License texts, authors' additional statements, community reuse practices, and the actual packaged content need to be considered together.
 
-| 输入 | 已确认依据 | 使用与发布处理 |
+In the official Create repository's [discussion #9857](https://github.com/Creators-of-Create/Create/issues/9857), a contributor relays an artist's statement: retaining art rights and allowing community addon reuse can coexist, and ARR clarifies those retained rights. The discussion does not relicense the artwork under MIT; the ARR label alone also does not establish that all community reuse is prohibited. [Resource-pack example #9594](https://github.com/Creators-of-Create/Create/issues/9594) records the author's permission for a specific Smart Observer texture. [ReCreate's source notice](https://github.com/Gordon-Frohman/ReCreate#%EF%B8%8F-legal-matters) explicitly records permission from the Create team. The scope of each specific permission and the general community statement is recorded separately; one does not replace the other.
+
+| Input | Recorded basis | Use and distribution |
 | --- | --- | --- |
-| Create 基础资源 | 实际 donor 许可保留美术权利；上述官方仓库讨论支持社区附属复用。 | 可采用自研结构配合 Create 资源引用的方式。直接打包副本与运行时引用分别登记，保留上游来源和署名；不以 ARR 标签一律排除。 |
-| Aeronautics/Simulated 资源 | 实际外层及内嵌JAR许可保留其美术权利。 | 单独记录实际来源、引用或打包方式及对应补充许可。Create 的说明不自动代替其他作者的说明；当前记录不作统一禁止结论。 |
-| Dyson Cube Project Forge | [官方文件页](https://www.curseforge.com/minecraft/mc-mods/dyson-cube-project-forge/files/9025750)登记许可；本项目依赖原模组并委托其原渲染器和特效。 | 区分依赖调用、资源引用与直接带入的原始素材，不把自研替换模型等同于重新分发整个原模组。 |
-| Create Crafts & Additions | 实际JAR及[官方许可](https://github.com/mrh0/createaddition/blob/main/LICENSE)声明 MIT。 | 保留适用的版权与许可通知；已有附属直接使用 Create 资源ID的做法可作为技术参考。 |
-| Create Big Cannons | 实际JAR及[官方许可](https://github.com/Cannoneers-of-Create/CreateBigCannons/blob/create-v6-1.21.1/LICENSE.md)将手工模型、贴图列为 CC BY-NC-SA 4.0，代码另为 MIT。 | 对应美术按署名、非商业和相同方式共享等条件处理，不误标为代码的 MIT。 |
-| 本地调色与连续纹理 | 源SHA与资源ID记录在 `donor-references.json`。 | 按实际来源逐项判断；不把“经过调色”当成自动取得新权利，也不笼统认定所有派生输入均不能发布。 |
+| Create base resources | The actual donor license retains art rights; the official-repository discussion above supports community addon reuse. | Structures made for this project can be combined with references to Create resources. Bundled copies and runtime references are documented separately, with upstream provenance and attribution retained. The ARR label alone is not treated as an automatic exclusion. |
+| Aeronautics/Simulated resources | The licenses in the actual outer and nested JARs retain art rights. | Record the actual source, reference or packaging method, and relevant additional permissions separately. Create's statements do not replace another author's statements; this record makes no blanket prohibition on publication. |
+| Dyson Cube Project Forge | The [official file page](https://www.curseforge.com/minecraft/mc-mods/dyson-cube-project-forge/files/9025750) records its license. This project depends on the original mod and delegates to its native renderers and effects. | Distinguish dependency calls, resource references, and bundled original material. Replacement models made for this project are not treated as redistribution of the entire original mod. |
+| Create Crafts & Additions | The actual JAR and [official license](https://github.com/mrh0/createaddition/blob/main/LICENSE) declare MIT. | Retain the applicable copyright and license notices. Existing addons that reference Create resource IDs directly provide a technical example. |
+| Create Big Cannons | The actual JAR and [official license](https://github.com/Cannoneers-of-Create/CreateBigCannons/blob/create-v6-1.21.1/LICENSE.md) place handmade models and textures under CC BY-NC-SA 4.0; code is separately licensed under MIT. | Apply attribution, noncommercial, and share-alike terms to the relevant artwork. Do not substitute the code's MIT license for the art license. |
+| Local recoloring and continuous textures | Source SHAs and resource IDs are recorded in `donor-references.json`. | Assess each resource according to its actual source. Recoloring alone does not create new rights, and derivative inputs are not all assumed to be unpublishable. |
 
-原生资源ID可在模型或材质中引用，由已安装的前置模组提供像素；这与在ZIP中携带PNG副本不同。引用也会受到玩家启用的资源包覆盖。保持已确认外观时，需要核对最终解析到的图像，不能只删除副本就宣布同像素等价。
+Native resource IDs can be referenced in models or materials, with the installed dependency supplying the pixels. This differs from bundling PNG copies in the ZIP. References can also be overridden by the player's enabled resource packs. Preserving the confirmed appearance requires checking the image that ultimately resolves; deleting a copy does not by itself demonstrate identical pixels.
 
-`tools/check_public_tree.py` 检查输入与资源快照的路径、SHA、PNG、OBJ及引用完整性，并排除模组JAR、界面适配、存档和日志；它不替代实际来源与许可说明。模型、材质与客户端实装保持已确认产物，本说明不触发替换或重画。
+`tools/check_public_tree.py` checks paths, SHAs, PNGs, OBJs, and reference integrity for the inputs and resource snapshots, and excludes mod JARs, interface adaptations, saves, and logs. It does not replace the source and license notices. The models, materials, and client installation retain the confirmed artifacts; this notice does not initiate replacements or redraws.

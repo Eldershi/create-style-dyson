@@ -1,22 +1,24 @@
-# 美术资源许可与权利说明
+# Asset licenses and rights
 
-本发布中的模型、贴图及其改编部分按下列来源分别保留权利和许可；本项目代码的许可仅作用于有权授权的代码。具体资源ID和作者署名见[CREDITS.md](CREDITS.md)，文件级来源与哈希见仓库的`donor-references.json`。
+English | [简体中文](ASSET-LICENSES.zh-CN.md)
+
+The models, textures, and adaptations in this distribution retain the rights and licenses stated below. The project's code license applies only to code that the project is entitled to license. See [Credits](CREDITS.md) for resource IDs and attribution, and the repository's `donor-references.json` for file provenance and hashes.
 
 ## Create
 
-Copyright (c) The Create Team / The Creators of Create。
+Copyright (c) The Create Team / The Creators of Create.
 
-实际素材来源为Create6.0.10，其`LICENSE.md_create-1.21.1`将`src/main/resources/assets/`列为All Rights Reserved，其他代码列为MIT。美术保留该权利说明。
+The asset source is Create 6.0.10. Its `LICENSE.md_create-1.21.1` reserves all rights to `src/main/resources/assets/` and licenses the other code under MIT. The artwork retains that rights notice.
 
-- [官方许可](https://github.com/Creators-of-Create/Create/blob/mc1.21.1/dev/LICENSE.md)
-- [社区说明#9857](https://github.com/Creators-of-Create/Create/issues/9857)：贡献者转述美术作者关于社区附属复用、保留美术权利与ARR澄清的说明。
-- [具体资源包案例#9594](https://github.com/Creators-of-Create/Create/issues/9594)：Smart Observer贴图作者允许该Create-centric资源包发布的案例。
+- [Official license](https://github.com/Creators-of-Create/Create/blob/mc1.21.1/dev/LICENSE.md)
+- [Community statement #9857](https://github.com/Creators-of-Create/Create/issues/9857): a contributor relays the art author's statement about community addon reuse, retained art rights, and the clarification of ARR.
+- [Specific resource-pack example #9594](https://github.com/Creators-of-Create/Create/issues/9594): an example in which the Smart Observer texture author permits publication of that Create-centric resource pack.
 
-社区说明、具体作者许可与代码MIT各有其范围。本包保留Create风格定位、来源和作者署名，不将其中一个案例扩张为对所有第三方美术的统一授权。
+The community statement, the specific author permission, and the code's MIT license each have their own scope. This pack retains its Create-style identity, source references, and attribution. The specific example is not presented as a general grant covering all third-party artwork.
 
 ## Create Crafts & Additions
 
-素材来源为MRH0的Create Crafts & Additions1.7.1；实际模组元数据声明MIT。[官方LICENSE](https://github.com/mrh0/createaddition/blob/main/LICENSE)全文如下，随相关资源一并保留：
+The asset source is Create Crafts & Additions 1.7.1 by MRH0. Its mod metadata declares MIT. The full [official LICENSE](https://github.com/mrh0/createaddition/blob/main/LICENSE) is reproduced below and retained with the relevant resources:
 
 ```text
 MIT License
@@ -44,26 +46,26 @@ SOFTWARE.
 
 ## Create Big Cannons
 
-Copyright (c) 2022- Cannoneers of Create；项目作者rbasamoyai。
+Copyright (c) 2022- Cannoneers of Create. Project author: rbasamoyai.
 
-[官方许可说明](https://github.com/Cannoneers-of-Create/CreateBigCannons/blob/create-v6-1.21.1/LICENSE.md)将手工模型和贴图置于[Creative Commons Attribution-NonCommercial-ShareAlike4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)之下；[完整法律文本](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)。代码MIT与美术许可分开适用。
+The [official license overview](https://github.com/Cannoneers-of-Create/CreateBigCannons/blob/create-v6-1.21.1/LICENSE.md) places handmade models and textures under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/). See the [full legal code](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en). The code's MIT license and the art license apply separately.
 
-本包使用的滑动炮闩、炮座与轴架相关图像，连同由这些美术形成的组合、局部调色或重排改编部分，按CC BY-NC-SA4.0提供：保留作者、来源和许可链接，标明所作改编；用于非商业用途；再分发其改编部分时采用同一许可；不施加限制该许可既有权利的额外法律或技术措施。可分离的其他上游素材继续保留各自许可。对应资源ID列于CREDITS。
+The sliding-breech, cannon-mount, and shaft-support imagery used by this pack, together with adaptations made from that artwork through combination, local recoloring, or rearrangement, is provided under CC BY-NC-SA 4.0. Retain attribution and source/license links, and identify changes; use the material for noncommercial purposes; distribute adaptations under the same license; and do not impose additional legal terms or technological measures that restrict the rights granted by the license. Separable material from other upstream projects retains its own terms. The corresponding resource IDs are listed in [Credits](CREDITS.md).
 
 ## Create Aeronautics / Simulated
 
-Copyright (c) The Simulated Team / The Creators of Aeronautics。
+Copyright (c) The Simulated Team / The Creators of Aeronautics.
 
-实际素材来源为`create-aeronautics-bundled-1.21.1-1.2.1.jar`及其中Aeronautics/Simulated1.2.1模块。其随附`LICENSE.md`把`aeronautics/common/src/main/resources/assets/`、`simulated/common/src/main/resources/assets/`及`offroad/common/src/main/resources/assets/`列为All Rights Reserved，其余代码列为MIT。本包记录上述美术权利，保留实际项目和团队署名；不将其美术列为本项目自有或代码MIT。
+The asset source is `create-aeronautics-bundled-1.21.1-1.2.1.jar` and its Aeronautics/Simulated 1.2.1 modules. The included `LICENSE.md` reserves all rights to `aeronautics/common/src/main/resources/assets/`, `simulated/common/src/main/resources/assets/`, and `offroad/common/src/main/resources/assets/`; the remaining code is licensed under MIT. This pack retains those art rights notices and credits the source project and team. It does not claim ownership of their artwork or place it under the code's MIT license.
 
-来源：[项目页及团队署名](https://www.curseforge.com/minecraft/mc-mods/create-aeronautics)、[官方项目许可入口](https://www.curseforge.com/minecraft/mc-mods/create-aeronautics/license)、[许可链接](https://github.com/Creators-of-Aeronautics/Simulated-Project/blob/HEAD/LICENSE.md)。Create的社区说明不自动改变此项目独立的美术权利声明。
+Sources: [project page and team credits](https://www.curseforge.com/minecraft/mc-mods/create-aeronautics), [official license entry](https://www.curseforge.com/minecraft/mc-mods/create-aeronautics/license), and [license link](https://github.com/Creators-of-Aeronautics/Simulated-Project/blob/HEAD/LICENSE.md). Create's community statements do not automatically change this project's separate art rights notice.
 
 ## Dyson Cube Project (Forge)
 
-作者及Forge发布者：MobSmasher4000。实际运行版本为`dysoncubeproject-1.20.1+1.0.5.1.jar`。[官方文件页](https://www.curseforge.com/minecraft/mc-mods/dyson-cube-project-forge/files/9025750)与该Forge制品元数据均声明All Rights Reserved；[源码项目](https://github.com/MobSmasher4000/dyson-cube-project)。
+Author and Forge publisher: MobSmasher4000. The runtime version is `dysoncubeproject-1.20.1+1.0.5.1.jar`. Both the [official file page](https://www.curseforge.com/minecraft/mc-mods/dyson-cube-project-forge/files/9025750) and the Forge artifact's metadata declare All Rights Reserved. [Source project](https://github.com/MobSmasher4000/dyson-cube-project).
 
-本包的原模组资源引用、所保留的粒子图像与原生渲染/特效调用继续署名该来源，该Forge制品的权利声明保留于其原模组素材，本项目新增代码的许可分别适用。
+This pack credits that source for its original-mod resource references, retained particle image, and native rendering/effect calls. The Forge artifact's rights notice remains attached to its original material. Licenses for new project code apply separately.
 
-## 再分发时的通知
+## Notices for redistribution
 
-请将本文件与CREDITS随资源包或下载bundle保留；相关上游声明随对应素材和改编部分一并传递。新加入的独立项目代码、美术编排与第三方素材分别按其适用范围说明，项目名称或单独一个代码LICENSE不会统一替代这些上游条件。
+Keep this file and [Credits](CREDITS.md) with the resource pack or download bundle. Pass the relevant upstream notices along with their material and adaptations. New project code, art arrangements, and third-party material are each covered according to their applicable scope. A project name or a single code LICENSE does not replace these upstream terms.

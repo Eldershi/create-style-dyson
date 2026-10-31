@@ -1,28 +1,48 @@
-# 安装与使用
+**English** · [简体中文](INSTALL.zh-CN.md)
 
-适用于 Minecraft 1.20.1、Forge 47.4.10、Java 17。客户端需要现有的 Dyson Cube Project Forge 1.0.5.1、Titanium 3.8.35、KubeJS 2001.6.5-build.26、Rhino 2001.2.3-build.10 和 Architectury 9.2.14。下载包不附带模组 JAR。
+# Installation
 
-下载的 `Create-Style-Dyson-1.0.0-MC1.20.1-Client.zip` 是安装文件集合，需要先解压。里面的资源包与客户端脚本必须配套安装。
+## Requirements
 
-## 使用 Paxi 的客户端
+| Minecraft | Mod loader | Java |
+| --- | --- | --- |
+| 1.20.1 (Java Edition) | [Forge 47.4.10](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html) | [17](https://adoptium.net/temurin/releases/?version=17) |
 
-1. 完整退出游戏，备份同名文件。
-2. 将解压得到的 `config/` 和 `kubejs/` 合并到客户端游戏目录。这只会放入本项目的资源 ZIP 和客户端脚本，不会覆盖整套配置。
-3. 在 `config/paxi/resourcepack_load_order.json` 的 `loadOrder` 数组末尾追加 `Dyson-Create-Approved-Models-Forge-1.20.1.zip`，保留原有条目和顺序，同名项目只保留一次。
-4. 完整重启客户端。
+This release is for **Forge**. Fabric and NeoForge versions are not available.
 
-## 不使用 Paxi 的客户端
+Install these mods in your client's `mods/` folder. The links below open the matching Forge downloads. If your modpack already includes them, you can skip this step.
 
-1. 将内层 `Dyson-Create-Approved-Models-Forge-1.20.1.zip` 放入游戏目录的 `resourcepacks/`，在资源包界面启用并置于需要覆盖的包之上。
-2. 将 `90_dcp_approved_visuals.js` 放入 `kubejs/startup_scripts/`。
-3. 完整重启客户端。只重载资源包不能代替首次加载启动脚本。
+| Required mod | Download |
+| --- | --- |
+| Dyson Cube Project (Forge) | [1.0.5.1](https://www.curseforge.com/minecraft/mc-mods/dyson-cube-project-forge/files/9025750) |
+| Titanium | [3.8.35](https://www.curseforge.com/minecraft/mc-mods/titanium/files/8426836) |
+| KubeJS | [2001.6.5-build.26](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/8020595) |
+| Rhino | [2001.2.3-build.10](https://www.curseforge.com/minecraft/mc-mods/rhino/files/6186971) |
+| Architectury API | [9.2.14](https://www.curseforge.com/minecraft/mc-mods/architectury-api/files/5137938) |
 
-同名资源 ZIP 选择一种安装位置即可。脚本只在客户端运行，不需要把这套视觉脚本装到专用服务端。原模组的多人游戏依赖按其自身要求配置。
+## Installation
 
-## 模型与验证范围
+**Install both the resource pack and the included client script. They work together.**
 
-包括电磁发射器和射线接收器的完整模型、贴图、平台、承托、液压与线缆。发射器使用原生回转、俯仰、充能和发射状态；接收头保持确认的 0～70°机械行程，由原生角度映射驱动。炮尾门常闭，原模组蓝色全息效果保留。
+1. Open your Minecraft 1.20.1 Forge instance in your launcher and select Java 17. Close the game before copying files.
+2. Use your launcher’s **Open game folder** button to find this instance. Put the required mod `.jar` files in its `mods/` folder.
+3. [Download the client pack](https://github.com/Eldershi/create-style-dyson/releases/download/v1.0.0-mc1.20.1/Create-Style-Dyson-1.0.0-MC1.20.1-Client.zip) and extract the downloaded archive.
+4. Inside it, find `Dyson-Create-Approved-Models-Forge-1.20.1.zip` under `config/paxi/resourcepacks/`. Copy that ZIP into your game's `resourcepacks/` folder. **Keep this inner ZIP zipped.**
+5. Copy `90_dcp_approved_visuals.js` from `kubejs/startup_scripts/` into your game directory’s `kubejs/startup_scripts/` folder. Create the folders if needed.
+6. Start the game, open **Options → Resource Packs**, and enable the pack. Place it above other packs that change these machines.
 
-当前匹配文件已在 395 模组客户端副本中验证：21组姿态、两次原生发射、接收器白天／夜间／稳定雨天／遮挡及物品栏显示。未将这些结果扩展为所有光影包或任意模组组合的保证。文件 SHA 和实际验证范围见 `file-manifest.json`、`validation-report.json`。
+Fully restart the client after installing or updating the script; reloading resource packs alone does not load it.
 
-安装后启动脚本与资源包应同时启用；卸载时也应成对移除。此前已安装相同 SHA 的客户端无需重复安装。
+<details>
+<summary>Already using Paxi?</summary>
+
+1. Copy the inner resource ZIP into `config/paxi/resourcepacks/` in your game folder.
+2. Copy the included client script into `kubejs/startup_scripts/`.
+3. Open `config/paxi/resourcepack_load_order.json`. Add `Dyson-Create-Approved-Models-Forge-1.20.1.zip` as the last item in the `loadOrder` list, keeping your existing entries.
+4. Fully restart the client. Use this Paxi copy instead of placing a second copy in `resourcepacks/`.
+
+</details>
+
+To uninstall, remove both the resource ZIP and `90_dcp_approved_visuals.js`.
+
+[Back to the project page](README.md)

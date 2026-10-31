@@ -1,12 +1,14 @@
-# 致谢与美术来源
+# Credits and asset sources
 
-本项目为Eldershi维护的Create风格戴森球资源包，重组电磁发射器与射线接收器的机械结构、材质和姿态。下面列出当前资源所用的上游项目、素材资源ID与派生图像；上游作者保留其署名和权利。各项条件见[ASSET-LICENSES.md](ASSET-LICENSES.md)。
+English | [简体中文](CREDITS.zh-CN.md)
 
-素材版本用于溯源，不代表玩家需要额外安装这些版本。运行目标为Minecraft1.20.1 / Forge；运行依赖按安装说明提供。
+This Create-style Dyson Cube Project resource pack is maintained by Eldershi. It assembles mechanical structures, materials, and poses for the electromagnetic rail ejector and ray receiver. The upstream projects, resource IDs, and derivative images used by the pack are listed below. Upstream creators retain their credit and rights. See [Asset licenses](ASSET-LICENSES.md) for the applicable terms.
+
+Asset versions identify the sources; they are not additional versions players need to install. The pack targets Minecraft 1.20.1 / Forge. See the installation instructions for runtime dependencies.
 
 ## Create
 
-The Create Team / The Creators of Create（项目作者simibubi；美术团队含Kryppers等）。素材版本6.0.10 / Minecraft1.21.1。来源：[Create](https://github.com/Creators-of-Create/Create)。
+The Create Team / The Creators of Create. Project author: simibubi; the art team includes Kryppers and other contributors. Asset source: 6.0.10 for Minecraft 1.21.1. Project: [Create](https://github.com/Creators-of-Create/Create).
 
 - `create:block/andesite_block`
 - `create:block/axis_top`
@@ -27,7 +29,7 @@ The Create Team / The Creators of Create（项目作者simibubi；美术团队�
 
 ## Create Crafts & Additions
 
-MRH / MRH0。素材版本1.7.1。来源：[Create Crafts & Additions](https://github.com/mrh0/createaddition)。
+MRH / MRH0. Asset source: 1.7.1. Project: [Create Crafts & Additions](https://github.com/mrh0/createaddition).
 
 - `createaddition:block/connector/copper_passive`
 - `createaddition:block/connector/copper_push`
@@ -37,7 +39,7 @@ MRH / MRH0。素材版本1.7.1。来源：[Create Crafts & Additions](https://gi
 
 ## Create Big Cannons
 
-rbasamoyai / Cannoneers of Create。素材版本5.11.3+mc.1.21.1。来源：[Create Big Cannons](https://github.com/Cannoneers-of-Create/CreateBigCannons)。
+rbasamoyai / Cannoneers of Create. Asset source: 5.11.3+mc.1.21.1. Project: [Create Big Cannons](https://github.com/Cannoneers-of-Create/CreateBigCannons).
 
 - `createbigcannons:block/cannon_mount/rotating_mount_plate`
 - `createbigcannons:block/cannon_mount/rotating_mount_side`
@@ -48,7 +50,7 @@ rbasamoyai / Cannoneers of Create。素材版本5.11.3+mc.1.21.1。来源：[Cre
 
 ## Simulated
 
-The Simulated Team / The Creators of Aeronautics。随Create Aeronautics1.2.1 bundled分发。来源：[Simulated](https://www.curseforge.com/minecraft/mc-mods/create-aeronautics)。
+The Simulated Team / The Creators of Aeronautics. Distributed with Create Aeronautics 1.2.1 bundled. Project: [Simulated](https://www.curseforge.com/minecraft/mc-mods/create-aeronautics).
 
 - `simulated:block/dock_2`
 - `simulated:block/laser_pointer/laser_pointer`
@@ -57,23 +59,23 @@ The Simulated Team / The Creators of Aeronautics。随Create Aeronautics1.2.1 bu
 
 ## Create Aeronautics
 
-The Simulated Team / The Creators of Aeronautics。素材版本1.2.1 bundled。来源：[Create Aeronautics](https://www.curseforge.com/minecraft/mc-mods/create-aeronautics)。
+The Simulated Team / The Creators of Aeronautics. Asset source: 1.2.1 bundled. Project: [Create Aeronautics](https://www.curseforge.com/minecraft/mc-mods/create-aeronautics).
 
 - `aeronautics:block/gyroscopic_propeller_bearing`
 
 ## Dyson Cube Project (Forge)
 
-MobSmasher4000。运行模组1.20.1+1.0.5.1。来源：[Dyson Cube Project (Forge)](https://www.curseforge.com/minecraft/mc-mods/dyson-cube-project-forge/files/9025750)。
+MobSmasher4000. Runtime mod: 1.20.1+1.0.5.1. Project: [Dyson Cube Project (Forge)](https://www.curseforge.com/minecraft/mc-mods/dyson-cube-project-forge/files/9025750).
 
 - `dysoncubeproject:block/particle`
 
-Aeronautics/Simulated官方团队署名包括Eriksonn、RyanHCode、Starlotte、KyanBirb、Kryppers、keyberries、BeeIsYou和Cyvack；完整团队名单见其项目页。结构资源还包括`aeronautics:block/gyroscopic_propeller_bearing/metal_bearing_plate`与`createaddition:block/connector/small/passive`。
+The official Aeronautics/Simulated team credits include Eriksonn, RyanHCode, Starlotte, KyanBirb, Kryppers, keyberries, BeeIsYou, and Cyvack. See the project page for the full team credits. Structural resources also include `aeronautics:block/gyroscopic_propeller_bearing/metal_bearing_plate` and `createaddition:block/connector/small/passive`.
 
-Dyson Cube Project的原生工作逻辑、着色器和特效由已安装模组提供；本包保留其粒子贴图作为发射弹体的材质来源。Forge源码来源：[MobSmasher4000/dyson-cube-project](https://github.com/MobSmasher4000/dyson-cube-project)。
+The installed Dyson Cube Project mod provides its native machine logic, shaders, and effects. This pack retains its particle texture as the material source for the launched projectile. Forge source: [MobSmasher4000/dyson-cube-project](https://github.com/MobSmasher4000/dyson-cube-project).
 
-## 本项目命名的派生材质
+## Project-named derivative materials
 
-以下资源用于局部调色、像素排列、连续边缘与结构适配。项目命名空间不改变其上游素材的归属；与Create Big Cannons美术形成的改编部分继续适用其CC BY-NC-SA4.0条件。
+The following resources provide local recoloring, pixel rearrangement, continuous edges, and structural adaptation. A project namespace does not change ownership of the upstream material. Adaptations of Create Big Cannons artwork remain subject to its CC BY-NC-SA 4.0 terms.
 
 - `dcp_continuity_v13:block/continuous_native_steel_side_w3`
 - `dcp_continuity_v13:block/uncuffed_native_rod_w1`
@@ -111,8 +113,8 @@ Dyson Cube Project的原生工作逻辑、着色器和特效由已安装模组�
 - `dcp_rear_hood_v14:block/radiator_fins`
 - `dcp_receiver_reuse_v15:block/bartender_recoloured_receiver_winding`
 
-## Create社区补充说明
+## Additional Create community statements
 
-本包以Create为主要视觉语汇。[Create #9857](https://github.com/Creators-of-Create/Create/issues/9857)记录贡献者hadron13转述Kryppers对社区附属复用的说明；[Create #9594](https://github.com/Creators-of-Create/Create/issues/9594)记录jasper.ase对具体Smart Observer贴图资源包的发布许可及Create-centric署名条件。两者作为社区说明与具体案例保留，范围分别记载，不把美术改标为代码MIT。
+Create is the main visual reference for this pack. [Create #9857](https://github.com/Creators-of-Create/Create/issues/9857) records contributor hadron13 relaying Kryppers' statement about community addon reuse. [Create #9594](https://github.com/Creators-of-Create/Create/issues/9594) records jasper.ase's permission to publish a specific Smart Observer texture pack, with a requirement to make its Create-centric nature clear. These are recorded as a community statement and a specific example, each with its own scope; neither reclassifies the artwork under the code's MIT license.
 
-Minecraft及相关标识归Mojang/Microsoft所有。本项目和所列第三方项目之间的署名不表示官方背书。
+Minecraft and its related marks belong to Mojang/Microsoft. Attribution to the listed projects does not imply their official endorsement of this pack.

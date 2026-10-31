@@ -29,7 +29,9 @@ def main():
         'config/paxi/resourcepacks/' + PACK_NAME: pack,
         'kubejs/startup_scripts/' + SCRIPT_NAME: script,
     }
-    for name in ['INSTALL.md', 'CREDITS.md', 'ASSET-LICENSES.md', 'validation-report.json']:
+    for name in ['README.md', 'README.zh-CN.md', 'INSTALL.md', 'INSTALL.zh-CN.md',
+                 'CREDITS.md', 'CREDITS.zh-CN.md', 'ASSET-LICENSES.md', 'ASSET-LICENSES.zh-CN.md',
+                 'previews/electromagnetic-ejector.png', 'previews/ray-receiver.png']:
         blobs[name] = (ROOT / name).read_bytes()
     for path in sorted((ROOT / 'licenses').rglob('*')):
         if path.is_file():
