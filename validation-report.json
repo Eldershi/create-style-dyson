@@ -1189,5 +1189,12 @@
     "visual-review.json": "d610c82ba963aa2f8ae36627d79eefe3777421aef840735c2e257dee08ed0e81",
     "full-run-independent-review.json": "52f162deea56b860737150f7e1b94345151e5ad5f66941efeccc3bb50b7349db",
     "postchecks-independent-visual-review.json": "3712e1e63b361ba7e4fd2d3298e6e2da5486bd8f0f408199a08946fef26d80c1"
+  },
+  "synchronization": {
+    "code_revision": "e364faa7b2f18f51dbc5622105207633d7a93e7a",
+    "integration_repository": "https://github.com/Eldershi/mechanical-expedition",
+    "integration_revision": "bbd109502aa0550c638e60aea288a6c630508a3d",
+    "remote_revisions_verified": true,
+    "artwork_uploaded": false
   }
 }
