@@ -1180,7 +1180,21 @@
     "input_lock": "source-input-lock.json",
     "resource_snapshot": "resources/ with resource-hashes.json",
     "client_download": "Paired verified resource ZIP and renderer script distributed in release bundle with installation, credits and license notices",
-    "packaged_game_pair_changed": false
+    "packaged_game_pair_changed": false,
+    "release": {
+      "tag": "v1.0.0-mc1.20.1",
+      "url": "https://github.com/Eldershi/create-style-dyson/releases/tag/v1.0.0-mc1.20.1",
+      "source_commit": "0f772540f722596e976ea507824a870ee8c23a2d",
+      "client_bundle_sha256": "6aa826165b9661bef1be74e97e55d57a0090598c6cfca0cdc2c328cf225e99fd"
+    },
+    "remote_download_verification": {
+      "status": "PASS",
+      "source_art_files": 49,
+      "compiled_resource_files": 246,
+      "all295_files_byte_equal": true,
+      "paired_game_files_byte_equal": true,
+      "credit_and_license_in_client_bundle": true
+    }
   },
   "limits": [
     "Arbitrary shader packs or every camera position",
@@ -1194,5 +1208,12 @@
     "visual-review.json": "d610c82ba963aa2f8ae36627d79eefe3777421aef840735c2e257dee08ed0e81",
     "full-run-independent-review.json": "52f162deea56b860737150f7e1b94345151e5ad5f66941efeccc3bb50b7349db",
     "postchecks-independent-visual-review.json": "3712e1e63b361ba7e4fd2d3298e6e2da5486bd8f0f408199a08946fef26d80c1"
+  },
+  "synchronization": {
+    "code_revision": "0f772540f722596e976ea507824a870ee8c23a2d",
+    "integration_repository": "https://github.com/Eldershi/mechanical-expedition",
+    "integration_revision": "f3bd7b4e34bea6ea1944c4ea7b9d70a848075510",
+    "remote_revisions_verified": true,
+    "artwork_uploaded": true
   }
 }
