@@ -1175,7 +1175,8 @@
     "artwork": "Not uploaded; input files remain private",
     "self_generated_client_script": "Included by explicit publication authorization; no texture/UV/mesh arrays embedded",
     "original_DCP_defects": "Record only; original work logic and blue hologram remain unchanged",
-    "native_PNG_files": "Local evidence only; repository stores hashes and scope"
+    "native_PNG_files": "Local evidence only; repository stores hashes and scope",
+    "permission_assessment": "ARR alone is not a blanket publication ban. Create community-addon reuse and resource-reference examples are documented in THIRD_PARTY_INPUTS.md; other sources retain their own applicable terms."
   },
   "limits": [
     "Arbitrary shader packs or every camera position",

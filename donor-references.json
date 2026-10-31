@@ -1,15 +1,20 @@
 {
   "families": {
     "create": {
-      "asset_license": "ARR in actual6.0.10 donor",
-      "confirmation": "No publication permission confirmed",
+      "asset_license": "ARR with supplementary community-addon reuse discussion",
+      "confirmation": "Official-repository discussion records community-addon asset reuse; ARR alone is not a blanket publication ban. Record actual reference or redistribution mode and credits.",
       "license_entry": "LICENSE.md_create-1.21.1",
       "jar_sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
-      "official": "https://github.com/Creators-of-Create/Create/blob/mc1.21.1/dev/LICENSE.md"
+      "official": "https://github.com/Creators-of-Create/Create/blob/mc1.21.1/dev/LICENSE.md",
+      "supplementary_sources": [
+        "https://github.com/Creators-of-Create/Create/issues/9857",
+        "https://github.com/Creators-of-Create/Create/issues/9594",
+        "https://github.com/Gordon-Frohman/ReCreate#%EF%B8%8F-legal-matters"
+      ]
     },
     "simulated": {
       "asset_license": "ARR",
-      "confirmation": "No publication permission confirmed",
+      "confirmation": "Record this author's supplementary permissions and actual packaging independently; Create-specific examples neither grant nor establish a blanket prohibition for this project.",
       "license_entry": "LICENSE.md",
       "outer_sha256": "5a8c6d168ec1b47ecee7f2e83a93accbca71544d2b14ca1ca1b1271855f26248",
       "nested_entry": "META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.2.1.jar",
@@ -17,7 +22,7 @@
     },
     "aeronautics": {
       "asset_license": "ARR",
-      "confirmation": "No publication permission confirmed",
+      "confirmation": "Record this author's supplementary permissions and actual packaging independently; Create-specific examples neither grant nor establish a blanket prohibition for this project.",
       "license_entry": "LICENSE.md",
       "outer_sha256": "5a8c6d168ec1b47ecee7f2e83a93accbca71544d2b14ca1ca1b1271855f26248",
       "nested_entry": "META-INF/jarjar/dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.2.1.jar",
@@ -25,25 +30,25 @@
     },
     "createaddition": {
       "asset_license": "MIT declared",
-      "confirmation": "Conditional candidate; MIT notice required; no artwork included here",
+      "confirmation": "MIT conditions and notices apply; direct resource references are a separate packaging mode.",
       "jar_sha256": "69035faca181f645f23cff493fcfeebc5b3fb0f910460cf6547be13b6219062e",
       "official": "https://github.com/mrh0/createaddition/blob/main/LICENSE"
     },
     "createbigcannons": {
       "asset_license": "CC-BY-NC-SA4.0 for handmade models/textures; code MIT",
-      "confirmation": "Conditional license; specific conditions/derivative chain not certified for current distribution; excluded",
+      "confirmation": "Handmade art follows CC-BY-NC-SA4.0 attribution, noncommercial and share-alike terms; do not substitute the code MIT license.",
       "jar_sha256": "16cb451c1673198131148cec8196bb6325b3eb85168172bd629c0b93261381df",
       "official": "https://github.com/Cannoneers-of-Create/CreateBigCannons/blob/create-v6-1.21.1/LICENSE.md"
     },
     "dysoncubeproject": {
       "asset_license": "ARR on official Forge artifact page",
-      "confirmation": "No artwork publication permission confirmed",
+      "confirmation": "Distinguish invoking the installed mod and referencing resources from including original art bytes; the license label alone is not a project-wide publication determination.",
       "jar_sha256": "21d1c16010e408a36814af294bf5d4853fce3350fc5e1398a6ac8a5d033a45a6",
       "official": "https://www.curseforge.com/minecraft/mc-mods/dyson-cube-project-forge/files/9025750"
     },
     "derived": {
       "asset_license": "Upstream chain not fully confirmed",
-      "confirmation": "Custom namespace/recolor/crop/padding is not proof of independent publication rights; excluded"
+      "confirmation": "Assess identified upstream sources and actual edits per asset; no blanket publication rejection."
     }
   },
   "texture_references": [
@@ -704,5 +709,6 @@
       "dependency_entry": "assets/dysoncubeproject/textures/block/ray_receiver_lens.png"
     }
   ],
-  "artwork_in_repository": false
+  "artwork_in_repository": false,
+  "assessment_scope": "Source and packaging records, not a blanket determination that all current art is unpublishable."
 }
