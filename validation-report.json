@@ -1179,13 +1179,14 @@
     "permission_assessment": "ARR alone is not a blanket publication ban. Create community-addon reuse and resource-reference examples are documented in THIRD_PARTY_INPUTS.md; other sources retain their own applicable terms.",
     "input_lock": "source-input-lock.json",
     "resource_snapshot": "resources/ with resource-hashes.json",
-    "client_download": "Paired verified resource ZIP and renderer script distributed in release bundle with installation, credits and license notices",
+    "client_download": "Paired verified resource ZIP and renderer script distributed with English and Chinese installation, credits, license notices and in-game overview screenshots",
     "packaged_game_pair_changed": false,
     "release": {
       "tag": "v1.0.0-mc1.20.1",
       "url": "https://github.com/Eldershi/create-style-dyson/releases/tag/v1.0.0-mc1.20.1",
-      "source_commit": "0f772540f722596e976ea507824a870ee8c23a2d",
-      "client_bundle_sha256": "6aa826165b9661bef1be74e97e55d57a0090598c6cfca0cdc2c328cf225e99fd"
+      "source_commit": "aeb0241a82b8f706770290bd07ae1ad80c6e695a",
+      "client_bundle_sha256": "9e4dc4869f738aa694491f9d83c55ca1e70db4f75057b3c8f481d31a769af717",
+      "documentation_commit": "4b83507d5c3a545887a49a2852efaa13675db615"
     },
     "remote_download_verification": {
       "status": "PASS",
@@ -1193,7 +1194,8 @@
       "compiled_resource_files": 246,
       "all295_files_byte_equal": true,
       "paired_game_files_byte_equal": true,
-      "credit_and_license_in_client_bundle": true
+      "credit_and_license_in_client_bundle": true,
+      "bilingual_documents_and_previews_in_client_bundle": true
     }
   },
   "limits": [
@@ -1210,9 +1212,9 @@
     "postchecks-independent-visual-review.json": "3712e1e63b361ba7e4fd2d3298e6e2da5486bd8f0f408199a08946fef26d80c1"
   },
   "synchronization": {
-    "code_revision": "0f772540f722596e976ea507824a870ee8c23a2d",
+    "code_revision": "4b83507d5c3a545887a49a2852efaa13675db615",
     "integration_repository": "https://github.com/Eldershi/mechanical-expedition",
-    "integration_revision": "f3bd7b4e34bea6ea1944c4ea7b9d70a848075510",
+    "integration_revision": "316c9120aae0bb46665164c4cb7a05dbb448025d",
     "remote_revisions_verified": true,
     "artwork_uploaded": true
   }
