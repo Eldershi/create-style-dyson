@@ -38,6 +38,14 @@ Install the generated pack and script together using the [installation instructi
 
 The renderer uses the existing KubeJS / Rhino / Architectury environment. It delegates native charging, firing and blue hologram effects to Dyson Cube Project. The project does not change the original mod's gameplay or repair its own defects; fixes cover problems introduced by this project's resources and client script.
 
+## Visibility discovery
+
+The fallback tracks only cached chunks in the camera's 9 × 9 chunk window. Each client END tick makes at most eight no-load chunk queries and visits at most 128 block entities: three FIFO continuation slices of 32 entries, plus five discovery positions sharing 32 entries. Unrelated block entities are rejected by class before their state is queried. No chunk event starts a full-world scan.
+
+Live-map iterators continue across ticks. A concurrent modification restarts only that chunk; periodic discovery also catches block entities added after a chunk's load event. Chunk replacement, unload, camera movement, world changes and logout discard stale references. An unexpected fallback error clears tracking and stops discovery.
+
+The native 64-block distance and native-AABB/full-model-AABB predicate still decide fallback drawing. Discovery is gradual, so unusually dense or continually changing chunks can delay fallback visibility. The Node contract suite verifies work limits and lifecycle behavior in both mapped naming schemes; it does not measure game FPS. See `validation-report.json` for the actual Forge test scope.
+
 ## Input and artifact locks
 
 [Input layout](../input-layout.md) describes the source files. `source-input-lock.json` pins their hashes, `resource-hashes.json` pins the compiled resource snapshot, and `artifact-lock.json` pins the resource ZIP and generated client script. `client/kubejs/startup_scripts/90_dcp_approved_visuals.js` is the checked-in generated script and must match the paired pack.

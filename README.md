@@ -32,7 +32,7 @@ Install these mods in your client's `mods/` folder. The links below open the mat
 
 1. Open your Minecraft 1.20.1 Forge instance in your launcher and select Java 17. Close the game before copying files.
 2. Use your launcher’s **Open game folder** button to find this instance. Put the required mod `.jar` files in its `mods/` folder.
-3. [Download the client pack](https://github.com/Eldershi/create-style-dyson/releases/download/v1.0.0-mc1.20.1/Create-Style-Dyson-1.0.0-MC1.20.1-Client.zip) and extract the downloaded archive.
+3. [Download the client pack](https://github.com/Eldershi/create-style-dyson/releases/download/v1.0.1-mc1.20.1/Create-Style-Dyson-1.0.1-MC1.20.1-Client.zip) and extract the downloaded archive.
 4. Inside it, find `Dyson-Create-Approved-Models-Forge-1.20.1.zip` under `config/paxi/resourcepacks/`. Copy that ZIP into your game's `resourcepacks/` folder. **Keep this inner ZIP zipped.**
 5. Copy `90_dcp_approved_visuals.js` from `kubejs/startup_scripts/` into your game directory’s `kubejs/startup_scripts/` folder. Create the folders if needed.
 6. Start the game, open **Options → Resource Packs**, and enable the pack. Place it above other packs that change these machines.
