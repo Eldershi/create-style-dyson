@@ -151,5 +151,17 @@
   "limits": [
     "No live multiplayer FPS benchmark is claimed.",
     "Arbitrary shader packs, all camera positions, every recipe and the complete receiver weather/power matrix are outside the recorded scope."
-  ]
+  ],
+  "release_verification": {
+    "status": "PASS",
+    "version": "1.1.0",
+    "tag": "v1.1.0-mc1.20.1",
+    "source_commit": "42a2c3d7145098a2d0af6bbef3730081a1572789",
+    "client_bundle_sha256": "e74e155fd4799a3caf525a5ef855bdd51b497e422eeb951057723c1b4217a52d",
+    "downloaded_client_files_verified": 3,
+    "downloaded_source_art_files_verified": 49,
+    "downloaded_resource_files_verified": 246,
+    "file_manifest_verified": true,
+    "compat_license_verified": true
+  }
 }
