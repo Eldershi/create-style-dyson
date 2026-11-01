@@ -28,27 +28,28 @@ Install these mods in your client's `mods/` folder. The links below open the mat
 
 ## Installation
 
-**Install both the resource pack and the included client script. They work together.**
+**Install the resource pack, client script and included rendering compatibility mod together. The compatibility mod belongs on the client only.**
 
 1. Open your Minecraft 1.20.1 Forge instance in your launcher and select Java 17. Close the game before copying files.
 2. Use your launcher’s **Open game folder** button to find this instance. Put the required mod `.jar` files in its `mods/` folder.
-3. [Download the client pack](https://github.com/Eldershi/create-style-dyson/releases/download/v1.0.1-mc1.20.1/Create-Style-Dyson-1.0.1-MC1.20.1-Client.zip) and extract the downloaded archive.
+3. [Download the client pack](https://github.com/Eldershi/create-style-dyson/releases/download/v1.1.0-mc1.20.1/Create-Style-Dyson-1.1.0-MC1.20.1-Client.zip) and extract the downloaded archive.
 4. Inside it, find `Dyson-Create-Approved-Models-Forge-1.20.1.zip` under `config/paxi/resourcepacks/`. Copy that ZIP into your game's `resourcepacks/` folder. **Keep this inner ZIP zipped.**
 5. Copy `90_dcp_approved_visuals.js` from `kubejs/startup_scripts/` into your game directory’s `kubejs/startup_scripts/` folder. Create the folders if needed.
-6. Start the game, open **Options → Resource Packs**, and enable the pack. Place it above other packs that change these machines.
+6. Copy `create-style-dyson-compat-1.1.0.jar` from the download’s `mods/` folder into your game’s `mods/` folder. Remove older versions of this compatibility mod when updating.
+7. Start the game, open **Options → Resource Packs**, and enable the pack. Place it above other packs that change these machines.
 
-Fully restart the client after installing or updating the script; reloading resource packs alone does not load it.
+Fully restart the client after installing or updating the script or compatibility mod; a resource-pack reload does not load these files.
 
 <details>
 <summary>Already using Paxi?</summary>
 
 1. Copy the inner resource ZIP into `config/paxi/resourcepacks/` in your game folder.
-2. Copy the included client script into `kubejs/startup_scripts/`.
+2. Copy the included client script into `kubejs/startup_scripts/` and `create-style-dyson-compat-1.1.0.jar` into `mods/`.
 3. Open `config/paxi/resourcepack_load_order.json`. Add `Dyson-Create-Approved-Models-Forge-1.20.1.zip` as the last item in the `loadOrder` list, keeping your existing entries.
 4. Fully restart the client. Use this Paxi copy instead of placing a second copy in `resourcepacks/`.
 
 </details>
 
-To uninstall, remove both the resource ZIP and `90_dcp_approved_visuals.js`.
+To uninstall, remove the resource ZIP, `90_dcp_approved_visuals.js` and `create-style-dyson-compat-1.1.0.jar`.
 
 [Credits](CREDITS.md) · [Asset licenses](ASSET-LICENSES.md)

@@ -3,8 +3,23 @@
     "zip_sha256": "3189f7622f0f01d0d7ef5730b109487d66814278756f2941030cd56024091b74",
     "zip_bytes": 904973,
     "files": 246,
-    "script_sha256": "148f5c709f5f90ba6931b956cbda8c88030991ef9f58d3923c827e05dadba8c6",
-    "script_bytes": 36650
+    "script_sha256": "4dc1efde366d9770f6c44d78e0360e5654794696825a38b5927244bf7944ef71",
+    "script_bytes": 18966,
+    "compat_version": "1.1.0",
+    "compat_jar": "create-style-dyson-compat-1.1.0.jar",
+    "compat_sha256": "9a93401c4e0c6bdb34042cac3955617e5456f8491b4c154a2508e086bf406e34",
+    "compat_bytes": 18224
+  },
+  "architecture": {
+    "visibility": "Native block-entity bounds union and global block-entity renderer ownership",
+    "controller_registration": "Target block-entity lifecycle callbacks and a weak index of previously registered controllers",
+    "separate_world_scan": false,
+    "separate_fallback_draws": false,
+    "bounds": "Analytical continuous envelopes generated from the approved scene graph; unioned with original native bounds and translated native rail effects",
+    "render_buffers": "Minecraft-supplied native buffers",
+    "view_distance_blocks": 64,
+    "resource_reload": "Incoming-resource gate and Forge OBJ preparation before asynchronous model parsing",
+    "gameplay_changes": false
   },
   "static_validation": {
     "source_export": "PASS",
@@ -13,32 +28,48 @@
     "clean_directory_rebuild": "PASS",
     "canonical_source_files": 49,
     "compiled_resource_files": 246,
-    "visibility_contract": {
+    "continuous_bounds": {
       "status": "PASS",
-      "mapping_schemes": [
-        "Mojang",
-        "SRG"
-      ],
-      "groups": 12,
-      "distant_chunks": 1024,
-      "dense_nearby_chunks": 8,
-      "max_block_entity_visits_per_tick": 128,
-      "max_no_load_chunk_queries_per_tick": 8,
-      "dense_tail_discovery_ticks": 129,
+      "proof": "Analytical rotation hulls and inverse-kinematics intervals",
+      "sample_audit_poses": 5325,
+      "sample_audit_transformed_corners": 1355792
+    },
+    "script_contract": {
+      "status": "PASS",
+      "groups": 5,
       "checks": [
-        "no unrelated state queries",
-        "same-world teleport eviction",
-        "replacement and late unload",
-        "late block entity insertion/removal",
-        "missed load event recovery",
-        "concurrent modification retry",
-        "reserved discovery under pending-map pressure",
-        "negative coordinates",
-        "64-block distance boundary",
-        "native/fallback draw ownership",
-        "balanced pose stack on failure",
-        "disabled discovery and logout cleanup"
+        "Stable pre-adapted providers",
+        "Resource gates and cache invalidation",
+        "Pack-off native fallback without missing approved-model lookups",
+        "Balanced pose stack after failure",
+        "No discovery callbacks or owned fallback buffers"
       ]
+    },
+    "native_contract": {
+      "status": "PASS",
+      "cache_reuses": 10000,
+      "checks": [
+        "Native/approved/translated-effects unions",
+        "Position, epoch and original-bound invalidation",
+        "Disabled resource gate",
+        "Scoped OBJ preparation",
+        "Global renderer classification and delegated distance",
+        "Weak lifecycle index replacement, world reset and logout",
+        "Single rendering owner and exceptions"
+      ]
+    },
+    "real_mixin_transforms": {
+      "status": "PASS",
+      "asm_verification": "PASS",
+      "targets": [
+        "EMRailEjectorBlockEntity",
+        "RayReceiverBlockEntity",
+        "ModelManager",
+        "BlockEntity",
+        "LevelRenderer",
+        "Embeddium BuiltSectionInfo.Builder"
+      ],
+      "optional_embeddium_absence": "PASS"
     }
   },
   "game_validation": {
@@ -46,42 +77,79 @@
     "minecraft": "1.20.1",
     "forge": "47.4.10",
     "Java": 17,
-    "mod_count": 5,
     "active_processors": 2,
     "shaders_enabled": false,
-    "client_ticks": 1214,
-    "dense_fixture_barrels": 4096,
-    "phase_count": 10,
-    "max_block_entity_visits_per_tick": 52,
-    "max_no_load_chunk_queries_per_tick": 8,
-    "max_tracked_chunks": 81,
-    "fallback_draws": 8,
-    "render_errors": 0,
-    "tracker_errors": 0,
-    "logout_chunks": 0,
-    "logout_controllers": 0,
-    "normal_exit_code": 0,
-    "checks": [
-      "real mapped API and renderer registration",
-      "dense cached chunk traversal",
-      "far teleport removes old controllers",
-      "return rediscovers controllers",
-      "Nether and Overworld identity changes",
-      "native AABB culled / full approved model visible fallback",
-      "logout releases tracked chunks and controllers"
-    ]
+    "scenarios": [
+      "NORMAL",
+      "DENSE",
+      "FAR",
+      "RETURN",
+      "NETHER",
+      "OVERWORLD",
+      "LATE_PLACE",
+      "LATE_REMOVE",
+      "BOUNDARY_RAIL",
+      "BOUNDARY_RECEIVER",
+      "DISTANCE",
+      "PACK_OFF",
+      "PACK_ON"
+    ],
+    "minimal": {
+      "mod_count": 6,
+      "client_ticks": 1931,
+      "pass": true,
+      "render_errors": 0,
+      "duplicate_frames": 0,
+      "max_root_draws_per_frame": 1,
+      "dense_fixture_barrels": 4096,
+      "normal_exit_code": 0,
+      "real_baked_quads_and_sprites": "PASS",
+      "rail_native_charge_and_fire": "PASS",
+      "qa_contract": 3,
+      "scenarios_completed": 13
+    },
+    "full_modpack": {
+      "status": "PASS_IN_RECORDED_SCOPE",
+      "mod_count": 397,
+      "matching_existing_mod_jars": 396,
+      "qa_contract": 4,
+      "scenarios_completed": 13,
+      "client_ticks": 2206,
+      "pass": true,
+      "render_errors": 0,
+      "duplicate_frames": 0,
+      "max_root_draws_per_frame": 1,
+      "dense_fixture_barrels": 4096,
+      "normal_exit_code": 0,
+      "real_baked_quads_and_sprites": "PASS",
+      "visual_review": "PASS",
+      "bound_screenshots": 3,
+      "capture_stage": "AFTER_LEVEL",
+      "checks": [
+        "Drawing beyond both the original bounds and an unmeshed controller section",
+        "Single native draw ownership with Embeddium, EntityCulling and Oculus installed",
+        "Native distance rejection at 70 blocks",
+        "Late controller insertion/removal, teleport, world changes and renderer resets",
+        "Resource-off original models/bounds and resource-on rebuilt models with valid textures"
+      ],
+      "render_path_mods": {
+        "Embeddium": "0.3.31",
+        "EntityCulling": "1.10.5",
+        "Oculus": "1.8.0"
+      },
+      "third_party_log_errors": "Reviewed separately; no render-scope or unapproved errors"
+    }
   },
-  "scope": "The generated script and unchanged approved resource ZIP were tested together in an offline fixture with the five required mods. Contract tests verify work bounds and lifecycle behavior; neither the contract suite nor this game fixture establishes online FPS.",
-  "limits": [
-    "The complete modpack and live multiplayer FPS were not benchmarked for this script revision.",
-    "Very dense or continually changing block entity maps can delay fallback discovery.",
-    "Arbitrary shader packs and every camera position are outside the recorded scope."
-  ],
   "assets": {
     "resource_zip_matches_lock": true,
     "source_art_and_resource_hashes_unchanged": true,
     "approved_rail_instances": 30,
     "approved_receiver_instances": 47,
     "native_DCP_gameplay_modified": false
-  }
+  },
+  "scope": "The recorded results apply to the exact three client files in the artifact lock. The native helper and renderer use the normal client rendering pipeline. Separate third-party modpack errors are reviewed outside the rendering scope.",
+  "limits": [
+    "No live multiplayer FPS benchmark is claimed.",
+    "Arbitrary shader packs, all camera positions, every recipe and the complete receiver weather/power matrix are outside the recorded scope."
+  ]
 }

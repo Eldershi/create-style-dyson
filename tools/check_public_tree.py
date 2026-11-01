@@ -7,7 +7,7 @@ GENERATED={'.git','outputs','releases','__pycache__','.venv'}
 CODE_ROOTS={'src','client','tests','tools','licenses','previews','docs'}
 ROOT_SUFFIXES={'.py','.md','.json','.txt'}
 ROOT_NAMES={'.gitignore','LICENSE','NOTICE'}
-TEXT_SUFFIXES={'.py','.js','.cjs','.json','.md','.txt','.obj','.mtl','.mcmeta'}
+TEXT_SUFFIXES={'.py','.js','.cjs','.java','.json','.md','.txt','.obj','.mtl','.mcmeta'}
 ABSOLUTE_LOCAL=re.compile(r'/(?:Users|home)/[^/\s]+/|/private/(?:tmp|var)/|file:\x2f\x2f')
 
 def sha(data):return hashlib.sha256(data).hexdigest()
@@ -92,6 +92,7 @@ def main():
     for p in root.rglob('*'):
         rel=p.relative_to(root);parts=rel.parts
         if any(x in GENERATED for x in parts):continue
+        if p.name=='AGENTS.md':continue
         if not p.is_file():continue
         name=rel.as_posix()
         if parts[0]=='work'and name not in ['work/export_obj.py','work/pose_math.py']:continue

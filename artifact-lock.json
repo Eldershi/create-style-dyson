@@ -2,6 +2,10 @@
   "zip_sha256": "3189f7622f0f01d0d7ef5730b109487d66814278756f2941030cd56024091b74",
   "zip_bytes": 904973,
   "files": 246,
-  "script_sha256": "148f5c709f5f90ba6931b956cbda8c88030991ef9f58d3923c827e05dadba8c6",
-  "script_bytes": 36650
+  "script_sha256": "4dc1efde366d9770f6c44d78e0360e5654794696825a38b5927244bf7944ef71",
+  "script_bytes": 18966,
+  "compat_version": "1.1.0",
+  "compat_jar": "create-style-dyson-compat-1.1.0.jar",
+  "compat_sha256": "9a93401c4e0c6bdb34042cac3955617e5456f8491b4c154a2508e086bf406e34",
+  "compat_bytes": 18224
 }

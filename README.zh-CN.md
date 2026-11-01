@@ -28,27 +28,28 @@
 
 ## 安装方法
 
-**资源包和附带的客户端脚本需要一起安装。**
+**资源包、附带的客户端脚本和渲染兼容模组需要一起安装。兼容模组仅装在客户端。**
 
 1. 在启动器中打开 Minecraft 1.20.1 的 Forge 实例，并选择 Java 17。复制文件前先关闭游戏。
 2. 在启动器中点击 **打开游戏目录**，进入当前实例的文件夹，把前置模组的 `.jar` 文件放进其中的 `mods/` 文件夹。
-3. [下载客户端安装包](https://github.com/Eldershi/create-style-dyson/releases/download/v1.0.1-mc1.20.1/Create-Style-Dyson-1.0.1-MC1.20.1-Client.zip)，然后解压下载的压缩包。
+3. [下载客户端安装包](https://github.com/Eldershi/create-style-dyson/releases/download/v1.1.0-mc1.20.1/Create-Style-Dyson-1.1.0-MC1.20.1-Client.zip)，然后解压下载的压缩包。
 4. 在其中的 `config/paxi/resourcepacks/` 找到 `Dyson-Create-Approved-Models-Forge-1.20.1.zip`，复制到游戏目录的 `resourcepacks/` 文件夹。**这个内层 ZIP 不要解压。**
 5. 把 `kubejs/startup_scripts/` 中的 `90_dcp_approved_visuals.js` 复制到游戏目录的同名文件夹；没有该文件夹时手动新建。
-6. 启动游戏，进入 **选项 → 资源包**，启用本资源包，并将它放在其他修改这两台机器的资源包上方。
+6. 把安装包 `mods/` 中的 `create-style-dyson-compat-1.1.0.jar` 复制到游戏目录的 `mods/`；更新时移除旧版本的同名兼容模组。
+7. 启动游戏，进入 **选项 → 资源包**，启用本资源包，并将它放在其他修改这两台机器的资源包上方。
 
-安装或更新脚本后需要完整重启客户端，仅重载资源包不会加载脚本。
+安装或更新脚本、兼容模组后需要完整重启客户端，仅重载资源包不会加载这些文件。
 
 <details>
 <summary>客户端已经使用 Paxi？</summary>
 
 1. 把下载包中的内层资源 ZIP 复制到游戏目录的 `config/paxi/resourcepacks/`。
-2. 把附带的客户端脚本复制到 `kubejs/startup_scripts/`。
+2. 把附带的客户端脚本复制到 `kubejs/startup_scripts/`，把 `create-style-dyson-compat-1.1.0.jar` 复制到 `mods/`。
 3. 打开 `config/paxi/resourcepack_load_order.json`，保留已有条目，在 `loadOrder` 列表末尾加入 `Dyson-Create-Approved-Models-Forge-1.20.1.zip`。
 4. 完整重启客户端。使用 Paxi 安装时，不必再向 `resourcepacks/` 放第二份相同 ZIP。
 
 </details>
 
-卸载时，一并移除资源 ZIP 和 `90_dcp_approved_visuals.js`。
+卸载时，一并移除资源 ZIP、`90_dcp_approved_visuals.js` 和 `create-style-dyson-compat-1.1.0.jar`。
 
 [制作与来源署名](CREDITS.zh-CN.md) · [美术许可](ASSET-LICENSES.zh-CN.md)

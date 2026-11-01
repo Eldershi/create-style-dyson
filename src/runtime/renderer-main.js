@@ -5,11 +5,9 @@ var $DCPRL = Java.loadClass('net.minecraft.resources.ResourceLocation');
 var $DCPMC = Java.loadClass('net.minecraft.client.Minecraft');
 var $DCPM4 = Java.loadClass('org.joml.Matrix4f');
 var $DCPM3 = Java.loadClass('org.joml.Matrix3f');
-var $DCPAABB = Java.loadClass('net.minecraft.world.phys.AABB');
 var $DCPRenderType = Java.loadClass('net.minecraft.client.renderer.RenderType');
-var $DCPBuffers = Java.loadClass('net.minecraft.client.renderer.MultiBufferSource');
-var $DCPBufferBuilder = Java.loadClass('com.mojang.blaze3d.vertex.BufferBuilder');
 var $DCPWeakMap = Java.loadClass('java.util.WeakHashMap');
+var $DCPCompat = Java.loadClass('dev.eldershi.dysoncompat.client.ApprovedRendererBridge');
 var $DCPRegistries = Java.loadClass('net.minecraftforge.registries.ForgeRegistries');
 var $DCPNativeRail = Java.loadClass('org.mob.dysoncubeproject.client.tile.EMRailEjectorRender');
 var $DCPNativeReceiver = Java.loadClass('org.mob.dysoncubeproject.client.tile.RayReceiverRender');
@@ -23,8 +21,7 @@ var dcpRoots = {};
 var dcpFirst = {};
 var dcpErrors = {};
 var dcpNative = {rail: new $DCPNativeRail(), receiver: new $DCPNativeReceiver()};
-var dcpFallbackBuffers = null;
-var dcpStats = {rail:0,receiver:0,fallback:0,errors:0};
+var dcpStats = {rail:0,receiver:0,errors:0};
 
 function dcpFinite(n,label) {
   if(typeof n!=='number' || n!==n || n-n!==0) throw new Error('Non-finite approved transform '+label);
@@ -66,29 +63,20 @@ function dcpPose(be) {
     // It is not a claim of a 180-degree optical head travel.
     parts=DCP_RECEIVER_V6_POSE.fromNative(nativePitch,'linear_70').map(function(part){return {name:part.part,instance:part.id,m:part.matrix};});
   }
-  var lo=[Infinity,Infinity,Infinity],hi=[-Infinity,-Infinity,-Infinity];
   for(var i=0;i<parts.length;i++) {
-    var part=parts[i],b=DCP_MODEL_BOUNDS[kind][part.name],m=part.m;
-    if(!b) throw new Error('No approved model bounds for '+kind+'/'+part.name);
+    var part=parts[i],m=part.m;
     if(m.length!==16) throw new Error('Invalid approved matrix size '+kind+'/'+part.name);
     for(var component=0;component<16;component++) dcpFinite(m[component],kind+'/'+part.instance+'['+component+']');
-    for(var x=0;x<2;x++) for(var y=0;y<2;y++) for(var z=0;z<2;z++) {
-      var v=[b[x][0],b[y][1],b[z][2]];
-      for(var k=0;k<3;k++) {
-        var q=m[k]*v[0]+m[4+k]*v[1]+m[8+k]*v[2]+m[12+k];
-        lo[k]=Math.min(lo[k],q);hi[k]=Math.max(hi[k],q);
-      }
-    }
     part.matrix=dcpMatrix4(m);
     part.normal=dcpNormal3(m);
   }
-  for(var axis=0;axis<3;axis++){dcpFinite(lo[axis],kind+'/bounds.min');dcpFinite(hi[axis],kind+'/bounds.max');}
-  var value={key:key,kind:kind,parts:parts,lo:lo,hi:hi};
+  var value={key:key,kind:kind,parts:parts};
   dcpCache.put(be,value);
   return value;
 }
 
 function dcpRoot(kind) {
+  if(!$DCPCompat.isActive()) return null;
   if(dcpRoots[kind]) return dcpRoots[kind];
   var ns=kind==='rail'?'dcp_scripted_rail':'dcp_scripted_receiver';
   var name=kind==='rail'?'rail_parts':'receiver_parts';
@@ -147,18 +135,8 @@ function dcpGuardDraw(be,partial,stack,buffers,light,overlay) {
 
 global.DCPVisual={
   stats:dcpStats,
-  debugModelState:function(be){var p=dcpPose(be);return {kind:p.kind,root:dcpRoot(p.kind),parts:p.parts,lo:p.lo,hi:p.hi};},
-  getRenderBounds:function(be,partial) {
-    if(dcpRoot(dcpKind(be))==null) return null;
-    var p=dcpPose(be),b=be.getBlockPos();
-    return new $DCPAABB(p.lo[0]+b.getX()-.01,p.lo[1]+b.getY()-.01,p.lo[2]+b.getZ()-.01,
-      p.hi[0]+b.getX()+.01,p.hi[1]+b.getY()+.01,p.hi[2]+b.getZ()+.01);
-  },
-  drawFallback:function(be,partial,stack,light,overlay) {
-    if(dcpFallbackBuffers==null) dcpFallbackBuffers=$DCPBuffers.immediate(new $DCPBufferBuilder(262144));
-    try {dcpGuardDraw(be,partial,stack,dcpFallbackBuffers,light,overlay);dcpStats.fallback++;}
-    finally {dcpFallbackBuffers.endBatch();}
-  },
+  nativeCompat:$DCPCompat,
+  debugModelState:function(be){var p=dcpPose(be);return {kind:p.kind,root:dcpRoot(p.kind),parts:p.parts};},
   drawMachine:dcpGuardDraw
 };
 
@@ -166,7 +144,8 @@ var dcpProviders=['rail','receiver'].map(function(kind){
   // Build the interface proxy while this startup script owns a Rhino top-call.
   // A provider called later by a Java reload thread must return an already
   // adapted Java BER, rather than coerce a fresh plain JS object on that thread.
-  var renderer=new $DCPBER({m_6922_:function(be,partial,stack,buffers,light,overlay){dcpGuardDraw(be,partial,stack,buffers,light,overlay);}});
+  var delegate=new $DCPBER({m_6922_:function(be,partial,stack,buffers,light,overlay){dcpGuardDraw(be,partial,stack,buffers,light,overlay);}});
+  var renderer=$DCPCompat.wrap(delegate);
   return [kind==='rail'?'em_railejector_controller':'ray_receiver_controller',function(context){
     console.info('[DCP_APPROVED] provider-created '+kind);
     return renderer;
@@ -185,12 +164,14 @@ ForgeModEvents.eventBus().addListener($DCPPriority.LOWEST,false,$DCPRegisterRend
   dcpRegister(function(type,provider){$DCPRendererRegistry.register(type,provider);},'RegisterRenderers');
 });
 ForgeModEvents.onEvent('net.minecraftforge.client.event.ModelEvent$RegisterAdditional',function(event){
+  if(!$DCPCompat.hasPreparedResources()) return;
   event.register(new $DCPRL('dcp_scripted_rail','block/rail_parts'));
   event.register(new $DCPRL('dcp_scripted_receiver','block/receiver_parts'));
   console.info('[DCP_APPROVED] approved-composite-models registered=2');
 });
 ForgeModEvents.onEvent('net.minecraftforge.client.event.ModelEvent$BakingCompleted',function(event){
   dcpEpoch++;dcpRoots={};dcpCache.clear();
+  $DCPCompat.onModelBakingCompleted();
   console.info('[DCP_APPROVED] model-baking-completed epoch='+dcpEpoch);
 });
 console.info('[DCP_APPROVED] startup-listeners-ready; original models and mechanical roles preserved');

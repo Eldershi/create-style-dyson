@@ -4,6 +4,10 @@
 
 本发布中的模型、贴图及其改编部分按下列来源分别保留权利和许可；本项目代码的许可仅作用于有权授权的代码。具体资源ID和作者署名见[CREDITS.md](CREDITS.zh-CN.md)，文件级来源与哈希见仓库的`donor-references.json`。
 
+## 原生渲染兼容代码
+
+`src/compat/` 中的 Java 组件按 [MIT](https://github.com/Eldershi/create-style-dyson/blob/main/src/compat/LICENSE) 许可提供；此范围仅包含新增代码，不覆盖第三方模型、贴图或原模组。客户端下载包附带该许可通知。
+
 ## Create
 
 Copyright (c) The Create Team / The Creators of Create。

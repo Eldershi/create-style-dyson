@@ -1,11 +1,10 @@
-// Requires existing KubeJS; no new companion mod. Client environment only.
+// Requires KubeJS and Create Style Dyson Render Compat. Client only.
 if (Platform.isClientEnvironment()) {
 (function(){
 
 if (!Math.hypot) Math.hypot=function(){var s=0;for(var i=0;i<arguments.length;i++)s+=arguments[i]*arguments[i];return Math.sqrt(s);};
 
 var DCP_PI=3.141592653589793;
-var DCP_MODEL_BOUNDS={"rail":{"modern_staged_package":[[0.25,3.5,-1.875],[0.75,4.0,-1.25]],"modern_rammer_rod":[[-0.0625,-0.0625,0.0],[0.0625,0.0625,0.0625]],"modern_slew_rotor_plain":[[-0.1875,1.5,-0.1875],[1.1875,2.4375,1.1875]],"electromagnetic_modules":[[-0.125,0.25,-0.5],[1.125,0.875,2.25]],"modern_tail_hatch":[[-0.0625,0.125,-1.3125],[1.0625,0.875,-1.125]],"modern_cradle":[[-0.1875,-0.25,-0.875],[1.1875,0.75,1.0]],"modern_ram_barrel":[[-0.125,-0.1875,-0.1875],[0.125,1.125,0.1875]],"modern_loading_carriage":[[0.3125,3.5625,-2.0625],[0.6875,3.9375,-1.875]],"modern_base_transformers":[[-1.173828125,0.5625,0.0],[2.173828125,1.871337890625,1.0]],"power_fixed_v10":[[-0.0625,1.4375,1.3125],[1.0625,2.0,1.75]],"modern_mount":[[-1.0,-0.1875,-0.5],[2.0,1.8125,1.5]],"modern_rear_radiators":[[0.139404296875,1.0126953125,-1.0625],[0.860595703125,1.199951171875,0.625]],"inner_winding_rims":[[0.125,0.25,1.125],[0.875,0.75,2.5]],"em_railejector_projectile":[[0.4375,0.4375,0.4375],[0.5625,0.5625,0.5625]],"modern_rear_hood":[[-0.1875,0.5,-1.125],[1.1875,1.125,0.625]],"power_yaw_v10":[[-0.1875,2.4375,-0.5625],[1.1875,2.9375,0.96875]],"power_pitch_leg12_v10":[[-0.0625,0.0,-0.0625],[0.0625,0.75,0.0625]],"fixed_base":[[-1.0,0.0,-1.0],[2.0,1.3125,2.0]],"modern_slew_fixed_windowed":[[-0.5,1.25,-0.5],[1.5,2.0625,1.5]],"modern_ram_rod":[[-0.0625,-1.375,-0.1875],[0.0625,0.1875,0.1875]],"power_pitch_elbow_v10":[[-0.0625,-0.0625,-0.0625],[0.0625,0.0625,0.0625]],"modern_launcher":[[0.0,0.0,-1.0],[1.0,1.0,2.5]],"modern_pitch_lugs":[[-0.9375,0.75,0.375],[1.9375,1.625,1.5]],"power_breech_boots_v10":[[-0.1875,0.4375,-0.5625],[1.1875,0.5625,-0.4375]],"modern_loading_station":[[-0.1875,2.125,-2.625],[1.1875,4.0625,0.25]]},"receiver":{"hydraulic_base_pin":[[-0.4375,-0.09375,-0.09375],[0.375,0.09375,0.09375]],"upper_head":[[0.0,0.0,0.0],[1.0,1.0,1.0625]],"transformer_left":[[0.125,0.0,0.0],[0.875,0.875,1.0]],"bearing_fixed":[[-0.1875,0.0,-0.1875],[1.1875,0.734375,1.1875]],"hydraulic_barrel_skin":[[-0.125,0.0625,-0.125],[0.125,0.5,0.125]],"upper_fork":[[-0.25,0.0,0.0],[1.25,1.8125,1.0]],"metal_bearing_plate":[[0.0,0.75,0.0],[1.0,1.0,1.0]],"hydraulic_eye_rod":[[-0.0625,-0.125,-0.125],[0.0625,0.125,0.125]],"transformer_coil1":[[0.125,0.1875,0.1875],[0.4375,0.625,0.8125]],"transformer_coil2":[[0.5625,0.1875,0.1875],[0.875,0.625,0.8125]],"hydraulic_rod_skin":[[-0.0625,-0.8125,-0.0625],[0.0625,-0.0625,0.0625]],"deck_wire_north":[[0.125,-0.125,-0.640625],[0.875,0.5,0.6875]],"bearing_spacer":[[0.0,0.0,0.0],[1.0,0.1875,1.0]],"transformer_bridge_supports":[[-0.75,0.625,-0.375],[1.75,1.521972656,1.375]],"connector_small_passive":[[0.375,0.0,0.375],[0.625,0.3125,0.625]],"base_frame":[[-1.0,0.0,-0.8125],[2.0,2.0,1.8125]],"transformer_saddles":[[0.125,-0.25,0.125],[0.875,0.0625,0.875]],"transformer_right":[[0.125,0.0,0.0],[0.875,0.875,1.0]],"hydraulic_fixed_mounts":[[-1.0,0.1875,0.3125],[2.0,0.8125,0.6875]],"hydraulic_eye_base":[[-0.125,-0.125,-0.125],[0.125,0.125,0.125]],"deck":[[-1.0,0.0,-1.0],[2.0,0.3125,2.0]],"controller_output_socket":[[0.375,0.0,0.375],[0.625,0.046875,0.625]],"central_energy_hose":[[0.34375,0.1875,0.34375],[0.65625,1.5,0.65625]],"hydraulic_cranks":[[-0.9375,1.375,0.0],[1.9375,1.625,1.125]],"bearing_rotor":[[-0.0625,0.0,-0.0625],[1.0625,1.0,1.0625]]}};
 
 /* Approved rail V17, exact rigid/IK scene port. Column-major 4x4, blocks.
  * Source-local geometry; ram=0, recoil=0, loaded=false.
@@ -128,11 +127,9 @@ var $DCPRL = Java.loadClass('net.minecraft.resources.ResourceLocation');
 var $DCPMC = Java.loadClass('net.minecraft.client.Minecraft');
 var $DCPM4 = Java.loadClass('org.joml.Matrix4f');
 var $DCPM3 = Java.loadClass('org.joml.Matrix3f');
-var $DCPAABB = Java.loadClass('net.minecraft.world.phys.AABB');
 var $DCPRenderType = Java.loadClass('net.minecraft.client.renderer.RenderType');
-var $DCPBuffers = Java.loadClass('net.minecraft.client.renderer.MultiBufferSource');
-var $DCPBufferBuilder = Java.loadClass('com.mojang.blaze3d.vertex.BufferBuilder');
 var $DCPWeakMap = Java.loadClass('java.util.WeakHashMap');
+var $DCPCompat = Java.loadClass('dev.eldershi.dysoncompat.client.ApprovedRendererBridge');
 var $DCPRegistries = Java.loadClass('net.minecraftforge.registries.ForgeRegistries');
 var $DCPNativeRail = Java.loadClass('org.mob.dysoncubeproject.client.tile.EMRailEjectorRender');
 var $DCPNativeReceiver = Java.loadClass('org.mob.dysoncubeproject.client.tile.RayReceiverRender');
@@ -146,8 +143,7 @@ var dcpRoots = {};
 var dcpFirst = {};
 var dcpErrors = {};
 var dcpNative = {rail: new $DCPNativeRail(), receiver: new $DCPNativeReceiver()};
-var dcpFallbackBuffers = null;
-var dcpStats = {rail:0,receiver:0,fallback:0,errors:0};
+var dcpStats = {rail:0,receiver:0,errors:0};
 
 function dcpFinite(n,label) {
   if(typeof n!=='number' || n!==n || n-n!==0) throw new Error('Non-finite approved transform '+label);
@@ -189,29 +185,20 @@ function dcpPose(be) {
     // It is not a claim of a 180-degree optical head travel.
     parts=DCP_RECEIVER_V6_POSE.fromNative(nativePitch,'linear_70').map(function(part){return {name:part.part,instance:part.id,m:part.matrix};});
   }
-  var lo=[Infinity,Infinity,Infinity],hi=[-Infinity,-Infinity,-Infinity];
   for(var i=0;i<parts.length;i++) {
-    var part=parts[i],b=DCP_MODEL_BOUNDS[kind][part.name],m=part.m;
-    if(!b) throw new Error('No approved model bounds for '+kind+'/'+part.name);
+    var part=parts[i],m=part.m;
     if(m.length!==16) throw new Error('Invalid approved matrix size '+kind+'/'+part.name);
     for(var component=0;component<16;component++) dcpFinite(m[component],kind+'/'+part.instance+'['+component+']');
-    for(var x=0;x<2;x++) for(var y=0;y<2;y++) for(var z=0;z<2;z++) {
-      var v=[b[x][0],b[y][1],b[z][2]];
-      for(var k=0;k<3;k++) {
-        var q=m[k]*v[0]+m[4+k]*v[1]+m[8+k]*v[2]+m[12+k];
-        lo[k]=Math.min(lo[k],q);hi[k]=Math.max(hi[k],q);
-      }
-    }
     part.matrix=dcpMatrix4(m);
     part.normal=dcpNormal3(m);
   }
-  for(var axis=0;axis<3;axis++){dcpFinite(lo[axis],kind+'/bounds.min');dcpFinite(hi[axis],kind+'/bounds.max');}
-  var value={key:key,kind:kind,parts:parts,lo:lo,hi:hi};
+  var value={key:key,kind:kind,parts:parts};
   dcpCache.put(be,value);
   return value;
 }
 
 function dcpRoot(kind) {
+  if(!$DCPCompat.isActive()) return null;
   if(dcpRoots[kind]) return dcpRoots[kind];
   var ns=kind==='rail'?'dcp_scripted_rail':'dcp_scripted_receiver';
   var name=kind==='rail'?'rail_parts':'receiver_parts';
@@ -270,18 +257,8 @@ function dcpGuardDraw(be,partial,stack,buffers,light,overlay) {
 
 global.DCPVisual={
   stats:dcpStats,
-  debugModelState:function(be){var p=dcpPose(be);return {kind:p.kind,root:dcpRoot(p.kind),parts:p.parts,lo:p.lo,hi:p.hi};},
-  getRenderBounds:function(be,partial) {
-    if(dcpRoot(dcpKind(be))==null) return null;
-    var p=dcpPose(be),b=be.getBlockPos();
-    return new $DCPAABB(p.lo[0]+b.getX()-.01,p.lo[1]+b.getY()-.01,p.lo[2]+b.getZ()-.01,
-      p.hi[0]+b.getX()+.01,p.hi[1]+b.getY()+.01,p.hi[2]+b.getZ()+.01);
-  },
-  drawFallback:function(be,partial,stack,light,overlay) {
-    if(dcpFallbackBuffers==null) dcpFallbackBuffers=$DCPBuffers.immediate(new $DCPBufferBuilder(262144));
-    try {dcpGuardDraw(be,partial,stack,dcpFallbackBuffers,light,overlay);dcpStats.fallback++;}
-    finally {dcpFallbackBuffers.endBatch();}
-  },
+  nativeCompat:$DCPCompat,
+  debugModelState:function(be){var p=dcpPose(be);return {kind:p.kind,root:dcpRoot(p.kind),parts:p.parts};},
   drawMachine:dcpGuardDraw
 };
 
@@ -289,7 +266,8 @@ var dcpProviders=['rail','receiver'].map(function(kind){
   // Build the interface proxy while this startup script owns a Rhino top-call.
   // A provider called later by a Java reload thread must return an already
   // adapted Java BER, rather than coerce a fresh plain JS object on that thread.
-  var renderer=new $DCPBER({m_6922_:function(be,partial,stack,buffers,light,overlay){dcpGuardDraw(be,partial,stack,buffers,light,overlay);}});
+  var delegate=new $DCPBER({m_6922_:function(be,partial,stack,buffers,light,overlay){dcpGuardDraw(be,partial,stack,buffers,light,overlay);}});
+  var renderer=$DCPCompat.wrap(delegate);
   return [kind==='rail'?'em_railejector_controller':'ray_receiver_controller',function(context){
     console.info('[DCP_APPROVED] provider-created '+kind);
     return renderer;
@@ -308,12 +286,14 @@ ForgeModEvents.eventBus().addListener($DCPPriority.LOWEST,false,$DCPRegisterRend
   dcpRegister(function(type,provider){$DCPRendererRegistry.register(type,provider);},'RegisterRenderers');
 });
 ForgeModEvents.onEvent('net.minecraftforge.client.event.ModelEvent$RegisterAdditional',function(event){
+  if(!$DCPCompat.hasPreparedResources()) return;
   event.register(new $DCPRL('dcp_scripted_rail','block/rail_parts'));
   event.register(new $DCPRL('dcp_scripted_receiver','block/receiver_parts'));
   console.info('[DCP_APPROVED] approved-composite-models registered=2');
 });
 ForgeModEvents.onEvent('net.minecraftforge.client.event.ModelEvent$BakingCompleted',function(event){
   dcpEpoch++;dcpRoots={};dcpCache.clear();
+  $DCPCompat.onModelBakingCompleted();
   console.info('[DCP_APPROVED] model-baking-completed epoch='+dcpEpoch);
 });
 console.info('[DCP_APPROVED] startup-listeners-ready; original models and mechanical roles preserved');
@@ -321,308 +301,3 @@ console.info('[DCP_APPROVED] startup-listeners-ready; original models and mechan
 
 })();
 }
-
-
-(function(){
-// Startup script; client only. Public Forge events, no reflection or world edits.
-// Required hooks (provided by the approved-model renderer):
-//   global.DCPVisual.getRenderBounds(be, partialTick) -> WORLD-SPACE AABB
-//   global.DCPVisual.drawFallback(be, partialTick, cameraRelativePose, light, overlay)
-// drawFallback owns its buffer and flush. This script never creates/endBatch's one.
-if (Platform.isClientEnvironment()) {
-  (function () {
-  var $Minecraft = Java.loadClass('net.minecraft.client.Minecraft')
-  var $ClientLevel = Java.loadClass('net.minecraft.client.multiplayer.ClientLevel')
-  var $LevelRenderer = Java.loadClass('net.minecraft.client.renderer.LevelRenderer')
-  var $AABB = Java.loadClass('net.minecraft.world.phys.AABB')
-  var $RailBE = Java.loadClass('org.mob.dysoncubeproject.block.entity.EMRailEjectorBlockEntity')
-  var $ReceiverBE = Java.loadClass('org.mob.dysoncubeproject.block.entity.RayReceiverBlockEntity')
-  var $Registries = Java.loadClass('net.minecraftforge.registries.ForgeRegistries')
-  var $Stage = Java.loadClass('net.minecraftforge.client.event.RenderLevelStageEvent$Stage')
-  var $Phase = Java.loadClass('net.minecraftforge.event.TickEvent$Phase')
-  var $ChunkStatus = Java.loadClass('net.minecraft.world.level.chunk.ChunkStatus')
-
-  // Rhino exposes mapped Mojang members in a normal game, raw SRG members in an
-  // unmapped context. Interface callback keys are a separate issue; none here.
-  var member = (target, names) => {
-    for (var name of names) {
-      try {
-        var value = target[name]
-        if (value !== undefined) return value
-      } catch (ignored) { }
-    }
-    throw new Error('[DCP_FRUSTUM] missing public member ' + names.join('/'))
-  }
-  var call = (target, names, args) => {
-    var fn = member(target, names)
-    return fn.apply(target, args || [])
-  }
-  var same = (a, b) => a != null && b != null && a.equals(b)
-  var minecraft = () => call($Minecraft, ['getInstance', 'm_91087_'])
-  var levelReported = false
-  var clientLevel = () => {
-    var connection = call(minecraft(), ['getConnection', 'm_91403_'])
-    if (connection == null) return null
-    var world = call(connection, ['getLevel', 'm_105147_'])
-    if (world != null && !levelReported) {
-      levelReported = true
-      console.info('[DCP_FRUSTUM] public connection.getLevel ClientLevel=' + (world instanceof $ClientLevel) + ' world=' + String(world))
-    }
-    return world
-  }
-  // Reconcile only cached chunks within the native BER's 64-block distance.
-  // Both chunk lookups and live-map iteration have independent per-tick caps.
-  var RADIUS = 4, RESUMES_PER_TICK = 3, DISCOVERIES_PER_TICK = 5, ENTITIES_PER_CHUNK = 32
-  var offsets = []
-  for (var dz = -RADIUS; dz <= RADIUS; dz++) {
-    for (var dx = -RADIUS; dx <= RADIUS; dx++) offsets.push([dx, dz])
-  }
-  offsets.sort((a, b) => a[0] * a[0] + a[1] * a[1] - b[0] * b[0] - b[1] * b[1])
-  var chunks = {}
-  var pending = []
-  var level = null
-  var cameraChunk = null
-  var cursor = 0
-  var hookReported = false
-  var errorReported = false
-  var disabled = false
-  var counters = { refreshes: 0, draws: 0, errors: 0, scannedEntities: 0, chunkLookups: 0, scanRestarts: 0 }
-  var clear = () => {
-    chunks = {}
-    pending = []
-    level = null
-    cameraChunk = null
-    cursor = 0
-  }
-  var adopt = candidate => {
-    if (!same(level, candidate)) {
-      clear()
-      level = candidate
-    }
-  }
-  var keyAt = (x, z) => x + ',' + z
-  var chunkKey = chunk => {
-    var pos = call(chunk, ['getPos', 'm_7697_'])
-    return keyAt(Number(member(pos, ['x', 'f_45578_'])), Number(member(pos, ['z', 'f_45579_'])))
-  }
-  var captureCamera = (x, z) => {
-    if (!isFinite(x) || !isFinite(z)) throw new Error('[DCP_FRUSTUM] non-finite camera')
-    var cx = Math.floor(x / 16), cz = Math.floor(z / 16)
-    if (cameraChunk != null && cameraChunk[0] === cx && cameraChunk[1] === cz) return
-    cameraChunk = [cx, cz]
-    cursor = 0
-    // At most 81 records exist. Discard distant iterators and BE references as
-    // soon as the camera moves, including same-dimension teleports.
-    for (var key in chunks) {
-      var record = chunks[key]
-      if (Math.abs(record.x - cx) > RADIUS || Math.abs(record.z - cz) > RADIUS) delete chunks[key]
-    }
-    pending = pending.filter(record => chunks[record.key] === record)
-  }
-  var controllerId = be => {
-    var isRail = be instanceof $RailBE
-    var isReceiver = be instanceof $ReceiverBE
-    if (!isRail && !isReceiver) return null
-    var type = call(be, ['getType', 'm_58903_'])
-    var id = $Registries.BLOCK_ENTITY_TYPES.getKey(type)
-    if (id == null) return null
-    var name = String(id)
-    if ((isRail && name === 'dysoncubeproject:em_railejector_controller') ||
-        (isReceiver && name === 'dysoncubeproject:ray_receiver_controller')) return name
-    return null
-  }
-  var enqueue = record => {
-    if (record.queued) return
-    record.queued = true
-    pending.push(record)
-  }
-  var cachedRecord = (source, x, z) => {
-    var key = keyAt(x, z)
-    // ClientChunkCache with create=false returns only an already cached
-    // LevelChunk or null. It never loads/generates/requests a chunk.
-    var chunk = call(source, ['getChunk', 'm_7587_'], [x, z, member($ChunkStatus, ['FULL', 'f_62326_']), false])
-    counters.chunkLookups++
-    if (chunk == null) { delete chunks[key]; return null }
-    var record = chunks[key]
-    if (record == null || !same(record.chunk, chunk)) {
-      record = { key: key, x: x, z: z, chunk: chunk, controllers: [], iterator: null, next: null, queued: false }
-      chunks[key] = record
-    }
-    return record
-  }
-  var scan = (record, budget) => {
-    var count = 0
-    try {
-      if (record.iterator == null) {
-        record.iterator = call(record.chunk, ['getBlockEntities', 'm_62954_']).values().iterator()
-        record.next = []
-      }
-      while (count < budget && record.iterator.hasNext()) {
-        var be = record.iterator.next()
-        count++; counters.scannedEntities++
-        // Reject unrelated machines before any mapped Java member queries.
-        if (controllerId(be) != null && !call(be, ['isRemoved', 'm_58901_']) &&
-            same(call(be, ['getLevel', 'm_58904_']), level)) record.next.push(be)
-      }
-      if (!record.iterator.hasNext()) {
-        record.controllers = record.next
-        record.iterator = null
-        record.next = null
-        counters.refreshes++
-        return count
-      }
-    } catch (error) {
-      // HashMap iterators span ticks; late BE packets can mutate the live map.
-      // Retry this one chunk on its next turn, within the same work budgets.
-      if (String(error).indexOf('ConcurrentModificationException') < 0) throw error
-      record.iterator = null
-      record.next = null
-      counters.scanRestarts++
-    }
-    enqueue(record)
-    return count
-  }
-  var refresh = () => {
-    if (cameraChunk == null) return
-    var source = call(level, ['getChunkSource', 'm_7726_'])
-    pending = pending.filter(record => chunks[record.key] === record)
-    // Resume a FIFO slice, then reserve discovery work even when maps churn.
-    // A single dense chunk progresses each tick instead of waiting a grid lap.
-    var resumes = Math.min(RESUMES_PER_TICK, pending.length)
-    for (var i = 0; i < resumes; i++) {
-      var previous = pending.shift()
-      previous.queued = false
-      var record = cachedRecord(source, previous.x, previous.z)
-      if (record != null) scan(record, ENTITIES_PER_CHUNK)
-    }
-    var remaining = ENTITIES_PER_CHUNK
-    for (var visit = 0; visit < DISCOVERIES_PER_TICK; visit++) {
-      var offset = offsets[cursor]
-      cursor = (cursor + 1) % offsets.length
-      var record = cachedRecord(source, cameraChunk[0] + offset[0], cameraChunk[1] + offset[1])
-      if (record == null || record.queued) continue
-      if (remaining > 0) remaining -= scan(record, remaining)
-      else enqueue(record)
-    }
-    pending = pending.filter(record => chunks[record.key] === record)
-  }
-
-  var fail = error => {
-    disabled = true
-    clear()
-    counters.errors++
-    if (!errorReported) {
-      errorReported = true
-      console.error('[DCP_FRUSTUM] disabled after unexpected event error: ' + error)
-    }
-  }
-
-  ForgeEvents.onEvent('net.minecraftforge.event.level.ChunkEvent$Load', event => {
-    if (disabled) return
-    var eventLevel = event.getLevel()
-    if (!call(eventLevel, ['isClientSide', 'm_5776_'])) return
-    var current = clientLevel()
-    if (!same(eventLevel, current)) return
-    adopt(current)
-    var chunk = event.getChunk()
-    var key = chunkKey(chunk), record = chunks[key]
-    if (record != null && !same(record.chunk, chunk)) delete chunks[key]
-  })
-  ForgeEvents.onEvent('net.minecraftforge.event.level.ChunkEvent$Unload', event => {
-    if (!same(event.getLevel(), level)) return
-    var chunk = event.getChunk()
-    var key = chunkKey(chunk)
-    // A late unload for an older chunk object cannot remove its replacement.
-    if (chunks[key] != null && same(chunks[key].chunk, chunk)) delete chunks[key]
-  })
-  ForgeEvents.onEvent('net.minecraftforge.event.level.LevelEvent$Unload', event => {
-    if (same(event.getLevel(), level)) clear()
-  })
-  ForgeEvents.onEvent('net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut', event => clear())
-  ForgeEvents.onEvent('net.minecraftforge.event.TickEvent$ClientTickEvent', event => {
-    if (!same(event.phase, $Phase.END)) return
-    var current = clientLevel()
-    if (current == null) { clear(); return }
-    adopt(current)
-    if (disabled) return
-    try { refresh() } catch (error) { fail(error) }
-  })
-
-  var renderFallback = event => {
-    if (!same(event.getStage(), $Stage.AFTER_BLOCK_ENTITIES)) return
-    var current = clientLevel()
-    if (current == null) { clear(); return }
-    adopt(current)
-    var cameraPos = call(event.getCamera(), ['getPosition', 'm_90583_'])
-    // Vec3 fields overlap x()/y()/z() methods in Rhino. Call the methods.
-    var cameraX = Number(call(cameraPos, ['x', 'm_7096_']))
-    var cameraY = Number(call(cameraPos, ['y', 'm_7098_']))
-    var cameraZ = Number(call(cameraPos, ['z', 'm_7094_']))
-    captureCamera(cameraX, cameraZ)
-    var visual = global.DCPVisual
-    if (visual == null || typeof visual.getRenderBounds !== 'function' ||
-        typeof visual.drawFallback !== 'function') return
-    if (!hookReported) {
-      hookReported = true
-      console.info('[DCP_FRUSTUM] approved bounds/draw hooks ready')
-    }
-    var frustum = event.getFrustum()
-    if (frustum == null) return
-    var partial = event.getPartialTick()
-    var pose = event.getPoseStack()
-    for (var key in chunks) {
-      var record = chunks[key]
-      for (var be of record.controllers) {
-        if (call(be, ['isRemoved', 'm_58901_']) ||
-            !same(call(be, ['getLevel', 'm_58904_']), current)) continue
-        var pos = call(be, ['getBlockPos', 'm_58899_'])
-        var x = Number(call(pos, ['getX', 'm_123341_']))
-        var y = Number(call(pos, ['getY', 'm_123342_']))
-        var z = Number(call(pos, ['getZ', 'm_123343_']))
-        // Preserve native BER default's 64-block distance from block center.
-        var dx = x + 0.5 - cameraX
-        var dy = y + 0.5 - cameraY
-        var dz = z + 0.5 - cameraZ
-        if (dx * dx + dy * dy + dz * dz >= 64 * 64) continue
-        // If native AABB passes, normal dispatcher owns this machine this frame.
-        if (call(frustum, ['isVisible', 'm_113029_'], [be.getRenderBoundingBox()])) continue
-        var fullBounds = visual.getRenderBounds(be, partial)
-        if (!(fullBounds instanceof $AABB)) {
-          if (fullBounds == null) continue // Renderer may reject unformed machines.
-          throw new Error('[DCP_FRUSTUM] getRenderBounds must return world-space AABB or null')
-        }
-        if (!call(frustum, ['isVisible', 'm_113029_'], [fullBounds])) continue
-        var light = call($LevelRenderer, ['getLightColor', 'm_109541_'], [current, pos])
-        call(pose, ['pushPose', 'm_85836_'])
-        try {
-          call(pose, ['translate', 'm_85837_'], [x - cameraX, y - cameraY, z - cameraZ])
-          visual.drawFallback(be, partial, pose, light, 655360 /* OverlayTexture.NO_OVERLAY */)
-          counters.draws++
-          if (counters.draws === 1) console.info('[DCP_FRUSTUM] first-fallback-draw ' + controllerId(be))
-        } finally {
-          call(pose, ['popPose', 'm_85849_'])
-        }
-      }
-    }
-  }
-  ForgeEvents.onEvent('net.minecraftforge.client.event.RenderLevelStageEvent', event => {
-    if (disabled) return
-    try { renderFallback(event) }
-    catch (error) { fail(error) }
-  })
-  global.DCPFrustumFallback = {
-    clear: clear,
-    stats: () => {
-      var count = 0, controllers = 0
-      for (var key in chunks) { count++; controllers += chunks[key].controllers.length }
-      return { chunks: count, controllers: controllers, refreshes: counters.refreshes,
-        draws: counters.draws, errors: counters.errors, disabled: disabled,
-        scannedEntities: counters.scannedEntities, chunkLookups: counters.chunkLookups,
-        scanRestarts: counters.scanRestarts }
-    }
-  }
-  console.info('[DCP_FRUSTUM] public-event tracker ready; source AABB and approved geometry unchanged')
-  })()
-}
-
-})();

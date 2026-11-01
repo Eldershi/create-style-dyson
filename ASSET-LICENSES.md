@@ -4,6 +4,10 @@ English | [简体中文](ASSET-LICENSES.zh-CN.md)
 
 The models, textures, and adaptations in this distribution retain the rights and licenses stated below. The project's code license applies only to code that the project is entitled to license. See [Credits](CREDITS.md) for resource IDs and attribution, and the repository's `donor-references.json` for file provenance and hashes.
 
+## Native rendering compatibility code
+
+The Java helper in `src/compat/` is licensed under [MIT](https://github.com/Eldershi/create-style-dyson/blob/main/src/compat/LICENSE). This applies to its new code, not to third-party models, textures or the original mod. The client download includes this license notice.
+
 ## Create
 
 Copyright (c) The Create Team / The Creators of Create.

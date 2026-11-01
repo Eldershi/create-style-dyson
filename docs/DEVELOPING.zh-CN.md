@@ -8,47 +8,58 @@
 
 仓库的 `source/` 包含规范美术输入，`resources/` 保存编译资源快照。默认构建直接使用这些文件，不需要另行下载美术或从依赖模组 JAR 提取素材。
 
-构建环境为 Python **3.12**、Node.js **24.19.0**，以及 `requirements.txt` 固定的 Python 依赖（Pillow **12.3.0**、NumPy **2.3.5**）。在仓库根目录运行：
+构建使用 Python **3.12**、Node.js **24**、JDK **17** 和 `requirements.txt` 固定的 Python 依赖。原生组件需要 Forge 打补丁后的 Minecraft 1.20.1 客户端（`forge-1.20.1-47.4.10-client.jar`），并以原版 Minecraft SRG JAR 为依赖，以及 Dyson Cube Project 1.20.1+1.0.5.1、Titanium 3.8.35、Forge 47.4.10 及其缓存依赖，包括 Mixin 0.8.5。将依赖 JAR 路径放入 JSON 数组；这些依赖不随项目再分发。在仓库根目录运行：
 
 ```sh
 python3 -m pip install -r requirements.txt
 python3 tools/check_public_tree.py
-python3 build.py
+python3 build.py --game-jar /path/to/forge-1.20.1-47.4.10-client.jar --dyson-jar /path/to/dysoncubeproject-1.20.1+1.0.5.1.jar --classpath-file /path/to/dependencies.json --jdk /path/to/jdk17
 ```
 
-构建会导出模型、核对原姿态函数与客户端可见性补绘逻辑，再依据锁文件验证资源快照和最终产物。
+完整构建检查规范姿态、连续渲染范围、Java 包装器契约及两个 DCP 类的真实 Mixin 变换，再验证资源、脚本与兼容组件哈希。原生组件锁定产物使用 JDK 17.0.5 构建。`python3 build.py --resources-only` 仅检查美术和脚本，不生成完整客户端安装内容。
+
+可增加 `--embeddium-jar /path/to/embeddium-0.3.31.jar`，核验可选的分段绘制归属钩子；运行本包不要求安装 Embeddium。
 
 生成文件：
 
 - `outputs/Dyson-Create-Approved-Models-Forge-1.20.1.zip`
 - `outputs/scripted-client/kubejs/startup_scripts/90_dcp_approved_visuals.js`
+- `outputs/native-compat/create-style-dyson-compat-1.1.0.jar`
 - `outputs/build-validation.json`
 
-生成的资源包和脚本需按照[安装说明](../INSTALL.zh-CN.md)配套安装。
+三个客户端文件须按照[安装说明](../INSTALL.zh-CN.md)配套安装。
 
 ## 源码布局
 
 - `source/rail/`：电磁发射器的编译源几何、像素与参考姿态函数。
 - `source/receiver/`：射线接收器的源几何、像素、模型 JSON 与参考姿态函数。
 - `source/native/`：原生特效委托使用的弹丸模型与粒子贴图。
-- `src/runtime/`：客户端渲染器与可见性补绘逻辑。
+- `src/runtime/`：KubeJS 姿态渲染及原生特效委托。
+- `src/compat/`：客户端范围适配、原生 BER 包装器及 Java/Mixin 契约。
 - `export_rail_scripted.py`、`export_rail_scripted_item.py`、`export_receiver_scripted.py`：资源导出器。
 - `build_scripted_bundle.py`：资源包与客户端脚本组装。
-- `tests/`：姿态数值与可见性补绘检查。
+- `tests/`：规范姿态、生成范围、脚本注册及生命周期契约。
+- `tools/build_compat.py`：使用指定依赖编译并打包原生组件。
 
 渲染器使用现有 KubeJS / Rhino / Architectury 环境，将原生充能、发射和蓝色全息效果交由 Dyson Cube Project 绘制。本项目不修改原模组的玩法，也不修复原模组自身缺陷；修复范围是本项目资源与客户端脚本引入的问题。
 
-## 可见性发现
+## 原生可见性
 
-补绘只跟踪相机周围 9 × 9 区块窗口内已经缓存的区块。每个客户端 END tick 最多进行 8 次不加载区块的查询、访问 128 个方块实体：FIFO 队列最多续扫 3 段，每段 32 个实体；另外查询 5 个网格位置，共享 32 个实体的发现额度。无关方块实体先通过类型检查排除，不查询其状态。区块事件不会触发全世界扫描。
+两个仅在客户端生效的 Mixin，将控制器原版范围与覆盖全部认可姿态的有限包围盒合并；轨道炮同时保留原生特效范围向上平移 1.25 格后的部分。各控制器按资源 epoch、位置及原版范围缓存结果，不持有世界、区块或方块实体引用。
 
-实体映射迭代器分 tick 推进。发生并发修改时，只重新扫描对应区块；定期发现也能补查区块加载事件之后才加入的方块实体。区块替换、卸载、相机移动、世界切换与退出会丢弃失效引用。补绘出现意外错误后会清空跟踪并停止发现。
+原生生命周期钩子将这两类控制器逐个登记到 Minecraft 全局方块实体列表，并在移除或区块卸载时逐个注销。弱引用索引只记录已经登记的控制器，在渲染器重建后恢复登记，在世界切换时清理旧条目，不搜索区块或其他方块实体。
 
-补绘仍遵循原生 64 格距离，以及原生包围盒不可见、完整模型包围盒可见的判断。发现过程分步完成，异常密集或持续变化的区块可能延迟补绘。Node 契约测试验证两套映射下的工作量上限与生命周期，不测量游戏 FPS；实际 Forge 验证范围见 `validation-report.json`。
+Java BER 包装器保留离开所在分段后的绘制资格、修正范围的视锥剔除和委托的 64 格距离判断。可选 Embeddium 钩子排除它对这些控制器的网格列表登记，使未编译的视野外分段也能由原生全局通道单独负责绘制。现有渲染器使用游戏提供的缓冲区，不运行周期性发现扫描，也不进行独立补绘。
+
+模型烘焙刷新资源可用状态。关闭认可资源包时使用原版范围与原生美术，重新启用后刷新模型和范围缓存。脚本的类型化 BER 委托在启动时预先创建，以便 Java 重载线程安全获取。
+
+异步模型准备前，客户端钩子让 Forge OBJ 加载器使用本轮资源管理器并清空解析缓存；仅在认可资源已启用或本轮存在完整资源根时执行。
+
+`tools/generate_compat_bounds.cjs` 按认可场景图，通过旋转轴解析半径与有界 IK 支点区间生成包围盒，并向外舍入、加入渲染浮点余量。姿态采样用于核对场景图实现，连续覆盖依据是解析包围运算。实际游戏验证范围见 `validation-report.json`。
 
 ## 输入与产物锁
 
-[输入布局](../input-layout.md)说明源文件结构。`source-input-lock.json` 固定输入哈希，`resource-hashes.json` 固定编译资源快照，`artifact-lock.json` 固定资源 ZIP 与生成的客户端脚本。仓库中的 `client/kubejs/startup_scripts/90_dcp_approved_visuals.js` 是生成脚本，需与对应资源包保持一致。
+[输入布局](../input-layout.zh-CN.md)说明源文件结构。`source-input-lock.json` 固定输入哈希，`resource-hashes.json` 固定编译资源快照，`artifact-lock.json` 固定资源 ZIP、客户端脚本和原生组件。`client/kubejs/startup_scripts/90_dcp_approved_visuals.js` 是仓库中的生成脚本。
 
 `build.py` 可通过 `--source-inputs <目录>` 或 `DCP_SOURCE_INPUTS` 使用另一份内容相同的锁定输入；默认读取仓库内的 `source/`。
 

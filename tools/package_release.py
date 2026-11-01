@@ -1,4 +1,4 @@
-"""Package the verified client pair with installation and attribution documents."""
+"""Package the verified client resources, script and native rendering helper."""
 from pathlib import Path
 import argparse, hashlib, json, re, zipfile
 
@@ -23,11 +23,14 @@ def main():
     lock = json.loads((ROOT / 'artifact-lock.json').read_text())
     pack = (ROOT / 'outputs' / PACK_NAME).read_bytes()
     script = (ROOT / 'client/kubejs/startup_scripts' / SCRIPT_NAME).read_bytes()
-    if digest(pack) != lock['zip_sha256'] or digest(script) != lock['script_sha256']:
+    compat = (ROOT / 'outputs/native-compat' / lock['compat_jar']).read_bytes()
+    if digest(pack) != lock['zip_sha256'] or digest(script) != lock['script_sha256'] or digest(compat) != lock['compat_sha256']:
         raise SystemExit('Client files differ from verified artifact lock')
     blobs = {
         'config/paxi/resourcepacks/' + PACK_NAME: pack,
         'kubejs/startup_scripts/' + SCRIPT_NAME: script,
+        'mods/' + lock['compat_jar']: compat,
+        'licenses/create-style-dyson-compat-MIT.txt': (ROOT / 'src/compat/LICENSE').read_bytes(),
     }
     for name in ['README.md', 'README.zh-CN.md', 'INSTALL.md', 'INSTALL.zh-CN.md',
                  'CREDITS.md', 'CREDITS.zh-CN.md', 'ASSET-LICENSES.md', 'ASSET-LICENSES.zh-CN.md',
@@ -39,7 +42,7 @@ def main():
     manifest = {'version': args.version, 'minecraft': '1.20.1', 'forge': '47.4.10',
                 'source_commit': args.source_commit,
                 'source_repository': 'https://github.com/Eldershi/create-style-dyson',
-                'no_new_companion_JAR': True,
+                'client_native_compat': lock['compat_jar'],
                 'files': {name: {'sha256': digest(data), 'bytes': len(data)}
                           for name, data in sorted(blobs.items())}}
     blobs['file-manifest.json'] = (json.dumps(manifest, ensure_ascii=False, indent=2) + '\n').encode()
@@ -63,7 +66,7 @@ def main():
     report = {'zip': str(target), 'sha256': digest(target.read_bytes()),
               'bytes': target.stat().st_size, 'files': len(blobs),
               'source_commit': args.source_commit,
-              'verified_game_pair': {'resource_zip': digest(pack), 'renderer': digest(script)}}
+              'verified_game_files': {'resource_zip': digest(pack), 'renderer': digest(script), 'native_compat': digest(compat)}}
     (output / 'release-manifest.json').write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps(report))
 

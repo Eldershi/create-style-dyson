@@ -1,4 +1,4 @@
-"""Package approved resources plus existing-KubeJS client renderer. No new JAR."""
+"""Package approved resources and the KubeJS native-dispatch renderer."""
 from pathlib import Path
 import hashlib, json, zipfile
 
@@ -33,13 +33,12 @@ def main():
             if obj.stem=='item_assembled':continue
             vertices=[list(map(float,line.split()[1:4])) for line in obj.read_text().splitlines() if line.startswith('v ')]
             bounds[machine][obj.stem]=[[min(p[k] for p in vertices) for k in range(3)],[max(p[k] for p in vertices) for k in range(3)]]
-    parts=['// Requires existing KubeJS; no new companion mod. Client environment only.\nif (Platform.isClientEnvironment()) {\n(function(){\n',
+    parts=['// Requires KubeJS and Create Style Dyson Render Compat. Client only.\nif (Platform.isClientEnvironment()) {\n(function(){\n',
         'if (!Math.hypot) Math.hypot=function(){var s=0;for(var i=0;i<arguments.length;i++)s+=arguments[i]*arguments[i];return Math.sqrt(s);};\n',
-        'var DCP_PI=3.141592653589793;\nvar DCP_MODEL_BOUNDS='+json.dumps(bounds,separators=(',',':'))+';\n',
+        'var DCP_PI=3.141592653589793;\n',
         (ROOT/'work/scripted-rail/pose-v17.js').read_text().replace('Math.PI','DCP_PI'),
         (ROOT/'work/scripted-receiver/receiver_pose.js').read_text().replace('Math.PI','DCP_PI'),
-        (WORK/'renderer-main.js').read_text(),'\n})();\n}\n',
-        '\n(function(){\n'+(WORK/'frustum-fallback.js').read_text()+'\n})();\n']
+        (WORK/'renderer-main.js').read_text(),'\n})();\n}\n']
     script=CLIENT/'kubejs/startup_scripts/90_dcp_approved_visuals.js'
     script.parent.mkdir(parents=True,exist_ok=True)
     script.write_text('\n'.join(parts))
@@ -52,7 +51,7 @@ def main():
             z.writestr(info,p.read_bytes())
     report={'status':'BUILT_NOT_INSTALLED_OR_GAME_VERIFIED','zip':str(target),'zip_sha256':sha(target),'zip_bytes':target.stat().st_size,
         'files':len(files),'script':str(script),'script_sha256':sha(script),'script_bytes':script.stat().st_size,
-        'no_new_JAR':True,'geometry_source':'Rail24body models/30instances; receiver25models/47instances',
+        'client_compat_required':True,'geometry_source':'Rail24body models/30instances; receiver25models/47instances',
         'fixed_and_independent_parts':'Original pose graphs, hydraulic IK and cable links retained',
         'native_FX':'Original Java renderers/shaders delegated; rail frame only translates +20px worldY as proven',
         'receiver_angle_mapping':{'approved_mechanical_range':[0,70],'strategy':'linear70; source yaw fixed0','native_BE_fields_changed':False,'limitation':'Does not reproduce the original 180degree solar optical arc; do not claim it does.'},
