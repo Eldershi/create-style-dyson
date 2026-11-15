@@ -236,6 +236,14 @@
         "Full ATM10 modpack"
       ],
       "rail_native_charge_and_fire": "PASS: charge arcs on the barrel and launch beam from the muzzle; two executions observed"
+    },
+    "release": {
+      "tag": "v1.1.0-mc1.21.1-neoforge",
+      "source_commit": "ee28375aad7b951061d8e36eacce3f509728cbf8",
+      "client_zip": "Create-Style-Dyson-1.1.0-MC1.21.1-NeoForge-Client.zip",
+      "client_zip_sha256": "ba58e21f423c26cccf26c6be6a07faa9bba974467928ac7f1c649963c881c238",
+      "client_zip_bytes": 1015041,
+      "download_verification": "PASS: byte-identical download, SHA256SUMS.txt OK, 12 manifest files, resource ZIP and script match artifact-lock.json"
     }
   }
 }
