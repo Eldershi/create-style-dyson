@@ -25,19 +25,22 @@ Generated files:
 - `outputs/Dyson-Create-Approved-Models-Forge-1.20.1.zip`
 - `outputs/scripted-client/kubejs/startup_scripts/90_dcp_approved_visuals.js`
 - `outputs/native-compat/create-style-dyson-compat-1.1.0.jar`
+- `outputs/Dyson-Create-Approved-Models-NeoForge-1.21.1.zip`
+- `outputs/neoforge-1.21.1/client/kubejs/startup_scripts/90_dcp_approved_visuals.js`
 - `outputs/build-validation.json`
 
-Install all three client files together using the [installation instructions](../INSTALL.md).
+Install the three Forge client files, or the two NeoForge client files, together using the [installation instructions](../INSTALL.md). `--resources-only` already produces the complete NeoForge edition, which needs no native helper.
 
 ## Source layout
 
 - `source/rail/`: compiled source geometry, pixels and the reference pose functions for the electromagnetic ejector.
 - `source/receiver/`: source geometry, pixels, model JSONs and reference pose functions for the ray receiver.
 - `source/native/`: the projectile model and particle texture used by the native effects delegate.
-- `src/runtime/`: KubeJS pose rendering and native-effects delegation.
+- `src/runtime/`: KubeJS pose rendering and native-effects delegation; `renderer-main-neoforge-1.21.1.js` is the NeoForge 1.21.1 renderer.
 - `src/compat/`: client bounds adaptation, native BER wrapper and Java/Mixin contracts.
 - `export_rail_scripted.py`, `export_rail_scripted_item.py`, `export_receiver_scripted.py`: resource exporters.
-- `build_scripted_bundle.py`: resource-pack and client-script assembly.
+- `build_scripted_bundle.py`: Forge 1.20.1 resource-pack and client-script assembly.
+- `build_neoforge_bundle.py`: NeoForge 1.21.1 resource pack (model loaders `neoforge:obj` / `neoforge:composite`, pack format 34) and client script from the same compiled resources.
 - `tests/`: canonical poses, generated envelopes and script registration/lifecycle contracts.
 - `tools/build_compat.py`: deterministic native helper compilation using supplied dependencies.
 
@@ -57,9 +60,19 @@ Before asynchronous model preparation, a client hook binds Forge's OBJ loader to
 
 `tools/generate_compat_bounds.cjs` follows the approved scene graph using analytic rotation radii and bounded IK origin intervals. Outward rounding adds a render-float margin. Pose samples audit the scene-graph implementation; continuous coverage comes from the analytic hull construction. Actual game scope is recorded in `validation-report.json`.
 
+## NeoForge 1.21.1 edition
+
+The NeoForge 1.21.1 edition runs on the original Dyson Cube Project 1.0.5 (`com.buuz135.dysoncubeproject`). Its yaw/pitch transform chain and block-entity angles match the Forge build, so the artwork, geometry and pose functions are reused unchanged. Only the loading and registration layer differs:
+
+- The renderer is adapted to `BlockEntityRenderer` with `Java.cast`, and the script implements all five methods (`render`, `shouldRenderOffScreen`, `getViewDistance`, `shouldRender`, `getRenderBoundingBox`). Rhino's adapter class for `new BlockEntityRenderer({...})` overrides only abstract methods, so default methods would fall back to NeoForge's one-block bounds; that form is not used.
+- `getRenderBoundingBox` returns the union of the native bounds, the native effects bounds lifted by 1.25 blocks and the approved pose envelope, cached per controller, position and model epoch. `shouldRenderOffScreen` is true, so controllers join the global block-entity list. This replaces the two visibility Mixins of the Forge helper, so the NeoForge edition needs no extra mod.
+- The renderer registers through `NativeEvents` at `LOWEST` priority on `EntityRenderersEvent.RegisterRenderers`, after the original mod. `ModelEvent.RegisterAdditional` registers the standalone composite models only when the incoming resources contain them, and `ModelEvent.BakingCompleted` refreshes the epoch and caches. With the pack disabled, no missing model is queried and the native renderer draws the machines.
+
+The pack must sit above Mod Resources; otherwise the original mod's models of the same name replace this pack's empty body models.
+
 ## Input and artifact locks
 
-[Input layout](../input-layout.md) describes the source files. `source-input-lock.json` pins their hashes, `resource-hashes.json` pins compiled resources, and `artifact-lock.json` pins the resource ZIP, client script and native helper. `client/kubejs/startup_scripts/90_dcp_approved_visuals.js` is the checked-in generated script.
+[Input layout](../input-layout.md) describes the source files. `source-input-lock.json` pins their hashes, `resource-hashes.json` pins compiled resources, and `artifact-lock.json` pins both editions' resource ZIPs and client scripts and the Forge native helper. `client/kubejs/startup_scripts/90_dcp_approved_visuals.js` and `client/neoforge-1.21.1/kubejs/startup_scripts/90_dcp_approved_visuals.js` are the checked-in generated scripts.
 
 `build.py` also accepts `--source-inputs <directory>` or `DCP_SOURCE_INPUTS` for an alternative directory containing the same locked inputs. It defaults to the repository's `source/` directory.
 

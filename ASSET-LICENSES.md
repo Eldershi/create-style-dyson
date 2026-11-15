@@ -70,6 +70,12 @@ Author and Forge publisher: MobSmasher4000. The runtime version is `dysoncubepro
 
 This pack credits that source for its original-mod resource references, retained particle image, and native rendering/effect calls. The Forge artifact's rights notice remains attached to its original material. Licenses for new project code apply separately.
 
+## Dyson Cube Project (NeoForge)
+
+Copyright (c) Buuz135 / InnovativeOnlineIndustries. The NeoForge 1.21.1 edition runs with `dysoncubeproject-1.0.5.jar`, whose metadata and [source repository](https://github.com/InnovativeOnlineIndustries/Dyson-Cube-Project) declare the [MIT License](https://github.com/InnovativeOnlineIndustries/Dyson-Cube-Project/blob/master/LICENSE). [Project page](https://www.curseforge.com/minecraft/mc-mods/dyson-cube-project).
+
+The NeoForge edition credits this source for its original-mod resource references, the particle image (identical in both builds), and native rendering/effect calls. Keep its MIT notice with that material.
+
 ## Notices for redistribution
 
 Keep this file and [Credits](CREDITS.md) with the resource pack or download bundle. Pass the relevant upstream notices along with their material and adaptations. New project code, art arrangements, and third-party material are each covered according to their applicable scope. A project name or a single code LICENSE does not replace these upstream terms.

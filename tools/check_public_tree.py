@@ -127,11 +127,13 @@ def main():
     lock=json.loads((root/'artifact-lock.json').read_text())
     script=root/'client/kubejs/startup_scripts/90_dcp_approved_visuals.js'
     insist(sha(script.read_bytes())==lock['script_sha256'],'Generated client renderer SHA mismatch')
+    neoforge_script=root/'client/neoforge-1.21.1/kubejs/startup_scripts/90_dcp_approved_visuals.js'
+    insist(sha(neoforge_script.read_bytes())==lock['neoforge_script_sha256'],'Generated NeoForge client renderer SHA mismatch')
     preview_lock=root/'previews/manifest.json'
     if preview_lock.exists():
         pins=json.loads(preview_lock.read_text())
         for name,digest in pins.get('files',{}).items():insist(name in previews and previews[name]['sha256']==digest,'Preview SHA mismatch '+name)
-    print(json.dumps({'status':'PASS','publication_files_checked':len(checked),'source_files':len(source),'resource_files':len(resources),'PNG_files':png_count,'embedded_source_PNGs':embedded_images,'OBJ_files':obj_count,'OBJ_faces':faces,'client_script_sha256':lock['script_sha256'],'previews':previews},ensure_ascii=False))
+    print(json.dumps({'status':'PASS','publication_files_checked':len(checked),'source_files':len(source),'resource_files':len(resources),'PNG_files':png_count,'embedded_source_PNGs':embedded_images,'OBJ_files':obj_count,'OBJ_faces':faces,'client_script_sha256':lock['script_sha256'],'neoforge_client_script_sha256':lock['neoforge_script_sha256'],'previews':previews},ensure_ascii=False))
 
 if __name__=='__main__':
     try:main()

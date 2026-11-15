@@ -4,7 +4,7 @@
 
 本项目为Eldershi维护的Create风格戴森球资源包，重组电磁发射器与射线接收器的机械结构、材质和姿态。下面列出当前资源所用的上游项目、素材资源ID与派生图像；上游作者保留其署名和权利。各项条件见[ASSET-LICENSES.md](ASSET-LICENSES.zh-CN.md)。
 
-素材版本用于溯源，不代表玩家需要额外安装这些版本。运行目标为Minecraft1.20.1 / Forge；运行依赖按安装说明提供。
+素材版本用于溯源，不代表玩家需要额外安装这些版本。运行目标为Minecraft1.20.1 / Forge 与 Minecraft1.21.1 / NeoForge；运行依赖按安装说明提供。
 
 ## Create
 
@@ -72,6 +72,14 @@ MobSmasher4000。运行模组1.20.1+1.0.5.1。来源：[Dyson Cube Project (Forg
 Aeronautics/Simulated官方团队署名包括Eriksonn、RyanHCode、Starlotte、KyanBirb、Kryppers、keyberries、BeeIsYou和Cyvack；完整团队名单见其项目页。结构资源还包括`aeronautics:block/gyroscopic_propeller_bearing/metal_bearing_plate`与`createaddition:block/connector/small/passive`。
 
 Dyson Cube Project的原生工作逻辑、着色器和特效由已安装模组提供；本包保留其粒子贴图作为发射弹体的材质来源。Forge源码来源：[MobSmasher4000/dyson-cube-project](https://github.com/MobSmasher4000/dyson-cube-project)。
+
+## Dyson Cube Project (NeoForge)
+
+Buuz135 / InnovativeOnlineIndustries。NeoForge 1.21.1 版运行模组1.0.5。来源：[Dyson Cube Project](https://www.curseforge.com/minecraft/mc-mods/dyson-cube-project)；源码：[InnovativeOnlineIndustries/Dyson-Cube-Project](https://github.com/InnovativeOnlineIndustries/Dyson-Cube-Project)。
+
+- `dysoncubeproject:block/particle`
+
+NeoForge 版使用原模组的原生工作逻辑、着色器和特效；其粒子贴图与上文保留的贴图相同。
 
 ## 本项目命名的派生材质
 

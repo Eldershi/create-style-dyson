@@ -4,7 +4,7 @@ English | [简体中文](CREDITS.zh-CN.md)
 
 This Create-style Dyson Cube Project resource pack is maintained by Eldershi. It assembles mechanical structures, materials, and poses for the electromagnetic rail ejector and ray receiver. The upstream projects, resource IDs, and derivative images used by the pack are listed below. Upstream creators retain their credit and rights. See [Asset licenses](ASSET-LICENSES.md) for the applicable terms.
 
-Asset versions identify the sources; they are not additional versions players need to install. The pack targets Minecraft 1.20.1 / Forge. See the installation instructions for runtime dependencies.
+Asset versions identify the sources; they are not additional versions players need to install. The pack targets Minecraft 1.20.1 / Forge and Minecraft 1.21.1 / NeoForge. See the installation instructions for runtime dependencies.
 
 ## Create
 
@@ -72,6 +72,14 @@ MobSmasher4000. Runtime mod: 1.20.1+1.0.5.1. Project: [Dyson Cube Project (Forge
 The official Aeronautics/Simulated team credits include Eriksonn, RyanHCode, Starlotte, KyanBirb, Kryppers, keyberries, BeeIsYou, and Cyvack. See the project page for the full team credits. Structural resources also include `aeronautics:block/gyroscopic_propeller_bearing/metal_bearing_plate` and `createaddition:block/connector/small/passive`.
 
 The installed Dyson Cube Project mod provides its native machine logic, shaders, and effects. This pack retains its particle texture as the material source for the launched projectile. Forge source: [MobSmasher4000/dyson-cube-project](https://github.com/MobSmasher4000/dyson-cube-project).
+
+## Dyson Cube Project (NeoForge)
+
+Buuz135 / InnovativeOnlineIndustries. Runtime mod for the NeoForge 1.21.1 edition: 1.0.5. Project: [Dyson Cube Project](https://www.curseforge.com/minecraft/mc-mods/dyson-cube-project); source: [InnovativeOnlineIndustries/Dyson-Cube-Project](https://github.com/InnovativeOnlineIndustries/Dyson-Cube-Project).
+
+- `dysoncubeproject:block/particle`
+
+The NeoForge edition uses the original mod's native machine logic, shaders, and effects. Its particle texture is identical to the one retained above.
 
 ## Project-named derivative materials
 

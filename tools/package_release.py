@@ -4,7 +4,11 @@ import argparse, hashlib, json, re, zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 PACK_NAME = 'Dyson-Create-Approved-Models-Forge-1.20.1.zip'
+NEOFORGE_PACK_NAME = 'Dyson-Create-Approved-Models-NeoForge-1.21.1.zip'
 SCRIPT_NAME = '90_dcp_approved_visuals.js'
+DOCS = ['README.md', 'README.zh-CN.md', 'INSTALL.md', 'INSTALL.zh-CN.md',
+        'CREDITS.md', 'CREDITS.zh-CN.md', 'ASSET-LICENSES.md', 'ASSET-LICENSES.zh-CN.md',
+        'previews/electromagnetic-ejector.png', 'previews/ray-receiver.png']
 
 
 def digest(blob):
@@ -15,12 +19,15 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--version', required=True)
     parser.add_argument('--source-commit', required=True)
+    parser.add_argument('--target', choices=['forge-1.20.1', 'neoforge-1.21.1'], default='forge-1.20.1')
     args = parser.parse_args()
     if not re.fullmatch(r'[0-9]+\.[0-9]+\.[0-9]+', args.version):
         parser.error('version must be semantic major.minor.patch')
     if not re.fullmatch(r'[0-9a-f]{40}', args.source_commit):
         parser.error('source-commit must be an exact Git commit')
     lock = json.loads((ROOT / 'artifact-lock.json').read_text())
+    if args.target == 'neoforge-1.21.1':
+        return package_neoforge(args, lock)
     pack = (ROOT / 'outputs' / PACK_NAME).read_bytes()
     script = (ROOT / 'client/kubejs/startup_scripts' / SCRIPT_NAME).read_bytes()
     compat = (ROOT / 'outputs/native-compat' / lock['compat_jar']).read_bytes()
@@ -32,13 +39,7 @@ def main():
         'mods/' + lock['compat_jar']: compat,
         'licenses/create-style-dyson-compat-MIT.txt': (ROOT / 'src/compat/LICENSE').read_bytes(),
     }
-    for name in ['README.md', 'README.zh-CN.md', 'INSTALL.md', 'INSTALL.zh-CN.md',
-                 'CREDITS.md', 'CREDITS.zh-CN.md', 'ASSET-LICENSES.md', 'ASSET-LICENSES.zh-CN.md',
-                 'previews/electromagnetic-ejector.png', 'previews/ray-receiver.png']:
-        blobs[name] = (ROOT / name).read_bytes()
-    for path in sorted((ROOT / 'licenses').rglob('*')):
-        if path.is_file():
-            blobs[path.relative_to(ROOT).as_posix()] = path.read_bytes()
+    add_docs(blobs)
     manifest = {'version': args.version, 'minecraft': '1.20.1', 'forge': '47.4.10',
                 'source_commit': args.source_commit,
                 'source_repository': 'https://github.com/Eldershi/create-style-dyson',
@@ -47,6 +48,35 @@ def main():
                           for name, data in sorted(blobs.items())}}
     blobs['file-manifest.json'] = (json.dumps(manifest, ensure_ascii=False, indent=2) + '\n').encode()
     filename = 'Create-Style-Dyson-' + args.version + '-MC1.20.1-Client.zip'
+    write_release(args, filename, blobs, {'resource_zip': digest(pack), 'renderer': digest(script), 'native_compat': digest(compat)})
+
+
+def add_docs(blobs):
+    for name in DOCS:
+        blobs[name] = (ROOT / name).read_bytes()
+    for path in sorted((ROOT / 'licenses').rglob('*')):
+        if path.is_file():
+            blobs[path.relative_to(ROOT).as_posix()] = path.read_bytes()
+
+
+def package_neoforge(args, lock):
+    pack = (ROOT / 'outputs' / NEOFORGE_PACK_NAME).read_bytes()
+    script = (ROOT / 'client/neoforge-1.21.1/kubejs/startup_scripts' / SCRIPT_NAME).read_bytes()
+    if digest(pack) != lock['neoforge_zip_sha256'] or digest(script) != lock['neoforge_script_sha256']:
+        raise SystemExit('NeoForge client files differ from verified artifact lock')
+    blobs = {'resourcepacks/' + NEOFORGE_PACK_NAME: pack, 'kubejs/startup_scripts/' + SCRIPT_NAME: script}
+    add_docs(blobs)
+    manifest = {'version': args.version, 'minecraft': '1.21.1', 'neoforge': '21.1.251',
+                'source_commit': args.source_commit,
+                'source_repository': 'https://github.com/Eldershi/create-style-dyson',
+                'files': {name: {'sha256': digest(data), 'bytes': len(data)}
+                          for name, data in sorted(blobs.items())}}
+    blobs['file-manifest.json'] = (json.dumps(manifest, ensure_ascii=False, indent=2) + '\n').encode()
+    filename = 'Create-Style-Dyson-' + args.version + '-MC1.21.1-NeoForge-Client.zip'
+    write_release(args, filename, blobs, {'resource_zip': digest(pack), 'renderer': digest(script)})
+
+
+def write_release(args, filename, blobs, verified):
     output = ROOT / 'outputs/release'
     output.mkdir(parents=True, exist_ok=True)
     target = output / filename
@@ -62,12 +92,14 @@ def main():
         for name, data in blobs.items():
             if archive.read(name) != data:
                 raise SystemExit('Release file differs: ' + name)
-    (output / 'SHA256SUMS.txt').write_text(digest(target.read_bytes()) + '  ' + filename + '\n')
+    sums = output / 'SHA256SUMS.txt'
+    lines = [line for line in (sums.read_text().splitlines() if sums.exists() else []) if not line.endswith('  ' + filename)]
+    sums.write_text('\n'.join(sorted(lines + [digest(target.read_bytes()) + '  ' + filename])) + '\n')
     report = {'zip': str(target), 'sha256': digest(target.read_bytes()),
               'bytes': target.stat().st_size, 'files': len(blobs),
-              'source_commit': args.source_commit,
-              'verified_game_files': {'resource_zip': digest(pack), 'renderer': digest(script), 'native_compat': digest(compat)}}
-    (output / 'release-manifest.json').write_text(json.dumps(report, indent=2) + '\n')
+              'source_commit': args.source_commit, 'target': args.target,
+              'verified_game_files': verified}
+    (output / ('release-manifest-' + args.target + '.json')).write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps(report))
 
 

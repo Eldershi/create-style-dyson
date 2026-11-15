@@ -163,5 +163,79 @@
     "downloaded_resource_files_verified": 246,
     "file_manifest_verified": true,
     "compat_license_verified": true
+  },
+  "neoforge_1_21_1": {
+    "artifact": {
+      "zip": "Dyson-Create-Approved-Models-NeoForge-1.21.1.zip",
+      "zip_sha256": "b4dc06116b9ac803b39bf473d8d9b9f25fc9ced0f5c3a7829daf9949d833cfe1",
+      "zip_bytes": 905083,
+      "files": 246,
+      "script_sha256": "e8ababf42313bf283082ebd7ffc77d726e2310d8530f26ade3f63c54758a868f",
+      "script_bytes": 21179,
+      "native_helper": false
+    },
+    "architecture": {
+      "renderer_adaptation": "Java.cast proxy implementing render, shouldRenderOffScreen, getViewDistance, shouldRender and getRenderBoundingBox",
+      "visibility": "Global block-entity list via shouldRenderOffScreen; bounds union of native, lifted native effects and approved envelopes",
+      "registration": "NativeEvents LOWEST on EntityRenderersEvent.RegisterRenderers; standalone composite models only when present in the incoming resources",
+      "view_distance_blocks": 64,
+      "gameplay_changes": false
+    },
+    "static_validation": {
+      "model_loaders_ported": 54,
+      "pack_format": 34,
+      "script_contract": "tests/test-neoforge-renderer.cjs PASS"
+    },
+    "game_validation": {
+      "status": "PASS_IN_RECORDED_SCOPE",
+      "minecraft": "1.21.1",
+      "neoforge": "21.1.251",
+      "java": 21,
+      "mods": {
+        "dysoncubeproject": "1.0.5",
+        "titanium": "1.21-4.0.50",
+        "kubejs": "2101.7.2-build.374",
+        "rhino": "2101.2.8-build.91"
+      },
+      "runs": [
+        {
+          "renderer": "vanilla",
+          "pass": true,
+          "render_errors": 0
+        },
+        {
+          "renderer": "sodium 0.8.13",
+          "pass": true,
+          "render_errors": 0
+        }
+      ],
+      "resource_pack_order": "vanilla, Mod Resources, this pack (pack above Mod Resources)",
+      "scenarios": [
+        "PLACEMENT",
+        "NOON",
+        "MORNING",
+        "EVENING",
+        "NIGHT",
+        "RAIN",
+        "CLOSE_UPWARD_VIEW",
+        "FAR",
+        "HELD_ITEMS",
+        "PACK_OFF",
+        "PACK_ON",
+        "RAIL_CHARGE_AND_FIRE"
+      ],
+      "native_rail_poses": {
+        "noon": "yaw 0 / pitch 10",
+        "morning": "yaw 180 / pitch 62.4",
+        "evening": "yaw 0 / pitch 69.9",
+        "night": "yaw 180 / pitch 90",
+        "rain": "yaw 0 / pitch 90"
+      },
+      "not_covered": [
+        "Shader packs",
+        "Full ATM10 modpack"
+      ],
+      "rail_native_charge_and_fire": "PASS: charge arcs on the barrel and launch beam from the muzzle; two executions observed"
+    }
   }
 }

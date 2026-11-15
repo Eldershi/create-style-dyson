@@ -43,6 +43,10 @@ def main():
     if actual!=expected:raise SystemExit('Resource hash mismatch')
     manifest=json.loads((out/'scripted-bundle-manifest.json').read_text());target=json.loads((ROOT/'artifact-lock.json').read_text())
     if any(manifest[k]!=target[k]for k in ['zip_sha256','script_sha256']):raise SystemExit('Artifact hash mismatch')
+    run('node','tests/test-neoforge-renderer.cjs')
+    run(sys.executable,'build_neoforge_bundle.py')
+    neoforge=json.loads((out/'neoforge-bundle-manifest.json').read_text())
+    if neoforge['zip_sha256']!=target['neoforge_zip_sha256']or neoforge['script_sha256']!=target['neoforge_script_sha256']:raise SystemExit('NeoForge artifact hash mismatch')
     if not args.resources_only:
         command=[sys.executable,'tools/build_compat.py','--game-jar',str(args.game_jar),
             '--dyson-jar',str(args.dyson_jar),'--classpath-file',str(args.classpath_file),'--version',target['compat_version']]
@@ -50,7 +54,7 @@ def main():
         if args.embeddium_jar:command.extend(['--embeddium-jar',str(args.embeddium_jar)])
         run(*command)
         if sha(out/'native-compat'/target['compat_jar'])!=target['compat_sha256']:raise SystemExit('Native helper hash mismatch')
-    result={'status':'PASS_RESOURCES_AND_SCRIPT'if args.resources_only else'PASS','resource_files':len(actual),'zip_sha256':manifest['zip_sha256'],'script_sha256':manifest['script_sha256'],'native_helper_built':not args.resources_only,'inputs':'Repository source/; SHA-verified canonical art inputs','game_validation':'See validation-report.json'}
+    result={'status':'PASS_RESOURCES_AND_SCRIPT'if args.resources_only else'PASS','resource_files':len(actual),'zip_sha256':manifest['zip_sha256'],'script_sha256':manifest['script_sha256'],'neoforge_zip_sha256':neoforge['zip_sha256'],'neoforge_script_sha256':neoforge['script_sha256'],'native_helper_built':not args.resources_only,'inputs':'Repository source/; SHA-verified canonical art inputs','game_validation':'See validation-report.json'}
     (out/'build-validation.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result))
 
 if __name__=='__main__':main()

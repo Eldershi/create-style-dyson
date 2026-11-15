@@ -25,19 +25,22 @@ python3 build.py --game-jar /path/to/forge-1.20.1-47.4.10-client.jar --dyson-jar
 - `outputs/Dyson-Create-Approved-Models-Forge-1.20.1.zip`
 - `outputs/scripted-client/kubejs/startup_scripts/90_dcp_approved_visuals.js`
 - `outputs/native-compat/create-style-dyson-compat-1.1.0.jar`
+- `outputs/Dyson-Create-Approved-Models-NeoForge-1.21.1.zip`
+- `outputs/neoforge-1.21.1/client/kubejs/startup_scripts/90_dcp_approved_visuals.js`
 - `outputs/build-validation.json`
 
-三个客户端文件须按照[安装说明](../INSTALL.zh-CN.md)配套安装。
+Forge 版的三个客户端文件、NeoForge 版的两个客户端文件须分别按照[安装说明](../INSTALL.zh-CN.md)配套安装。`--resources-only` 已生成完整的 NeoForge 版，NeoForge 版不需要原生组件。
 
 ## 源码布局
 
 - `source/rail/`：电磁发射器的编译源几何、像素与参考姿态函数。
 - `source/receiver/`：射线接收器的源几何、像素、模型 JSON 与参考姿态函数。
 - `source/native/`：原生特效委托使用的弹丸模型与粒子贴图。
-- `src/runtime/`：KubeJS 姿态渲染及原生特效委托。
+- `src/runtime/`：KubeJS 姿态渲染及原生特效委托；`renderer-main-neoforge-1.21.1.js` 为 NeoForge 1.21.1 版。
 - `src/compat/`：客户端范围适配、原生 BER 包装器及 Java/Mixin 契约。
 - `export_rail_scripted.py`、`export_rail_scripted_item.py`、`export_receiver_scripted.py`：资源导出器。
-- `build_scripted_bundle.py`：资源包与客户端脚本组装。
+- `build_scripted_bundle.py`：Forge 1.20.1 资源包与客户端脚本组装。
+- `build_neoforge_bundle.py`：由同一份编译资源生成 NeoForge 1.21.1 资源包（模型加载器改为 `neoforge:obj` / `neoforge:composite`，资源包格式 34）与客户端脚本。
 - `tests/`：规范姿态、生成范围、脚本注册及生命周期契约。
 - `tools/build_compat.py`：使用指定依赖编译并打包原生组件。
 
@@ -57,9 +60,19 @@ Java BER 包装器保留离开所在分段后的绘制资格、修正范围的�
 
 `tools/generate_compat_bounds.cjs` 按认可场景图，通过旋转轴解析半径与有界 IK 支点区间生成包围盒，并向外舍入、加入渲染浮点余量。姿态采样用于核对场景图实现，连续覆盖依据是解析包围运算。实际游戏验证范围见 `validation-report.json`。
 
+## NeoForge 1.21.1 版
+
+NeoForge 1.21.1 版使用 Dyson Cube Project 1.0.5 原版（`com.buuz135.dysoncubeproject`），其方位、俯仰变换链及方块实体角度与 Forge 版一致，因此美术、几何与姿态函数直接沿用。差异只在加载与注册层：
+
+- 渲染器通过 `Java.cast` 适配为 `BlockEntityRenderer`，五个方法（`render`、`shouldRenderOffScreen`、`getViewDistance`、`shouldRender`、`getRenderBoundingBox`）均由脚本实现。Rhino 为 `new BlockEntityRenderer({...})` 生成的适配类只覆盖抽象方法，默认方法会退回 NeoForge 的单格范围，因此不采用该写法。
+- `getRenderBoundingBox` 返回原生范围、上移 1.25 格的原生特效范围与认可姿态包围盒的并集，按控制器、位置和模型 epoch 缓存；`shouldRenderOffScreen` 为 true，使控制器进入全局方块实体列表。这替代了 Forge 版原生组件中的两个可见性 Mixin，所以 NeoForge 版不需要额外模组。
+- 渲染器通过 `NativeEvents` 以 `LOWEST` 优先级在 `EntityRenderersEvent.RegisterRenderers` 中注册，晚于原模组注册。`ModelEvent.RegisterAdditional` 只在本轮资源中存在组合模型时登记独立模型，`ModelEvent.BakingCompleted` 刷新 epoch 和缓存；资源包关闭时不查询缺失模型，直接使用原生渲染。
+
+资源包须位于"模组资源"之上，否则原模组的同名模型会覆盖本包的空白本体模型。
+
 ## 输入与产物锁
 
-[输入布局](../input-layout.zh-CN.md)说明源文件结构。`source-input-lock.json` 固定输入哈希，`resource-hashes.json` 固定编译资源快照，`artifact-lock.json` 固定资源 ZIP、客户端脚本和原生组件。`client/kubejs/startup_scripts/90_dcp_approved_visuals.js` 是仓库中的生成脚本。
+[输入布局](../input-layout.zh-CN.md)说明源文件结构。`source-input-lock.json` 固定输入哈希，`resource-hashes.json` 固定编译资源快照，`artifact-lock.json` 固定两个版本的资源 ZIP、客户端脚本及 Forge 版原生组件。`client/kubejs/startup_scripts/90_dcp_approved_visuals.js` 与 `client/neoforge-1.21.1/kubejs/startup_scripts/90_dcp_approved_visuals.js` 是仓库中的生成脚本。
 
 `build.py` 可通过 `--source-inputs <目录>` 或 `DCP_SOURCE_INPUTS` 使用另一份内容相同的锁定输入；默认读取仓库内的 `source/`。
 

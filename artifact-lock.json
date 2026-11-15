@@ -7,5 +7,11 @@
   "compat_version": "1.1.0",
   "compat_jar": "create-style-dyson-compat-1.1.0.jar",
   "compat_sha256": "9a93401c4e0c6bdb34042cac3955617e5456f8491b4c154a2508e086bf406e34",
-  "compat_bytes": 18224
+  "compat_bytes": 18224,
+  "neoforge_zip": "Dyson-Create-Approved-Models-NeoForge-1.21.1.zip",
+  "neoforge_zip_sha256": "b4dc06116b9ac803b39bf473d8d9b9f25fc9ced0f5c3a7829daf9949d833cfe1",
+  "neoforge_zip_bytes": 905083,
+  "neoforge_files": 246,
+  "neoforge_script_sha256": "e8ababf42313bf283082ebd7ffc77d726e2310d8530f26ade3f63c54758a868f",
+  "neoforge_script_bytes": 21179
 }

@@ -70,6 +70,12 @@ Copyright (c) The Simulated Team / The Creators of Aeronautics。
 
 本包的原模组资源引用、所保留的粒子图像与原生渲染/特效调用继续署名该来源，该Forge制品的权利声明保留于其原模组素材，本项目新增代码的许可分别适用。
 
+## Dyson Cube Project (NeoForge)
+
+Copyright (c) Buuz135 / InnovativeOnlineIndustries。NeoForge 1.21.1 版运行`dysoncubeproject-1.0.5.jar`，其元数据和[源码仓库](https://github.com/InnovativeOnlineIndustries/Dyson-Cube-Project)声明[MIT许可](https://github.com/InnovativeOnlineIndustries/Dyson-Cube-Project/blob/master/LICENSE)；[项目页](https://www.curseforge.com/minecraft/mc-mods/dyson-cube-project)。
+
+NeoForge 版的原模组资源引用、粒子图像（两个版本中相同）与原生渲染/特效调用署名该来源；随该素材保留其MIT许可声明。
+
 ## 再分发时的通知
 
 请将本文件与CREDITS随资源包或下载bundle保留；相关上游声明随对应素材和改编部分一并传递。新加入的独立项目代码、美术编排与第三方素材分别按其适用范围说明，项目名称或单独一个代码LICENSE不会统一替代这些上游条件。
